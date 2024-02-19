@@ -13,19 +13,19 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['5492266466080', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['573183650526', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 💖🐈', true],
-['51982233590', '𝙂𝘽 Develooper 💖🐈', true],
-['593968585383'], ['5217294888993'], ['5492266613038'], ["51906662557"], ['51948705559'], ['5492964650915']]
+['212621851554', '𝙊𝙬𝙣𝙚𝙧', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
+['212612962539', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
+['212658323376', 'Develooper', true],
+['212621851554'], ['212621851554'], ['212621851554'], ["212621851554"], ['212621851554'], ['212621851554']]
 
-global.mods = [] 
-global.prems = []
+global.mods = ['212621851554'] 
+global.prems = ['212621851554']
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
 //  es = Español      id = Bahasa Indonesia       ar = عرب
 //  en = English      pt = Português 
-global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
+global.lenguajeGB = en  //<-- Predeterminado en idioma Español 
 
 // ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
 global.openai_key = 'sk-0'
@@ -79,50 +79,52 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = 'MEE6'
+global.author = 'MD'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['18059196237', 'Gata Dios 💻', 1], 
-['5492266466080', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-['59894808483', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
-['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
+['212621851554', 'test', 1], 
+['5492266466080', 'test', 1],  
+['59894808483', 'test', 1],
+['5521989092076', 'test', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.vs = '1.3.2-(beta)'
+global.vs = '1.5.2 (beta)'
 global.vsJB = '4.5 (Beta)'
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
-global.yt = 'https://youtube.com/@gatadios'
-global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
-global.fb = 'https://www.facebook.com/groups/872989990425789/'
+global.gt = 'MEE6'
+global.yt = 'https://youtube.com/'
+global.yt2 = 'https://www.youtube.com/'
+global.ig = 'https://www.instagram.com/ang_0y'
+global.md = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be'
+global.fb = 'https://www.facebook.com/'
 
-global.nna = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g' //CANAL UPDATE
-global.nn2 = 'https://t.me/globalgb' //Canal GataBot
-global.nna2 = 'https://chat.whatsapp.com/KaTeeaexrGSHBzPm4s945b' //Help
-global.nn = 'https://chat.whatsapp.com/HBIIrHorHbW2LIxlS9MjRI' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/CtA2nopOZor0bRwV3FCYH3' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/HVLk7c3ZlNN0mJjodw4NkV' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/BSDrNVhj2lVElUgrNnGoby' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/CciFSHhsYxd9TqW2tZhhZx' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/Ej5AUrpmYnJKYtEa6YMwK6' //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/I9DsG6ABKer27NbW01Nl39' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/KQtWZDVfosTKbheIlndLBN' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/BngbJC3aBVhF5KjoaawiT1' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzTCeFhPP' //A.T.M.M
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'Wa.me/19393844141' //Dudas? escríbeme...
+global.thumbnailUrl = ['https://telegra.ph/file/0878f7ceef15141facaad.jpg']
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.nna = 'https://whatsapp.com/channel/HJvDM8zYgsIKu0hMW3i5be' //CANAL UPDATE
+global.nn2 = 'HJvDM8zYgsIKu0hMW3i5be' //Canal GataBot
+global.nna2 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Help
+global.nn = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 5
+global.nnnttt1 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //A.T.M.M
+global.paypal = 'https://paypal.me/Ang476597'
+global.asistencia = 'Wa.me/212621851554' //Dudas? escríbeme...
+
+global.wm = 'MEE6-MD'
+global.igfg = 'MEE6-MD'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
@@ -177,7 +179,7 @@ global.notsent = '❗'
 global.waitemot = '⌛'
 global.waitemot2 = '⏳'
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel 
+global.multiplier = 200 // Cuanto más alto, más difícil subir de nivel 
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
