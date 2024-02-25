@@ -1,0 +1,99 @@
+{
+  "users": {
+    "212658323376@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ExDev",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 84
+    },
+    "212672837585@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "イッサム",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 19
+    },
+    "212621851554@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Angelo",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 21
+    }
+  },
+  "chats": {
+    "120363219043828032@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    }
+  },
+  "stats": {},
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "212702435346@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "autoread2": false,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
+    }
+  }
+}
