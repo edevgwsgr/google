@@ -27,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `
  ▢ *Hello,* ${taguser}
 
-_*< Premium Commnds />*_
+_*< Premium Commnds 1day />*_
 
 ▢ _/apk_
 ▢ _/obb_
