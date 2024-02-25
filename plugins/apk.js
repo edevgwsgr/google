@@ -8,11 +8,11 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 
   await conn.sendMessage(m.chat, {
     image: { url: info.icon },
-    caption: *Name:* ${info.name}\n*Package:* ${info.packageN},
-    footer: 'Apk files...',
+    caption: `*Name:* ${info.name}\n*Package:* ${info.packageN}`,
+    footer: '_Apk files..._',
   });
 
-  await m.reply(_Downloading APK (${info.name}), please wait..._);
+  await m.reply(`_Downloading APK (${info.name}), please wait..._`);
   await conn.sendMessage(
     m.chat,
     { document: { url: apkRes.download }, mimetype: apkRes.mimetype, fileName: apkRes.fileName },
@@ -20,12 +20,12 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   );
 
   if (info.obb) {
-    await m.reply('Sending OBB, please wait...');
-    await conn.sendMessage(m.chat, { document: { url: info.obb_link }, mimetype: 'application/octet-stream', fileName: ${info.packageN}.obb }, { quoted: m });
+    await m.reply('_Sending OBB, please wait..._');
+    await conn.sendMessage(m.chat, { document: { url: info.obb_link }, mimetype: 'application/octet-stream', fileName: `${info.packageN}.obb` }, { quoted: m });
   }
 };
 
-handler.command = /^(apk)$/i;
+handler.command = /^(apk2)$/i;
 handler.help = ['apk2'];
 handler.tags = ['downloader'];
 handler.premium = false;
@@ -38,27 +38,24 @@ async function apkinfo(url) {
 
   try {
     let icon = $.datalist.list[0].icon;
+    let name = $.datalist.list[0].name;
+    let packageN = $.datalist.list[0].package;
+    let obb_link;
+    let obb;
+
+    try {
+      obb_link = $.datalist.list[0].obb.main.path;
+      obb = true;
+    } catch {
+      obb_link = '_not available_';
+      obb = false;
+    }
+
+    if (!download) throw 'Can\'t download the apk!';
+    return { obb, obb_link, name, icon, packageN };
   } catch {
     throw 'Can\'t download the apk!';
   }
-
-  let icon = $.datalist.list[0].icon;
-  let name = $.datalist.list[0].name;
-  let packageN = $.datalist.list[0].package;
-  let download = $.datalist.list[0].file.path;
-  let obb_link;
-  let obb;
-
-  try {
-    obb_link = await $.datalist.list[0].obb.main.path;
-    obb = true;
-  } catch {
-    obb_link = 'not available';
-    obb = false;
-  }
-
-  if (!download) throw 'Can\'t download the apk!';
-  return { obb, obb_link, name, icon, packageN };
 }
 
 async function apk(url, conn) {
