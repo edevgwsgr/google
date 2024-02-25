@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 84
+      "exp": 158
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -34,7 +34,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 19
+      "exp": 20
     },
     "212621851554@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +52,25 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 21
+      "exp": 76
+    },
+    "212679593105@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "DarkNess🥲",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -80,9 +98,41 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212621851554@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
-  "stats": {},
+  "stats": {
+    "obb.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1708868024069,
+      "lastSuccess": 1708868024069
+    }
+  },
   "msgs": {},
   "sticker": {},
   "settings": {
