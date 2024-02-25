@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-  if (!args[0]) throw '[ ❗ ] Ex : ' + usedPrefix + command + ' minecraft';
+  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft';
   let info = await apkinfo(text);
   let res = await apk(text);
 
@@ -35,7 +35,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   }
 };
 
-handler.command = /^(apk)$/i;
+handler.command = /^(apk2)$/i;
 export default handler;
 
 async function apkinfo(url) {
@@ -89,11 +89,11 @@ async function obb(url, conn) {
 
     // Check file size before downloading
     let fileSize = parseInt((await fetch(download, { method: 'head' })).headers.get('content-length'));
-    if (fileSize > 3072 * 1024 * 1024) { // 80 MB
-        throw 'File size exceeds the limit (3072 MB).';
+    if (fileSize > 3000 * 1024 * 1024) { // 80 MB
+        throw 'File size exceeds the limit (300 MB).';
     }
 
     let icon = $.datalist.list[0].icon;
     let mimetype = (await fetch(download, { method: 'head' })).headers.get('content-type');
     return { fileName, mimetype, download };
-}
+} 
