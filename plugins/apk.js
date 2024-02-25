@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft';
+  if (!args[0]) throw '[ ❗ ] Ex : ' + usedPrefix + command + ' minecraft';
   let info = await apkinfo(text);
   let res = await apk(text);
 
