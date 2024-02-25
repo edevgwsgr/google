@@ -3,7 +3,7 @@
     "212658323376@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 18,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -11,12 +11,12 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "ExDev",
+      "name": "karimͧͧͧͦꙶͣͤ✓ᚲᴳᴮ",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 158
+      "exp": 292
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +52,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 76
+      "exp": 127
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -70,7 +70,43 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 0
+    },
+    "212607967755@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Dalich",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 2
+    },
+    "212702435346@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Test Bot",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -127,10 +163,16 @@
   },
   "stats": {
     "obb.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1708868024069,
-      "lastSuccess": 1708868024069
+      "total": 8,
+      "success": 8,
+      "last": 1708871630644,
+      "lastSuccess": 1708871630644
+    },
+    "rpg-verificar.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1708871656307,
+      "lastSuccess": 1708871656307
     }
   },
   "msgs": {},
