@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-if (!args[0]) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}${mid.smsMalused7}\n*${usedPrefix + command} https://youtu.be/c5gJRzCi0f0*`, fkontak, m)
+if (!args[0]) return conn.reply(m.chat, `*${usedPrefix + command} https://youtu.be/c5gJRzCi0f0*`, fkontak, m)
 let youtubeLink = '';
 if (args[0].includes('you')) {
 youtubeLink = args[0]; 
@@ -18,11 +18,11 @@ if (matchingItem) {
 if (index < matchingItem.urls.length) {
 youtubeLink = matchingItem.urls[index];
 } else {
-throw `${lenguajeGB['smsAvisoFG']()} ${mid.smsYT} ${matchingItem.urls.length}*`;
+throw `*test*`;
 }} else {
-throw `${lenguajeGB['smsAvisoMG']()}${mid.smsY2(usedPrefix, command)} ${usedPrefix}playlist <texto>*`;
+throw `/playlist <texto>*`;
 }} else {
-throw `${lenguajeGB['smsAvisoMG']()}${mid.smsY2(usedPrefix, command)}${usedPrefix}playlist <texto>*`;
+throw `/playlist <texto>*`;
 }}}  
 await conn.reply(m.chat, lenguajeGB['smsAvisoEG']() + mid.smsVid, fkontak, m)
 try {
