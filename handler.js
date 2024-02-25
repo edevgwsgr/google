@@ -60,7 +60,7 @@ if (!isNumber(user.age)) user.age = 0
 
 //if (!isNumber(user.GBLanguage)) user.GBLanguage = 0
 if (!isNumber(user.afk)) user.afk = -1
-if (!('role' in user)) user.role = 'NOVATO(A) 🪤'
+if (!('role' in user)) user.role = '*NOVATO(A)* 🪤'
 if (!user.premium) user.premium = false
 if (!user.premium) user.premiumTime = 0
                                                    		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
@@ -80,7 +80,7 @@ name: m.name,
 GBLanguage: 0,
 regTime: -1,
 registered: false,
-role: 'NOVATO(A) 🪤',
+role: '*NOVATO(A)* 🪤',
 }
 		
 let chat = global.db.data.chats[m.chat]
@@ -210,12 +210,12 @@ if (!plugin)
 continue
 if (plugin.disabled)
 continue
-const _filename = join(__dirname, name)
+const __filename = join(___dirname, name)
 if (typeof plugin.all === 'function') {
 try {
 await plugin.all.call(this, m, {
 chatUpdate,
-_dirname: __dirname,
+__dirname: ___dirname,
 __filename
 })
 } catch (e) {
@@ -224,7 +224,7 @@ for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper 
 let data = (await conn.onWhatsApp(jid))[0] || {}
 
 if (data.exists)
-m.reply(${lenguajeGB['smsCont1']()}\n\n${lenguajeGB['smsCont2']()}\n*_${name}_*\n\n${lenguajeGB['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeGB['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeGB['smsCont5']()}\n\\\${format(e)}\\\\n\n${lenguajeGB['smsCont6']()}.trim(), data.jid)
+m.reply(`${lenguajeGB['smsCont1']()}\n\n${lenguajeGB['smsCont2']()}\n*_${name}_*\n\n${lenguajeGB['smsCont3']()}\n*_${m.sender}_*\n\n${lenguajeGB['smsCont4']()}\n*_${m.text}_*\n\n${lenguajeGB['smsCont5']()}\n\`\`\`${format(e)}\`\`\`\n\n${lenguajeGB['smsCont6']()}`.trim(), data.jid)
 }}}
 
 if (!opts['restrict'])
@@ -249,7 +249,7 @@ typeof _prefix === 'string' ?
             
 if (typeof plugin.before === 'function') {
 if (await plugin.before.call(this, m, {
-match, conn: this, participants, groupMetadata, user, bot, isROwner, isOwner, isRAdmin, isAdmin, isBotAdmin, isPrems, chatUpdate, _dirname: __dirname, __filename
+match, conn: this, participants, groupMetadata, user, bot, isROwner, isOwner, isRAdmin, isAdmin, isBotAdmin, isPrems, chatUpdate, __dirname: ___dirname, __filename
 }))
 continue
 }
@@ -290,7 +290,7 @@ return
 
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
-let gata = ${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}
+let gata = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
 if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && gata) return   
 
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // BOT Y OWNERS
@@ -338,20 +338,20 @@ if (xp > 2000)
 m.reply('Exp limit') // LÍMITE DE EXP
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.reply(m.chat, 🐈 *NO TIENE GATACOINS*, m)
+this.reply(m.chat, `🐈 *NO TIENE GATACOINS*`, m)
 continue // LÍMITE DE EXP    
 }
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.reply(m.chat, ${lenguajeGB['smsCont7']()} *${usedPrefix}buy*, m)
+this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
 continue // LÍMITE DE DIAMANTES
 }
 if (plugin.level > _user.level) {
-this.reply(m.chat, ${lenguajeGB['smsCont9']()} *${plugin.level}* ${lenguajeGB['smsCont10']()} *${_user.level}* ${lenguajeGB['smsCont11']()} *${usedPrefix}nivel*, m)
+this.reply(m.chat, `${lenguajeGB['smsCont9']()} *${plugin.level}* ${lenguajeGB['smsCont10']()} *${_user.level}* ${lenguajeGB['smsCont11']()} *${usedPrefix}nivel*`, m)
 continue // LÍMITE DE NIVEL
 }
                 
-let extra = { match, usedPrefix, noPrefix, args, args, command, text, conn: this, participants, groupMetadata, user, bot, isROwner, isOwner, isRAdmin, isAdmin, isBotAdmin, isPrems, chatUpdate, __dirname: __dirname, __filename }
+let extra = { match, usedPrefix, noPrefix, _args, args, command, text, conn: this, participants, groupMetadata, user, bot, isROwner, isOwner, isRAdmin, isAdmin, isBotAdmin, isPrems, chatUpdate, __dirname: ___dirname, __filename }
 try {
 await plugin.call(this, m, extra)
 if (!isPrems)
@@ -366,7 +366,7 @@ m.error = e
                         if (e.name) {
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
-                                if (data.exists) m.reply(*Plugin:* ${m.plugin}\n*Sender:* wa.me/${m.sender.split@[0]}\n*Chat:* ${m.chat}\n*Command:* ${usedPrefix}${command} ${args.join(' ')}\n\n\\\${text}\\\``.trim(), data.jid)
+                                if (data.exists) m.reply(`*Plugin:* ${m.plugin}\n*Sender:* wa.me/${m.sender.split`@`[0]}\n*Chat:* ${m.chat}\n*Command:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\``.trim(), data.jid)
                             }
                         }
                         m.reply(String(e))
@@ -382,7 +382,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' GATACOINS USADO(S) 🐱')
+m.reply(+m.money + ' *GATACOINS USADO(S)* 🐱')
 break
 }}} catch (e) {
 console.error(e)
@@ -429,7 +429,7 @@ stat.lastSuccess = now
 }}}
 
 try {
-if (!opts['noprint']) await (await import(./lib/print.js)).default(m, this)
+if (!opts['noprint']) await (await import(`./lib/print.js`)).default(m, this)
 } catch (e) {
 console.log(m, m.quoted, e)
 }
@@ -479,7 +479,7 @@ text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'We
 if (chat.antifake && botTt.restrict && isBotAdminNn && action === 'add') {
 const numerosPermitidos = ["1", "2", "4", "6", "7", "8", "9"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
 if (numerosPermitidos.some(num => user.startsWith(num))) {	
-this.sendMessage(id, { text:*${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsInt1']()} @${user.split("@")[0]} ${lenguajeGB['smsInt2']()}*, mentions: [user] }, { quoted: null });          
+this.sendMessage(id, { text:`*${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsInt1']()} @${user.split("@")[0]} ${lenguajeGB['smsInt2']()}*`, mentions: [user] }, { quoted: null });          
 let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
 if (responseb[0].status === "404") return      
 return    
@@ -491,12 +491,12 @@ break
 case 'promote':
 case 'daradmin':
 case 'darpoder':
-text = (chat.sPromote || this.spromote || conn.spromote || '@user is now Admin')
+text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
 case 'demote':
 case 'quitarpoder':
 case 'quitaradmin':
 if (!text)
-text = (chat.sDemote || this.sdemote || conn.sdemote || '@user is no longer Admin')
+text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
 text = text.replace('@user', '@' + participants[0].split('@')[0])
 if (chat.detect)
 //this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -515,10 +515,10 @@ const id = groupUpdate.id
 if (!id) continue
 let chats = global.db.data.chats[id], text = ''
 if (!chats?.detect) continue
-//if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || 'Description has been changed to\n@desc').replace('@desc', groupUpdate.desc)
-//if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || 'Subject has been changed to\n@subject').replace('@subject', groupUpdate.subject)
-if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || 'Icon has been changed to').replace('@icon', groupUpdate.icon)
-if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || 'Group link has been changed to\n@revoke').replace('@revoke', groupUpdate.revoke)
+//if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || '```Description has been changed to```\n@desc').replace('@desc', groupUpdate.desc)
+//if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || '```Subject has been changed to```\n@subject').replace('@subject', groupUpdate.subject)
+if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || '```Icon has been changed to```').replace('@icon', groupUpdate.icon)
+if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || '```Group link has been changed to```\n@revoke').replace('@revoke', groupUpdate.revoke)
 if (!text) continue
 await this.sendMessage(id, { text, mentions: this.parseMention(text) })
 }}
@@ -529,7 +529,7 @@ if (!isAnticall) return
 for (let nk of callUpdate) { 
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
-let tagUserL = ${nk.from.split('@')[0]}
+let tagUserL = `${nk.from.split('@')[0]}`
 let llamadaVideo = nk.isVideo
 let callmsg = await this.reply(nk.from, lenguajeGB['smsHandlerLlamar'](tagUserL, llamadaVideo), false, { mentions: [nk.from] })
 //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
@@ -546,7 +546,7 @@ let msg = this.serializeM(this.loadMessage(id))
 if (!msg)
 return
 let chat = global.db.data.chats[msg.chat] || {}
-let userDelete = ${participant.split@[0]}
+let userDelete = `${participant.split`@`[0]}`
 if (chat.delete) 
 return
 await this.reply(msg.chat, lenguajeGB['smsAntiEliminar'](userDelete).trim(), msg, {mentions: [participant] })
@@ -582,4 +582,4 @@ if (global.conns && global.conns.length > 0 ) {
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 for (const userr of users) {
 userr.subreloadHandler(false)
-}}});
+}}}); 
