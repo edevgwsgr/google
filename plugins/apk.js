@@ -2,34 +2,40 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft';
-
   let info = await apkinfo(text);
-  let apkRes = await apk(text, conn);
+  let res = await apk(text);
 
   await conn.sendMessage(m.chat, {
     image: { url: info.icon },
-    caption: `*Name:* ${info.name}\n*Package:* ${info.packageN}`,
+    caption: `*Name:* ${info.name}\n*Package:* ${info.packageN}\n*OBB:* ${info.obb_link}`,
     footer: '_Apk files..._',
   });
 
-  await m.reply(`_Downloading APK (${info.name}), please wait..._`);
+  await conn.sendMessage(m.chat, {
+    text: `Downloading ${info.name}...`,
+  });
+
   await conn.sendMessage(
     m.chat,
-    { document: { url: apkRes.download }, mimetype: apkRes.mimetype, fileName: apkRes.fileName },
+    { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName },
     { quoted: m }
   );
 
   if (info.obb) {
-    await m.reply('_Sending OBB, please wait..._');
-    await conn.sendMessage(m.chat, { document: { url: info.obb_link }, mimetype: 'application/octet-stream', fileName: `${info.packageN}.obb` }, { quoted: m });
+    await conn.sendMessage(m.chat, {
+      text: `Downloading OBB for ${info.name}...`,
+    });
+
+    let obbFile = await obb(text, conn);
+    await conn.sendMessage(
+      m.chat,
+      { document: { url: obbFile.download }, mimetype: obbFile.mimetype, fileName: obbFile.fileName },
+      { quoted: m }
+    );
   }
 };
 
-handler.command = /^(apk)$/i;
-handler.help = ['apk2'];
-handler.tags = ['downloader'];
-handler.premium = false;
-
+handler.command = /^(apk2)$/i;
 export default handler;
 
 async function apkinfo(url) {
@@ -38,27 +44,30 @@ async function apkinfo(url) {
 
   try {
     let icon = $.datalist.list[0].icon;
-    let name = $.datalist.list[0].name;
-    let packageN = $.datalist.list[0].package;
-    let obb_link;
-    let obb;
-
-    try {
-      obb_link = $.datalist.list[0].obb.main.path;
-      obb = true;
-    } catch {
-      obb_link = '_not available_';
-      obb = false;
-    }
-
-    if (!download) throw 'Can\'t download the apk!';
-    return { obb, obb_link, name, icon, packageN };
   } catch {
     throw 'Can\'t download the apk!';
   }
+
+  let icon = $.datalist.list[0].icon;
+  let name = $.datalist.list[0].name;
+  let packageN = $.datalist.list[0].package;
+  let download = $.datalist.list[0].file.path;
+  let obb_link;
+  let obb;
+
+  try {
+    obb_link = await $.datalist.list[0].obb.main.path;
+    obb = true;
+  } catch {
+    obb_link = '_not available_';
+    obb = false;
+  }
+
+  if (!download) throw 'Can\'t download the apk!';
+  return { obb, obb_link, name, icon, packageN };
 }
 
-async function apk(url, conn) {
+async function apk(url) {
   let res = await fetch('http://ws75.aptoide.com/api/7/apps/search?query=' + encodeURIComponent(url) + '&limit=1');
   let $ = await res.json();
   let fileName = $.datalist.list[0].package + '.apk';
@@ -69,4 +78,22 @@ async function apk(url, conn) {
   let mimetype = (await fetch(download, { method: 'head' })).headers.get('content-type');
 
   return { fileName, mimetype, download, size };
+}
+
+async function obb(url, conn) {
+    let res = await fetch('http://ws75.aptoide.com/api/7/apps/search?query=' + encodeURIComponent(url) + '&limit=1');
+    let $ = await res.json();
+    let download = $.datalist.list[0].obb.main.path;
+    let fileName = download.replace(/https:\/\/pool.obb.aptoide.com\//, ' ').match(/(\w*)\/(.*)/)[2].replace(/-/ig, '.');
+    if (!download) throw 'Can\'t download the apk!';
+
+    // Check file size before downloading
+    let fileSize = parseInt((await fetch(download, { method: 'head' })).headers.get('content-length'));
+    if (fileSize > 3072 * 1024 * 1024) { // 80 MB
+        throw 'File size exceeds the limit (3072 MB).';
+    }
+
+    let icon = $.datalist.list[0].icon;
+    let mimetype = (await fetch(download, { method: 'head' })).headers.get('content-type');
+    return { fileName, mimetype, download };
 }
