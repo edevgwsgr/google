@@ -7,11 +7,11 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality
     if (!text) {
-        await conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()} *${usedPrefix + command} Los Cafres - Tus ojos*`)
+        await conn.reply(m.chat, `*${usedPrefix + command} Los Cafres - Tus ojos*`)
         try {
             const yt_play = await search(args.join(" "))
             let additionalText = ''
-            if (command === 'play') {
+            if (command === '2ytmp3') {
                 additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
             } else if (command === 'rffewfw') {
                 additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'
@@ -114,9 +114,9 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                     }
                 }
             }
-            if (command == 'rffewfw') {
+            if (command == '2ytmp4') {
                 try {
-                    let qu = '360'
+                    let qu = '720'
                     let q = qu + 'p'
                     let v = yt_play[0].url
                     const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
@@ -148,10 +148,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     }
 }
 
-handler.command = ['play', 'rffewfw']
-handler.register = true;
-handler.exp = 0
-handler.limit = 4
+handler.command = ['2ytmp3', '2ytmp4']
 export default handler
 
 async function search(query, options = {}) {
