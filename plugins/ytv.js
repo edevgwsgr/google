@@ -4,14 +4,14 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-    let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality, cnl; // Define cnl variable
-    if (!text) await conn.reply(m.chat, `*${usedPrefix + command} Los Cafres - Tus ojos*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m });
+let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
+if (!text) await conn.reply(m.chat, `*${usedPrefix + command} url*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
-if (command === 'play') {
+if (command === '2ytmp3') {
 additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
-} else if (command === 'rffewfw') {
+} else if (command === '2ytmp4') {
 additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
 let captionvid = `ও 𝙏𝙄𝙏𝙇𝙀
 »  ${yt_play[0].title}`  
@@ -26,9 +26,9 @@ mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
 }}} , { quoted: m })
-if (command == 'play') {	
+if (command == '2ytmp3') {	
 try {
-let q = '128kbps'
+let q = '320kbps'
 let v = yt_play[0].url
 const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.audio[q].download()
@@ -102,9 +102,9 @@ renderLargerThumbnail: true
 } catch {
 }}}}}
 }  
-if (command == 'rffewfw') {
+if (command == '2ytmp4') {
 try {
-let qu = '360'
+let qu = '1080'
 let q = qu + 'p'
 let v = yt_play[0].url
 const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
@@ -130,7 +130,11 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 }} catch {
 handler.limit = 0
 }}
-handler.command = ['play', 'rffewfw']
+handler.command = ['2ytmp3', '2ytmp4']
+handler.register = true;
+handler.exp = 100
+handler.premium = true
+handler.limit = 20
 export default handler
 
 async function search(query, options = {}) {
