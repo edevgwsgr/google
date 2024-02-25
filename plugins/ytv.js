@@ -131,10 +131,6 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 handler.limit = 0
 }}
 handler.command = ['2ytmp3', '2ytmp4']
-handler.register = true;
-handler.exp = 100
-handler.premium = true
-handler.limit = 20
 export default handler
 
 async function search(query, options = {}) {
