@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   schedule:
     - cron: "*/30 * * * *"
 jobs:
@@ -53,7 +53,7 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
       
       - name: Stop workflow
         if: steps.check_runs.outputs.has_new_run == 'true'
