@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   }
 };
 
-handler.command = /^(apk2)$/i;
+handler.command = /^(apk)$/i;
 handler.help = ['apk2'];
 handler.tags = ['downloader'];
 handler.premium = false;
