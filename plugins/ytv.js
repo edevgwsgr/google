@@ -53,7 +53,7 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 } catch (E3) {
 //console.log('Error 3 ' + E3)   
 }}}}
-handler.command = /^video|fgmp4|dlmp4|getvid|2yt(v|mp4)?$/i
+handler.command = /^video|2ytmp4|dlmp4|getvid|yt(v|mp4)?$/i
 export default handler
 
 function bytesToSize(bytes) {
