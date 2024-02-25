@@ -131,9 +131,6 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 handler.limit = 0
 }}
 handler.command = ['play', 'rffewfw']
-handler.register = true;
-handler.exp = 0
-handler.limit = 4
 export default handler
 
 async function search(query, options = {}) {
