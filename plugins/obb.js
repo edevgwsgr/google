@@ -7,7 +7,6 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     conn.sendMessage(m.chat, { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName }, { quoted: m });
 };
 handler.command = /^(obb)$/i;
-handler.register = true;
 export default handler;
 
 async function apk(url, conn) {
@@ -19,8 +18,8 @@ async function apk(url, conn) {
 
     // Check file size before downloading
     let fileSize = parseInt((await fetch(download, { method: 'head' })).headers.get('content-length'));
-    if (fileSize > 3000 * 1024 * 1024) { // 80 MB
-        throw 'File size exceeds the limit (300 MB).';
+    if (fileSize > 1024 * 1024 * 1024) { // 80 MB
+        throw 'File size exceeds the limit (1024 MB).';
     }
 
     let icon = $.datalist.list[0].icon;
