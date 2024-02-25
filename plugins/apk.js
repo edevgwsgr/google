@@ -35,7 +35,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   }
 };
 
-handler.command = /^(apk2)$/i;
+handler.command = /^(apk)$/i;
 export default handler;
 
 async function apkinfo(url) {
