@@ -4,8 +4,8 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) await conn.reply(m.chat, `*${usedPrefix + command} Los Cafres - Tus ojos*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
+    let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality, cnl; // Define cnl variable
+    if (!text) await conn.reply(m.chat, `*${usedPrefix + command} Los Cafres - Tus ojos*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m });
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
