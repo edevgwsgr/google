@@ -30,6 +30,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 _*< Premium Commnds 1day />*_
 
 ▢ _/apk_
+▢ _/obb_
 ▢ _/ytmp4_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
