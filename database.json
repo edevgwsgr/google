@@ -52,7 +52,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 183
+      "exp": 293
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -143,6 +143,42 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 11
+    },
+    "212679913546@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Test Bot",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
+    },
+    "212779873495@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Dragon",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 99
     }
   },
   "chats": {
@@ -270,14 +306,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212779873495@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "obb.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1708871630644,
-      "lastSuccess": 1708871630644
+      "total": 17,
+      "success": 13,
+      "last": 1708981225883,
+      "lastSuccess": 1708980679199
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -286,22 +347,31 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1708881322196,
-      "lastSuccess": 1708881322196
+      "total": 4,
+      "success": 4,
+      "last": 1708981257867,
+      "lastSuccess": 1708981257867
     },
     "manu.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1708881367314,
-      "lastSuccess": 1708881367314
+      "total": 3,
+      "success": 3,
+      "last": 1708981062814,
+      "lastSuccess": 1708981062814
     }
   },
   "msgs": {},
   "sticker": {},
   "settings": {
     "212702435346@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "autoread2": false,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
+    },
+    "212679913546@s.whatsapp.net": {
       "self": false,
       "autoread": false,
       "autoread2": false,
