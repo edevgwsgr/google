@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 612
+      "exp": 866
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -34,7 +34,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 165
+      "exp": 338
     },
     "212621851554@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +52,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 535
+      "exp": 749
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -160,7 +160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8
+      "exp": 14
     },
     "212779873495@s.whatsapp.net": {
       "afk": -1,
@@ -374,14 +374,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212679913546@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "obb.js": {
-      "total": 20,
-      "success": 14,
-      "last": 1708985427107,
-      "lastSuccess": 1708985427107
+      "total": 22,
+      "success": 15,
+      "last": 1708992485347,
+      "lastSuccess": 1708992485347
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -390,10 +415,10 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 5,
-      "success": 4,
-      "last": 1708985385265,
-      "lastSuccess": 1708981257867
+      "total": 6,
+      "success": 5,
+      "last": 1708992351914,
+      "lastSuccess": 1708992351914
     },
     "manu.js": {
       "total": 4,
@@ -402,9 +427,15 @@
       "lastSuccess": 1708984426493
     },
     "ytv.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1708992321415,
+      "lastSuccess": 0
+    },
+    "config-sf.js": {
       "total": 2,
       "success": 0,
-      "last": 1708983853756,
+      "last": 1708992378978,
       "lastSuccess": 0
     }
   },
