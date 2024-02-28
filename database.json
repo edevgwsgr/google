@@ -178,7 +178,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 200
+      "exp": 230
     },
     "212657811966@s.whatsapp.net": {
       "afk": -1,
@@ -457,16 +457,16 @@
       "lastSuccess": 0
     },
     "_config-make-account.js": {
-      "total": 5,
+      "total": 6,
       "success": 0,
-      "last": 1709154160430,
+      "last": 1709156271313,
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709154167773,
-      "lastSuccess": 1709154167773
+      "total": 4,
+      "success": 4,
+      "last": 1709156279485,
+      "lastSuccess": 1709156279485
     }
   },
   "msgs": {},
