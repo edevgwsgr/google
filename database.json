@@ -39,7 +39,7 @@
     "212621851554@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -47,12 +47,12 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Angelo",
+      "name": "angelo",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709154063328,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 753
+      "exp": 801
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -165,7 +165,7 @@
     "212779873495@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 17,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -173,12 +173,12 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Dragon",
+      "name": "dragon",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709154132645,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 146
+      "exp": 200
     },
     "212657811966@s.whatsapp.net": {
       "afk": -1,
@@ -455,6 +455,18 @@
       "success": 0,
       "last": 1708992378978,
       "lastSuccess": 0
+    },
+    "_config-make-account.js": {
+      "total": 5,
+      "success": 0,
+      "last": 1709154160430,
+      "lastSuccess": 0
+    },
+    "_config-info.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709154167773,
+      "lastSuccess": 1709154167773
     }
   },
   "msgs": {},
