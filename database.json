@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1008
+      "exp": 1086
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -214,7 +214,25 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 273
+      "exp": 276
+    },
+    "212641207087@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": ".",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 77
     }
   },
   "chats": {
@@ -417,14 +435,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212641207087@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "obb.js": {
-      "total": 22,
-      "success": 15,
-      "last": 1708992485347,
-      "lastSuccess": 1708992485347
+      "total": 24,
+      "success": 17,
+      "last": 1709238344523,
+      "lastSuccess": 1709238344523
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -433,10 +476,10 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 7,
-      "success": 6,
-      "last": 1709019151501,
-      "lastSuccess": 1709019151501
+      "total": 10,
+      "success": 7,
+      "last": 1709237847414,
+      "lastSuccess": 1709237771463
     },
     "manu.js": {
       "total": 7,
@@ -451,10 +494,10 @@
       "lastSuccess": 0
     },
     "config-sf.js": {
-      "total": 2,
-      "success": 0,
-      "last": 1708992378978,
-      "lastSuccess": 0
+      "total": 3,
+      "success": 1,
+      "last": 1709238457997,
+      "lastSuccess": 1709238457997
     },
     "_config-make-account.js": {
       "total": 6,
