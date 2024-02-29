@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1086
+      "exp": 1161
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +52,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1034
+      "exp": 1035
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -494,10 +494,10 @@
       "lastSuccess": 0
     },
     "config-sf.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1709238457997,
-      "lastSuccess": 1709238457997
+      "total": 4,
+      "success": 2,
+      "last": 1709241183891,
+      "lastSuccess": 1709241183891
     },
     "_config-make-account.js": {
       "total": 6,
