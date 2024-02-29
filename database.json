@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 954
+      "exp": 1008
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +52,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 916
+      "exp": 1034
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -70,7 +70,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 25
+      "exp": 74
     },
     "212607967755@s.whatsapp.net": {
       "afk": -1,
@@ -214,7 +214,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 271
+      "exp": 273
     }
   },
   "chats": {
@@ -463,10 +463,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709206950244,
-      "lastSuccess": 1709206950244
+      "total": 9,
+      "success": 9,
+      "last": 1709234542335,
+      "lastSuccess": 1709234542335
     }
   },
   "msgs": {},
