@@ -52,7 +52,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1412,
+      "exp": 1561,
       "level": 0
     },
     "212679593105@s.whatsapp.net": {
@@ -174,14 +174,15 @@
       "Banneduser": false,
       "limit": 15,
       "money": 150,
-      "premium": false,
-      "premiumTime": 0,
+      "premium": true,
+      "premiumTime": 1709368711701,
       "name": "dragon",
       "GBLanguage": 0,
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 308
+      "exp": 574,
+      "level": 0
     },
     "212657811966@s.whatsapp.net": {
       "afk": -1,
@@ -292,6 +293,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 0
+    },
+    "393791009633@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "d",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 8
+    },
+    "393505330630@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "BixbyBot-Md",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
+    },
+    "393519571362@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "𝚲𝐍𝐆𝚵𝐋Ꮻ",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -646,10 +704,16 @@
       "lastSuccess": 1709328785152
     },
     "owner-addprem.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709328902817,
-      "lastSuccess": 1709328902817
+      "total": 7,
+      "success": 7,
+      "last": 1709329443277,
+      "lastSuccess": 1709329443277
+    },
+    "_config-listprem.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709330008662,
+      "lastSuccess": 1709330008662
     }
   },
   "msgs": {},
