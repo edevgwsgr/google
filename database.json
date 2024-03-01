@@ -52,7 +52,8 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1300
+      "exp": 1412,
+      "level": 0
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -70,7 +71,8 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 74
+      "exp": 74,
+      "level": 0
     },
     "212607967755@s.whatsapp.net": {
       "afk": -1,
@@ -81,8 +83,8 @@
       "Banneduser": false,
       "limit": 15,
       "money": 150,
-      "premium": false,
-      "premiumTime": 0,
+      "premium": true,
+      "premiumTime": 1709346758227,
       "name": "Dalich",
       "GBLanguage": 0,
       "regTime": -1,
@@ -160,7 +162,8 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 46
+      "exp": 46,
+      "level": 0
     },
     "212779873495@s.whatsapp.net": {
       "afk": -1,
@@ -251,6 +254,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "33760536110@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "daniel💋",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 31
+    },
+    "212657003067@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": true,
+      "premiumTime": 1709332502817,
+      "name": "MEE6 Ai",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -528,6 +569,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363252596491480@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -544,9 +610,9 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 20,
+      "total": 21,
       "success": 13,
-      "last": 1709326479194,
+      "last": 1709328842583,
       "lastSuccess": 1709326479194
     },
     "manu.js": {
@@ -574,10 +640,16 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1709234542335,
-      "lastSuccess": 1709234542335
+      "total": 10,
+      "success": 10,
+      "last": 1709328785152,
+      "lastSuccess": 1709328785152
+    },
+    "owner-addprem.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1709328902817,
+      "lastSuccess": 1709328902817
     }
   },
   "msgs": {},
