@@ -52,7 +52,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1279
+      "exp": 1300
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -214,7 +214,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 328
+      "exp": 441
     },
     "212641207087@s.whatsapp.net": {
       "afk": -1,
@@ -233,6 +233,24 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 95
+    },
+    "393925367872@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+39 392 536 7872",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -460,6 +478,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363148902152328@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212608740306@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -476,10 +544,10 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 14,
-      "success": 9,
-      "last": 1709324331140,
-      "lastSuccess": 1709324331140
+      "total": 20,
+      "success": 13,
+      "last": 1709326479194,
+      "lastSuccess": 1709326479194
     },
     "manu.js": {
       "total": 8,
