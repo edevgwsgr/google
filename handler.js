@@ -46,8 +46,9 @@ global.db.data.users[m.sender] = {}
 		
 if (user) {
 if (!isNumber(user.exp)) user.exp = 0
-if (!isNumber(user.money)) user.money = 150
-if (!isNumber(user.limit)) user.limit = 15 
+if (!isNumber(user.money)) user.money = 15
+if (!isNumber(user.level)) user.level = 0
+if (!isNumber(user.limit)) user.limit = 15;
 if (!('registered' in user)) user.registered = false
 if (!('premium' in user)) user.premium = false    
                     
@@ -73,6 +74,7 @@ banned: false,
 BannedReason: '',
 Banneduser: false,	
 limit: 15,
+level: 0,
 money: 150,
 premium: false,
 premiumTime: 0,
@@ -439,7 +441,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
 if (!db.data.chats[m.chat].reaction && m.isGroup) return
-if (!m.fromMem && m.text.match(/(gata|lite|bot)/gi)) {
+if (!m.fromMem && m.text.match(/(mee6|hi|bot)/gi)) {
 let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -569,7 +571,7 @@ unreg: lenguajeGB['smsUnreg'](),
 restrict: lenguajeGB['smsRestrict'](),
 }[type]
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 support@mee6.ai'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, yt, nna, nn, nnn, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '  ' + gt + ' ', ' support@mee6.ai '].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, yt, nna, nn, nnn, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
