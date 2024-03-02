@@ -6,6 +6,10 @@ const handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
     await conn.sendMessage(m.chat, '*[⏳] Searching for the requested APK. Please wait...*', { quoted: m });
 
     const searchResults = await search(text);
+    if (searchResults.length === 0) {
+      throw `*[❗] No results found for your search query. Please try again with a different query.*`;
+    }
+
     const data = await download(searchResults[0].id);
 
     let response = `📲 *Aptoide Downloader* 📲\n\n📌 *Name:* ${data.name}\n📦 *Package:* ${data.package}\n🕒 *Last Update:* ${data.lastup}\n📥 *Size:* ${data.size}`;
@@ -24,8 +28,8 @@ const handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
         caption: null
       }
     }, { quoted: m });
-  } catch {
-    throw `*[❗] Error, no results found for your search.*`;
+  } catch (error) {
+    throw `*[❗] ${error}.*`;
   }
 };
 
