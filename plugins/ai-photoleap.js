@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 
 let handler = async (m, {
     conn,
@@ -6,40 +6,39 @@ let handler = async (m, {
     usedPrefix,
     command
 }) => {
-    let text
+    let text;
     if (args.length >= 1) {
-        text = args.slice(0).join(" ")
+        text = args.slice(0).join(" ");
     } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text
-    } else throw "Input Teks"
-    await m.reply(wait)
+        text = m.quoted.text;
+    } else {
+        throw "Input Teks";
+    }
+    await m.reply("Please wait...");
 
     try {
-        let data = await textToImage(text)
+        let data = await textToImage(text);
         if (data) {
-
             await conn.sendFile(m.chat, data.result_url, '', `Image for ${text}`, m, false, {
                 mentions: [m.sender]
             });
-
         }
     } catch (e) {
-        await m.reply(eror)
+        await m.reply("An error occurred while processing your request. Please try again later.");
     }
-}
-handler.help = ["photoleap"]
+};
+handler.help = ["photoleap"];
 handler.tags = ["ai"];
-handler.command = /^(imagine2)$/i
-handler.premium = true
+handler.command = /^(photoleap)$/i;
 
-export default handler
+export default handler;
 
 /* New Line */
 async function textToImage(text) {
     try {
         const {
             data
-        } = await axios.get("https://tti.photoleapapp.com/api/v1/generate?prompt=" + text)
+        } = await axios.get("https://tti.photoleapapp.com/api/v1/generate?prompt=" + text);
         return data;
     } catch (err) {
         return null;
