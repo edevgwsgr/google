@@ -1,28 +1,30 @@
-import fetch from 'node-fetch'
-import { search, download } from 'aptoide-scraper'
+import { search, download } from 'aptoide-scraper';
 
-let handler = async (m, { conn, usedPrefix, command, args, text }) => {
-   /*if (!args[0]) throw `Ex: ${usedPrefix + command} https://play.google.com/store/apps/details?id=com.linecorp.LGGRTHN`
-   let res = await fetch(`https://api.lolhuman.xyz/api/apkdownloader?apikey=${lolkeysapi}&package=${args[0]}`)
-   let f = await res.json()
-   let { apk_name, apk_icon, apk_version, apk_author, apk_link } = f.result
-   let apkk = `Nombre : ${apk_name}
-Versión : ${apk_version}
-Autor : ${apk_author}
+const handler = async (m, { conn, usedPrefix, command, text }) => {
+    if (!text) throw `test`;
 
-`
-await conn.sendFile(m.chat, apk_icon, 'apk.jpg', apkk, m)
-await conn.sendFile(m.chat, apk_link, 'file.apk', apk_name, m)*/
-     
-if (!text) throw `*ESCRIBA EL NOMBRE DEL APK*`    
-let searchA = await search(text)
-if (searchA.length < 1) return await  conn.sendMessage(m.chat, { text: '*NO HAY RESULTADOS DE LO QUE SOLICITA*' }, { quoted: m } )
-let apk = searchA.id
-let apk_dl = await download(apk)
-if ( apk_dl.size.replace(' MB' , '') > 200) return await conn.sendMessage(m.chat, { text: '*EL APK PESA MUCHO*' }, { quoted: m } )
-if ( apk_dl.size.includes('GB')) return await conn.sendMessage(m.chat, { text: '*EL APK ES MUY PESADO*' }, { quoted: m } )
-await conn.sendMessage(m.chat, { document: { url: apk_dl.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: apk_dl.name + '.apk', caption: null }, { quoted: m })      
-}
+    try {
+        const searchA = await search(text);
+        const data5 = await download(searchA[0].id);
 
-handler.command = /^(apkdl|apkdwonload)$/i
-export default handler
+        let response = `Name : ${data5.name}\nPackage : ${data5.package}\nSize : ${data5.size}`;
+        await conn.sendMessage(m.chat, response + "\n\n⏳ انتظر حتى يتم تنزيل التطبيق ...", m);
+
+        if (data5.size.includes('GB') || parseFloat(data5.size.replace(' MB', '')) > 3000) {
+            return await conn.sendMessage(m.chat, "تنبيه: حجم التطبيق كبير جدًا، قد يستغرق تنزيله بعض الوقت.", m);
+        }
+
+        await conn.sendFile(m.chat, data5.dllink, `${data5.name}.apk`, `📥 تم تنزيل التطبيق : ${data5.name}`);
+
+    } catch (e) {
+        await conn.reply(m.chat, `حدث خطأ أثناء معالجة الطلب. يرجى المحاولة مرة أخرى لاحقًا.`, m);
+        console.error(`❗❗ Error occurred in ${usedPrefix + command} ❗❗`);
+        console.error(e);
+    }
+};
+
+handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl)$/i;
+handler.register = true;
+handler.limit = 2;
+
+export default handler;
