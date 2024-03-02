@@ -25,7 +25,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     else user.premiumTime = now + hora1;
     user.premium = true;
     const timeLeft = (user.premiumTime - now) / 1000; // tiempo restante en segundos
-    const textprem1 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} hora(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeLeft} segundos*`;
+    const textprem1 = `*new usere premium*\n\n*usere : ${name}*\n*time : ${txt} h*\n*timeLeft : ${timeLeft} s*`;
     m.reply(textprem1, null, {mentions: conn.parseMention(textprem1)});
   }
 
@@ -43,7 +43,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     else user.premiumTime = now + semana1;
     user.premium = true;
     formatTime(user.premiumTime - now).then((timeleft) => {
-      const textprem3 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾: ${txt} semana(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeleft}*`;
+      const textprem3 = `*🎟️ 𝙽𝚄𝙴𝚅𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼!!!*\n\n*✨ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${name}*\n*🕐 𝚃𝙸𝙴𝙼𝙿𝙾 : ${txt} semana(s)*\n*📉 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴: ${timeleft}*`;
       m.reply(textprem3, null, {mentions: conn.parseMention(textprem3)});
     });
   }
