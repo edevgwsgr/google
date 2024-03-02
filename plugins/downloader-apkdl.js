@@ -23,7 +23,7 @@ const handler = async (m, { conn, usedPrefix, command, text }) => {
     }
 };
 
-handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl)$/i;
+handler.command = /^(apkmod|modapk|dapk2|aptoide|aptoidedl)$/i;
 handler.register = true;
 handler.limit = 2;
 
