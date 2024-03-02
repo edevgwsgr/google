@@ -29,7 +29,7 @@ let handler = async (m, {
 };
 handler.help = ["photoleap"];
 handler.tags = ["ai"];
-handler.command = /^(photoleap)$/i;
+handler.command = /^(imagine)$/i;
 
 export default handler;
 
