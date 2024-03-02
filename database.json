@@ -53,8 +53,8 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 22239,
-      "level": 0,
+      "exp": 22544,
+      "level": 6,
       "lastclaim": 1709397173595
     },
     "212679593105@s.whatsapp.net": {
@@ -889,10 +889,22 @@
       "lastSuccess": 1709397173595
     },
     "downloader-apk.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709398368102,
+      "lastSuccess": 1709398368102
+    },
+    "main-levelup.js": {
       "total": 2,
       "success": 2,
-      "last": 1709397271690,
-      "lastSuccess": 1709397271690
+      "last": 1709398281618,
+      "lastSuccess": 1709398281618
+    },
+    "main-global.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709398288669,
+      "lastSuccess": 1709398288669
     }
   },
   "msgs": {},
