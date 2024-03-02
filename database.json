@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1509,
+      "exp": 1899,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -53,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1672,
+      "exp": 1775,
       "level": 0
     },
     "212679593105@s.whatsapp.net": {
@@ -219,7 +219,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 461,
+      "exp": 511,
       "level": 0
     },
     "212641207087@s.whatsapp.net": {
@@ -772,10 +772,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 24,
-      "success": 17,
-      "last": 1709238344523,
-      "lastSuccess": 1709238344523
+      "total": 25,
+      "success": 18,
+      "last": 1709376385676,
+      "lastSuccess": 1709376385676
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -784,9 +784,9 @@
       "lastSuccess": 1708871656307
     },
     "apk.js": {
-      "total": 21,
+      "total": 22,
       "success": 13,
-      "last": 1709328842583,
+      "last": 1709375803201,
       "lastSuccess": 1709326479194
     },
     "manu.js": {
@@ -802,10 +802,10 @@
       "lastSuccess": 0
     },
     "config-sf.js": {
-      "total": 4,
-      "success": 2,
-      "last": 1709241183891,
-      "lastSuccess": 1709241183891
+      "total": 12,
+      "success": 10,
+      "last": 1709376434420,
+      "lastSuccess": 1709376434420
     },
     "_config-make-account.js": {
       "total": 6,
@@ -830,6 +830,12 @@
       "success": 6,
       "last": 1709362982073,
       "lastSuccess": 1709362982073
+    },
+    "downloader-fb.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1709376001784,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
