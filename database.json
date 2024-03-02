@@ -44,7 +44,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 115,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -53,8 +53,9 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2181,
-      "level": 0
+      "exp": 22239,
+      "level": 0,
+      "lastclaim": 1709397173595
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -852,10 +853,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1709379879485,
-      "lastSuccess": 1709379879485
+      "total": 14,
+      "success": 14,
+      "last": 1709397180879,
+      "lastSuccess": 1709397180879
     },
     "owner-addprem.js": {
       "total": 7,
@@ -880,6 +881,18 @@
       "success": 2,
       "last": 1709392972101,
       "lastSuccess": 1709392411021
+    },
+    "_config-gift.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709397173595,
+      "lastSuccess": 1709397173595
+    },
+    "downloader-apk.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709397271690,
+      "lastSuccess": 1709397271690
     }
   },
   "msgs": {},
