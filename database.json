@@ -183,8 +183,8 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 575,
-      "level": 0
+      "exp": 881,
+      "level": 1
     },
     "212657811966@s.whatsapp.net": {
       "afk": -1,
@@ -853,10 +853,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1709397180879,
-      "lastSuccess": 1709397180879
+      "total": 15,
+      "success": 15,
+      "last": 1709401577756,
+      "lastSuccess": 1709401577756
     },
     "owner-addprem.js": {
       "total": 7,
@@ -889,22 +889,22 @@
       "lastSuccess": 1709397173595
     },
     "downloader-apk.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709398368102,
-      "lastSuccess": 1709398368102
+      "total": 4,
+      "success": 4,
+      "last": 1709401750890,
+      "lastSuccess": 1709401750890
     },
     "main-levelup.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709398281618,
-      "lastSuccess": 1709398281618
+      "total": 3,
+      "success": 3,
+      "last": 1709402676519,
+      "lastSuccess": 1709402676519
     },
     "main-global.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709398288669,
-      "lastSuccess": 1709398288669
+      "total": 3,
+      "success": 3,
+      "last": 1709402684576,
+      "lastSuccess": 1709402684576
     }
   },
   "msgs": {},
