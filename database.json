@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1899,
+      "exp": 1909,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -53,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1775,
+      "exp": 1800,
       "level": 0
     },
     "212679593105@s.whatsapp.net": {
@@ -219,7 +219,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 511,
+      "exp": 518,
       "level": 0
     },
     "212641207087@s.whatsapp.net": {
@@ -466,6 +466,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 6
+    },
+    "393349536163@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ryan",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 5
     }
   },
   "chats": {
@@ -814,10 +833,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1709328785152,
-      "lastSuccess": 1709328785152
+      "total": 11,
+      "success": 11,
+      "last": 1709379879485,
+      "lastSuccess": 1709379879485
     },
     "owner-addprem.js": {
       "total": 7,
@@ -826,10 +845,10 @@
       "lastSuccess": 1709329443277
     },
     "_config-listprem.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709362982073,
-      "lastSuccess": 1709362982073
+      "total": 7,
+      "success": 7,
+      "last": 1709379887200,
+      "lastSuccess": 1709379887200
     },
     "downloader-fb.js": {
       "total": 3,
