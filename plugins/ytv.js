@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw '*[❗] Uso incorrecto del comando, ingrese un enlace / link de YouTube.*';
+  if (!args[0]) throw '*Incorrect use of the command, enter a YouTube link.*';
   let enviando;
   if (enviando) return  
       enviando = true    
@@ -34,7 +34,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       }
     }
   }
-  const { key } = await m.reply(`*_Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ..._**`);
+  const { key } = await m.reply(`*_Please wait..._*`);
   try {
     const formats = await bestFormat(youtubeLink, 'video');
     const buff = await getBuffer(formats.url);
@@ -45,12 +45,12 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const fileSizeInMB = fileSizeInKB / 1024;
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 100) {
-    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo :* ${ttl_1}\n*▢ Peso Del Video :* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Video descargado y enviado exitosamente.*\n\n*—◉ Se envío en formato de docuemnto debido a que el video pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Title :* ${ttl_1}\n*▢ Video Weight :* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*Video downloaded and sent successfully.*\n\n*It was sent in document format due to the weight of the video ${roundedFileSizeInMB} MB and exceeds the limit set by WhatsApp.*\n*Title :* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
-    await conn.sendMessage(m.chat, {video: buff, caption: `*▢ Titulo :* ${ttl_1}\n*▢ Peso Del Video :* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Video descargado exitosamente.*`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {video: buff, caption: `*▢ Title :* ${ttl_1}\n*▢ Video Weight :* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp4', mimetype: 'video/mp4'}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*Video downloaded successfully.*`, edit: key}, {quoted: m});
     enviando = false   
    }
  } catch (ee) {
@@ -63,15 +63,15 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const dl_url = yt.video[q].download();
     const ttl = yt.title;
     const size = yt.video[q].fileSizeH;
-    await conn.sendMessage(m.chat, {video: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*▢ Titulo:* ${ttl}\n*▢ Peso Del Video:* ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {video: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*▢ Title :* ${ttl}\n*▢ Video Weight :* ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: '*Video downloaded successfully.*', edit: key}, {quoted: m});
     enviando = false
   } catch (ee2) {
     console.log(ee2)
     try {
       const mediaa = await ytMp4(youtubeLink);
       await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ``, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
-      await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*Video downloaded successfully.*', edit: key}, {quoted: m});
       enviando = false
     } catch {
       try {
@@ -81,12 +81,12 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
         const n2 = lolh.result.link;
         const n3 = lolh.result.size;
         const n4 = lolh.result.thumbnail;
-        await conn.sendMessage(m.chat, {video: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*▢ Titulo :* ${n}\n*▢ Peso Del Video :* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
-        await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
+        await conn.sendMessage(m.chat, {video: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*▢ Title :* ${n}\n*▢ Video Weight :* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
+        await conn.sendMessage(m.chat, {text: '*Video downloaded successfully.*', edit: key}, {quoted: m});
         enviando = false
       } catch {
-        await conn.sendMessage(m.chat, {text: `*[ ❌ ] El video no pudo ser descargado ni enviado, vuelva a intentarlo.*`, edit: key}, {quoted: m});
-        throw '*[❗] Error, no fue posible descargar el video.*';
+        await conn.sendMessage(m.chat, {text: `*The video cannot be downloaded or sent, try again.*`, edit: key}, {quoted: m});
+        throw '*Error, it was not possible to download the video.*';
       }
     }
   }
