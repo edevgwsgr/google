@@ -6,7 +6,6 @@ const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
     const data5 = await download(searchA[0].id);
     let response = `📲 *Descargador de Aptoide* 📲\n\n📌 *Nombre:* ${data5.name}\n📦 *Package:* ${data5.package}\n🕒 *Última actualización:* ${data5.lastup}\n📥 *Tamaño:* ${data5.size}`
     await conn.sendMessage(m.chat, {image: {url: data5.icon}, caption: response}, {quoted: m});
-    await conn.sendMessage(m.chat, response + "whit", m);
  if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 30000) {
       return await conn.sendMessage(m.chat, {text: '*[ ⛔ ] El archivo es demasiado pesado por lo que no se enviará.*'}, {quoted: m});
     }
