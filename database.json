@@ -16,7 +16,8 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1471
+      "exp": 1509,
+      "level": 0
     },
     "212672837585@s.whatsapp.net": {
       "afk": -1,
@@ -52,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1561,
+      "exp": 1623,
       "level": 0
     },
     "212679593105@s.whatsapp.net": {
@@ -273,7 +274,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 31
+      "exp": 61
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -350,6 +351,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "393515402089@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "drxp",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 13
     }
   },
   "chats": {
@@ -710,10 +730,10 @@
       "lastSuccess": 1709329443277
     },
     "_config-listprem.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709330008662,
-      "lastSuccess": 1709330008662
+      "total": 5,
+      "success": 5,
+      "last": 1709337212886,
+      "lastSuccess": 1709337212886
     }
   },
   "msgs": {},
