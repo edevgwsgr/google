@@ -1,46 +1,28 @@
-import axios from "axios"
+import fetch from 'node-fetch'
+import {
+    sticker
+} from '../../lib/sticker.js'
 
 let handler = async (m, {
     conn,
-    args,
-    usedPrefix,
-    command
+    text,
+    usedPrefix
 }) => {
-    let text
-    if (args.length >= 1) {
-        text = args.slice(0).join(" ")
-    } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text
-    } else throw "Input Teks"
-    await m.reply(wait)
 
-    try {
-        let data = await textToImage(text)
-        if (data) {
+    if (!text) throw `Contoh Penggunaan\n${usedPrefix}spamcall 628xxxxxxxx`
+    let nomor = text.replace(/[^0-9]/gi, '').slice(2)
+    if (!nomor.startsWith('8')) throw `Contoh Penggunaan\n${usedPrefix}spamcall 628xxxxxxxx`
+    m.reply('_*Tunggu permintaan anda sedang diproses.....*_')
+    let anu = await fetch(`https://id.jagreward.com/member/verify-mobile/${nomor}`).then(a => a.json())
+    let spcall = `*Nomor* : _${anu.phone_prefix}_\n\n_berhasil menlpon anda!_`
+    conn.reply(m.chat, `${spcall}`.trim(), m)
 
-            await conn.sendFile(m.chat, data.result_url, '', `Image for ${text}`, m, false, {
-                mentions: [m.sender]
-            });
-
-        }
-    } catch (e) {
-        await m.reply(eror)
-    }
 }
-handler.help = ["photoleap"]
-handler.tags = ["ai"];
-handler.command = /^(photoleap)$/i
+
+handler.help = ['spamcall <nomor>']
+handler.tags = ['tools']
+handler.command = /^(spamcall)$/i
+handler.limit = true
+handler.group = true
 
 export default handler
-
-/* New Line */
-async function textToImage(text) {
-    try {
-        const {
-            data
-        } = await axios.get("https://tti.photoleapapp.com/api/v1/generate?prompt=" + text)
-        return data;
-    } catch (err) {
-        return null;
-    }
-}

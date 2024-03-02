@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1909,
+      "exp": 1962,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -53,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1800,
+      "exp": 1941,
       "level": 0
     },
     "212679593105@s.whatsapp.net": {
@@ -219,7 +219,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 518,
+      "exp": 528,
       "level": 0
     },
     "212641207087@s.whatsapp.net": {
@@ -840,10 +840,10 @@
       "lastSuccess": 0
     },
     "config-sf.js": {
-      "total": 12,
-      "success": 10,
-      "last": 1709376434420,
-      "lastSuccess": 1709376434420
+      "total": 15,
+      "success": 12,
+      "last": 1709392133538,
+      "lastSuccess": 1709392052699
     },
     "_config-make-account.js": {
       "total": 6,
@@ -874,6 +874,12 @@
       "success": 0,
       "last": 1709376001784,
       "lastSuccess": 0
+    },
+    "ai-photoleap.js": {
+      "total": 4,
+      "success": 1,
+      "last": 1709391888818,
+      "lastSuccess": 1709391888818
     }
   },
   "msgs": {},
