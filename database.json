@@ -7,16 +7,16 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 30,
       "money": 150,
-      "premium": false,
-      "premiumTime": 0,
+      "premium": true,
+      "premiumTime": 1709503158124,
       "name": "karimͧͧͧͦꙶͣͤ✓ᚲᴳᴮ",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3007,
+      "exp": 3080,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 23656,
+      "exp": 23883,
       "level": 6,
       "lastclaim": 1709397173595
     },
@@ -508,6 +508,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 18
+    },
+    "258875288985@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Tanjirō Kamadō",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -981,10 +1000,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1709468143416,
-      "lastSuccess": 1709468143416
+      "total": 17,
+      "success": 17,
+      "last": 1709495764137,
+      "lastSuccess": 1709495764137
     },
     "owner-addprem.js": {
       "total": 7,
@@ -1035,10 +1054,10 @@
       "lastSuccess": 1709402684576
     },
     "_config-sf-fils.js": {
-      "total": 4,
-      "success": 3,
-      "last": 1709492836947,
-      "lastSuccess": 1709492836947
+      "total": 6,
+      "success": 5,
+      "last": 1709495474435,
+      "lastSuccess": 1709495474435
     },
     "downloader-ytmp4.js": {
       "total": 5,
@@ -1059,10 +1078,10 @@
       "lastSuccess": 1709418904898
     },
     "_config-addprem.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1709420602576,
-      "lastSuccess": 1709420602576
+      "total": 11,
+      "success": 11,
+      "last": 1709496000914,
+      "lastSuccess": 1709496000914
     },
     "main-help.js": {
       "total": 5,
@@ -1071,16 +1090,22 @@
       "lastSuccess": 1709470421829
     },
     "getvsc.js": {
-      "total": 12,
-      "success": 1,
-      "last": 1709492849236,
-      "lastSuccess": 1709492849236
+      "total": 14,
+      "success": 3,
+      "last": 1709495480935,
+      "lastSuccess": 1709495480935
     },
     "owner-exec2 (1).js": {
       "total": 2,
       "success": 2,
       "last": 1709491321345,
       "lastSuccess": 1709491321345
+    },
+    "_config-add-diamantes.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709495804674,
+      "lastSuccess": 1709495804674
     }
   },
   "msgs": {},

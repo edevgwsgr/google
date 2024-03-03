@@ -25,7 +25,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     else user.premiumTime = now + hora1;
     user.premium = true;
     const timeLeft = (user.premiumTime - now) / 1000; // tiempo restante en segundos
-    const textprem1 = `*new usere premium*\n\n*usere : ${name}*\n*time : ${txt} h*\n*timeLeft : ${timeLeft} s*`;
+    const textprem1 = `*New Usere Premium*\n\n*Usere : ${name}*\n*Time : ${txt}h*\n*TimeLeft : ${timeLeft}s*`;
     m.reply(textprem1, null, {mentions: conn.parseMention(textprem1)});
   }
 
