@@ -19,10 +19,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
-      - name: clone the project 
-        run: git clone https://github.com/ANGILO856122/FORKX
       - name: Install dependencies
-        run: rm -rf pakcage-lock.json && npm i
+        run: rm -rf pakcage-lock.json && mkdir tmp && npm i
       - name: Start The Code
         run:  npm start &
         
