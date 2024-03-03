@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2101,
+      "exp": 2179,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -53,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 22812,
+      "exp": 22931,
       "level": 6,
       "lastclaim": 1709397173595
     },
@@ -183,7 +183,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 881,
+      "exp": 893,
       "level": 1
     },
     "212657811966@s.whatsapp.net": {
@@ -220,7 +220,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 609,
+      "exp": 630,
       "level": 0
     },
     "212641207087@s.whatsapp.net": {
@@ -940,10 +940,10 @@
       "lastSuccess": 1709397173595
     },
     "downloader-apk.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709401750890,
-      "lastSuccess": 1709401750890
+      "total": 6,
+      "success": 6,
+      "last": 1709470959127,
+      "lastSuccess": 1709470959127
     },
     "main-levelup.js": {
       "total": 3,
@@ -988,10 +988,10 @@
       "lastSuccess": 1709420602576
     },
     "main-help.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709468111483,
-      "lastSuccess": 1709468111483
+      "total": 5,
+      "success": 5,
+      "last": 1709470421829,
+      "lastSuccess": 1709470421829
     }
   },
   "msgs": {},
