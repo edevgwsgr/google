@@ -1,0 +1,5 @@
+curl \
+-X GET \
+-H "Authorization: Bearer 2dBh1scfMV7YNOHGcPBewUQRmoo_7PdYqZDN4pjNdYFAZDbhy" \
+-H "Ngrok-Version: 2" \
+https://api.ngrok.com/endpoints
