@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 16
       - name: Install dependencies
-        run: rm -rf pakcage-lock.json && mkdir tmp && npm i
+        run: rm -rf pakcage-lock.json && npm i
       - name: Start The Code
         run:  npm start &
         
@@ -40,8 +40,10 @@ jobs:
             fi
           done
           
-      - name: Commit the logs
+      - name: delete the cache and Commit the logs
         run: |
+          rm -rf tmp
+          mkdir tmp
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'action@github.com'
           git add -A
