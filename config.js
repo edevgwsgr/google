@@ -101,7 +101,7 @@ global.ig = 'https://www.instagram.com/ang_0y'
 global.md = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be'
 global.fb = 'https://www.facebook.com/'
 
-global.thumbnailUrl = ['https://telegra.ph/file/0878f7ceef15141facaad.jpg']
+global.thumbnailUrl = ['https://telegra.ph/file/0878f7ceef15141facaad.jpg', 'https://telegra.ph/file/3e168b7f803aa0d2ecf02.jpg']
 
 global.nna = 'https://whatsapp.com/channel/HJvDM8zYgsIKu0hMW3i5be' //CANAL UPDATE
 global.nn2 = 'HJvDM8zYgsIKu0hMW3i5be' //Canal GataBot
