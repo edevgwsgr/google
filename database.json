@@ -53,7 +53,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 22807,
+      "exp": 22812,
       "level": 6,
       "lastclaim": 1709397173595
     },
@@ -151,7 +151,7 @@
     "212679913546@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -159,12 +159,12 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Test Bot",
+      "name": "angelo",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709468135443,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 46,
+      "exp": 91,
       "level": 0
     },
     "212779873495@s.whatsapp.net": {
@@ -220,7 +220,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 598,
+      "exp": 609,
       "level": 0
     },
     "212641207087@s.whatsapp.net": {
@@ -898,16 +898,16 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 6,
+      "total": 7,
       "success": 0,
-      "last": 1709156271313,
+      "last": 1709468135662,
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1709401577756,
-      "lastSuccess": 1709401577756
+      "total": 16,
+      "success": 16,
+      "last": 1709468143416,
+      "lastSuccess": 1709468143416
     },
     "owner-addprem.js": {
       "total": 7,
@@ -986,6 +986,12 @@
       "success": 9,
       "last": 1709420602576,
       "lastSuccess": 1709420602576
+    },
+    "main-help.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709468111483,
+      "lastSuccess": 1709468111483
     }
   },
   "msgs": {},
