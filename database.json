@@ -9,14 +9,14 @@
       "Banneduser": false,
       "limit": 30,
       "money": 150,
-      "premium": true,
-      "premiumTime": 1709503158124,
+      "premium": false,
+      "premiumTime": 0,
       "name": "karimͧͧͧͦꙶͣͤ✓ᚲᴳᴮ",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3269,
+      "exp": 3352,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 24099,
+      "exp": 24202,
       "level": 6,
       "lastclaim": 1709397173595
     },
@@ -203,7 +203,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 105,
+      "exp": 195,
       "level": 0
     },
     "212608740306@s.whatsapp.net": {
@@ -565,6 +565,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 19
+    },
+    "393454694529@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "paolobonom93",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
