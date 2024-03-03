@@ -22,16 +22,81 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const readMore = more.repeat(850);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-    m.react('✅');
+    m.react('🌙');
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ▢ *Hello,* ${taguser}
+ ▢ *ramdan karim,* ${taguser} 🌙
 
-_*< Premium Commnds 1day />*_
+ _*< Your Accounte />*_
+
+ ▢ *Level :* ${level}
+ ▢ *Exp :* ${exp}
+ ▢ *Diamantes :* ${limit}
+ ▢ *Premium :* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')}
+ ▢ *Registrado :* ${user.registered === true ? '✅' : '❌'}
+
+_*< Bot Commnds />*_
+
+▢ _/jadibot_
+▢ _/listjadibot_
+▢ _/deletesesion_
+▢ _/runtime_
+▢ _/ping_
+
+_*< Premium Commnds />*_
 
 ▢ _/apk_
 ▢ _/obb_
-▢ _/ytmp4_`.trim();
+▢ _/imganime2_
+▢ _/imagine2_
+▢ _/fb_
+▢ _/2ytmp4_
+▢ _/2ytmp4_
+
+_*< downloade Commnds />*_
+
+▢ _/play_
+▢ _/ytmp3_
+▢ _/ytmp4_
+▢ _/yts_
+▢ _/ig_
+▢ _/img_
+▢ _/tiktok_
+
+_*< Ai Commnds />*_
+
+▢ _/imagine_
+▢ _/imganime_
+▢ _/hdr_
+▢ _/bard_
+▢ _/bard2 (beta)_
+▢ _/bardimg_
+▢ _/ai_
+▢ _/chatgpt_
+▢ _/hdr_
+▢ _/ocr_
+▢ _/tr <code>_
+▢ _/cuturl_
+
+_*< Accounte Commnds />*_
+
+▢ _/make-account_
+▢ _/serie_
+▢ _/del-account_
+▢ _/transfer_
+▢ _/info_
+▢ _/buy_
+▢ _/levelup_
+▢ _/gift_
+
+_*< ramdan Commnds />*_
+
+▢ _soon..._
+
+_*< Other Commnds />*_
+
+▢ _/infobot_
+▢ _/math_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
