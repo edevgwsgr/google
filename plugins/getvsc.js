@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios'
 
 const headers = {
   'Authorization': 'Bearer 2dBh1scfMV7YNOHGcPBewUQRmoo_7PdYqZDN4pjNdYFAZDbhy',
@@ -8,9 +8,9 @@ const headers = {
 const handler = async (m) => {
 let res = axios.get('https://api.ngrok.com/endpoints', { headers })
   try {
-      await m.reply(response.data.endpoints[0].public_url)
+    await conn.reply(m.chat, response.data.endpoints[0].public_url, m);
   } catch (error) {
-      await m.reply(error);
+    await conn.reply(m.chat, response.data.endpoints[0].public_url, m);
   }
 }
 handler.command = /^(vsc)$/i
