@@ -23,5 +23,6 @@ throw `${lenguajeGB.smsAvisoFG()}𝙀𝙍𝙍𝙊𝙍, 𝙑𝙀𝙍𝙄𝙁𝙄�
 handler.help = ['toanime'];
 handler.tags = ['tools'];
 handler.command = /^(imganime|toanime)$/i;
+handler.register = true
 handler.limit = 4
 export default handler;
