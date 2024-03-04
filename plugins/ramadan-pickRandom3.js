@@ -1,9 +1,9 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*♚  اتفضل النصيحه اعمل بيها ♚*\n          ꔹ━━━━━━━━━━━ꔹ\n*『${pickRandom(global.twidbix)}』*\n*ꔹ━━━━━ꔹ❰ شـــادو بــــوت ❱ꔹ━━━━━ꔹ*`, m)
+conn.reply(m.chat,`『 ${pickRandom(global.twidbix)} 』`, m)
 }
 handler.help = ['mksjsdh']
 handler.tags = ['fun']
-handler.command = /انصح|نصيحه|نصيحة|إنصح/i
+handler.command = /انصح|Advice|نصيحة|إنصح/i
 export default handler
 
 function pickRandom(list) {
