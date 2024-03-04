@@ -241,7 +241,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 118,
+      "exp": 152,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -279,7 +279,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 201
+      "exp": 214
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -336,7 +336,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 0
+      "exp": 88
     },
     "393519571362@s.whatsapp.net": {
       "afk": -1,
@@ -412,7 +412,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 160
+      "exp": 180
     },
     "420737655553@s.whatsapp.net": {
       "afk": -1,
@@ -584,6 +584,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "393207552113@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Gab",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 5
     }
   },
   "chats": {
@@ -1191,10 +1210,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1709499089007,
-      "lastSuccess": 1709499089007
+      "total": 13,
+      "success": 13,
+      "last": 1709553750103,
+      "lastSuccess": 1709553750103
     },
     "getvsc.js": {
       "total": 14,
@@ -1239,10 +1258,10 @@
       "lastSuccess": 1709518715056
     },
     "_config-ping.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709546356152,
-      "lastSuccess": 1709546356152
+      "total": 4,
+      "success": 4,
+      "last": 1709553451943,
+      "lastSuccess": 1709553451943
     }
   },
   "msgs": {},
