@@ -279,7 +279,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 132
+      "exp": 201
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -1237,6 +1237,12 @@
       "success": 2,
       "last": 1709518715056,
       "lastSuccess": 1709518715056
+    },
+    "_config-ping.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709546356152,
+      "lastSuccess": 1709546356152
     }
   },
   "msgs": {},
