@@ -30,7 +30,7 @@ let handler = async (m, {
 handler.help = ['math'].map(v => v + ' <mode>')
 handler.tags = ['game']
 handler.command = /^math/i
-
+handler.register = true
 
 let modes = {
     noob: [-3, 3, -3, 3, '+-', 1500, 10],
