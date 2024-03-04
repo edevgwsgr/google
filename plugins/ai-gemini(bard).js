@@ -13,7 +13,7 @@ console.log(e)
 handler.command = ['bard', 'gemini']
 handler.help = ['bard', 'gemini']
 handler.tags = ['herramientas']
-
+handler.register = true
 handler.premium = false
 
 export default handler
