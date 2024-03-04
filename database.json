@@ -45,7 +45,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 115,
+      "limit": 215,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -54,9 +54,9 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 24355,
+      "exp": 44460,
       "level": 6,
-      "lastclaim": 1709397173595
+      "lastclaim": 1709518766364
     },
     "212679593105@s.whatsapp.net": {
       "afk": -1,
@@ -1107,10 +1107,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1709495764137,
-      "lastSuccess": 1709495764137
+      "total": 18,
+      "success": 18,
+      "last": 1709518769767,
+      "lastSuccess": 1709518769767
     },
     "owner-addprem.js": {
       "total": 7,
@@ -1137,10 +1137,10 @@
       "lastSuccess": 1709392411021
     },
     "_config-gift.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709397173595,
-      "lastSuccess": 1709397173595
+      "total": 3,
+      "success": 3,
+      "last": 1709518766364,
+      "lastSuccess": 1709518766364
     },
     "downloader-apk.js": {
       "total": 12,
@@ -1219,6 +1219,24 @@
       "success": 4,
       "last": 1709499545051,
       "lastSuccess": 1709499545051
+    },
+    "ai-chatgpt.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709518579030,
+      "lastSuccess": 1709518579030
+    },
+    "ai-yts.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709518639477,
+      "lastSuccess": 1709518639477
+    },
+    "ai-owner.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709518715056,
+      "lastSuccess": 1709518715056
     }
   },
   "msgs": {},
