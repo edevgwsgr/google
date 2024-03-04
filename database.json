@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3736,
+      "exp": 3788,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44573,
+      "exp": 44611,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -175,7 +175,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 65,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -184,8 +184,9 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 904,
-      "level": 1
+      "exp": 6227,
+      "level": 3,
+      "lastclaim": 1709591636930
     },
     "212657811966@s.whatsapp.net": {
       "afk": -1,
@@ -1228,10 +1229,10 @@
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1709582587281,
-      "lastSuccess": 1709582587281
+      "total": 20,
+      "success": 20,
+      "last": 1709591657890,
+      "lastSuccess": 1709591657890
     },
     "owner-addprem.js": {
       "total": 7,
@@ -1258,10 +1259,10 @@
       "lastSuccess": 1709392411021
     },
     "_config-gift.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709582585881,
-      "lastSuccess": 1709582585881
+      "total": 6,
+      "success": 6,
+      "last": 1709591636930,
+      "lastSuccess": 1709591636930
     },
     "downloader-apk.js": {
       "total": 16,
@@ -1270,16 +1271,16 @@
       "lastSuccess": 1709582594164
     },
     "main-levelup.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709402676519,
-      "lastSuccess": 1709402676519
+      "total": 4,
+      "success": 4,
+      "last": 1709591707962,
+      "lastSuccess": 1709591707962
     },
     "main-global.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709582588413,
-      "lastSuccess": 1709582588413
+      "total": 6,
+      "success": 6,
+      "last": 1709591665573,
+      "lastSuccess": 1709591665573
     },
     "_config-sf-fils.js": {
       "total": 8,
@@ -1312,10 +1313,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1709582546626,
-      "lastSuccess": 1709582546626
+      "total": 16,
+      "success": 16,
+      "last": 1709591623772,
+      "lastSuccess": 1709591623772
     },
     "getvsc.js": {
       "total": 14,
@@ -1330,10 +1331,10 @@
       "lastSuccess": 1709491321345
     },
     "_config-add-diamantes.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709495804674,
-      "lastSuccess": 1709495804674
+      "total": 5,
+      "success": 5,
+      "last": 1709591743153,
+      "lastSuccess": 1709591743153
     },
     "owner-exec2.js": {
       "total": 4,
@@ -1369,6 +1370,12 @@
       "total": 2,
       "success": 0,
       "last": 1709556696238,
+      "lastSuccess": 0
+    },
+    "tooll-ocr.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1709591343813,
       "lastSuccess": 0
     }
   },
