@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3544,
+      "exp": 3698,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44460,
+      "exp": 44565,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -1262,6 +1262,12 @@
       "success": 4,
       "last": 1709553451943,
       "lastSuccess": 1709553451943
+    },
+    "downloader-tiktok.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1709556696238,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
