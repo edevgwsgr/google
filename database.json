@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44565,
+      "exp": 44573,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -165,7 +165,7 @@
       "regTime": 1709468135443,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 91,
+      "exp": 95,
       "level": 0
     },
     "212779873495@s.whatsapp.net": {
@@ -209,21 +209,22 @@
     "212608740306@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 65,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "DaLich",
+      "name": "dalich",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709582581503,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 746,
-      "level": 0
+      "exp": 6309,
+      "level": 0,
+      "lastclaim": 1709582585881
     },
     "212641207087@s.whatsapp.net": {
       "afk": -1,
@@ -1221,16 +1222,16 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 7,
+      "total": 8,
       "success": 0,
-      "last": 1709468135662,
+      "last": 1709582581740,
       "lastSuccess": 0
     },
     "_config-info.js": {
-      "total": 18,
-      "success": 18,
-      "last": 1709518769767,
-      "lastSuccess": 1709518769767
+      "total": 19,
+      "success": 19,
+      "last": 1709582587281,
+      "lastSuccess": 1709582587281
     },
     "owner-addprem.js": {
       "total": 7,
@@ -1257,16 +1258,16 @@
       "lastSuccess": 1709392411021
     },
     "_config-gift.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709518766364,
-      "lastSuccess": 1709518766364
+      "total": 5,
+      "success": 5,
+      "last": 1709582585881,
+      "lastSuccess": 1709582585881
     },
     "downloader-apk.js": {
-      "total": 14,
-      "success": 10,
-      "last": 1709569869788,
-      "lastSuccess": 1709569869788
+      "total": 16,
+      "success": 12,
+      "last": 1709582594164,
+      "lastSuccess": 1709582594164
     },
     "main-levelup.js": {
       "total": 3,
@@ -1275,10 +1276,10 @@
       "lastSuccess": 1709402676519
     },
     "main-global.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709402684576,
-      "lastSuccess": 1709402684576
+      "total": 5,
+      "success": 5,
+      "last": 1709582588413,
+      "lastSuccess": 1709582588413
     },
     "_config-sf-fils.js": {
       "total": 8,
@@ -1311,10 +1312,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1709569833601,
-      "lastSuccess": 1709569833601
+      "total": 15,
+      "success": 15,
+      "last": 1709582546626,
+      "lastSuccess": 1709582546626
     },
     "getvsc.js": {
       "total": 14,
