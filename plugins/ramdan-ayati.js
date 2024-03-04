@@ -16,7 +16,7 @@ conn.qurannData = conn.qurannData ? conn.qurannData : {};
 
   const surahNumber = parseInt(m.text.split(' ')[1]);
   if (isNaN(surahNumber) || surahNumber < 1 || surahNumber > 114) {
-    m.reply("❌ رقم السورة غير صحيح. يرجى تقديم رقم سورة صالح بين 1 و 114.\n مثال : \n .ayati 114");
+    m.reply("رقم السورة غير صحيح. يرجى تقديم رقم سورة صالح بين 1 و 114.\n مثال : \n .ayati 114");
     return;
   }
 
@@ -30,7 +30,7 @@ conn.qurannData = conn.qurannData ? conn.qurannData : {};
     `*${v.number.inSurah}.* ${v.text.arab}`
   )).join('\n');
 
-  const instructions = "قم بالرد على هذه الرسالة برقم الآية المطلوب لاستقبال الصوت. \n يمكنك زيارة أنستغرام صاحب البوت لمعرفة المزيد عن هذه الميزة \n instagram.com/noureddine_ouafy";
+  const instructions = "قم بالرد على هذه الرسالة برقم الآية المطلوب لاستقبال الصوت.";
 
   let { key } = await m.reply(`📖 List of Ayahs in Surah ${surahNumber}:\n${formattedList}\n\n${instructions}`);
   // Store the Quran data in conn.qurannData variable for later use
@@ -49,7 +49,7 @@ if (m.isBaileys || !(m.chat in conn.qurannData)) return;
   const index = parseInt(input);
 
   if (isNaN(index) || index < 1 || index > list.length) {
-    m.reply("❌ رقم الآية غير صحيح. يرجى تقديم رقم آية صالح من القائمة.\nمثال :\n .ayati 1");
+    m.reply("رقم الآية غير صحيح. يرجى تقديم رقم آية صالح من القائمة.\nمثال :\n .ayati 1");
   } else {
   const selectedObj = list[index - 1];
 
