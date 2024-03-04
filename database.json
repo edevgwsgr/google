@@ -279,7 +279,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 214
+      "exp": 291
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -412,7 +412,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 180
+      "exp": 211
     },
     "420737655553@s.whatsapp.net": {
       "afk": -1,
@@ -583,7 +583,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 15
     },
     "393207552113@s.whatsapp.net": {
       "afk": -1,
@@ -603,6 +603,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 5
+    },
+    "22351499858@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "malign",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -1258,10 +1277,10 @@
       "lastSuccess": 1709518715056
     },
     "_config-ping.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709553451943,
-      "lastSuccess": 1709553451943
+      "total": 7,
+      "success": 7,
+      "last": 1709562560546,
+      "lastSuccess": 1709562560546
     },
     "downloader-tiktok.js": {
       "total": 2,
