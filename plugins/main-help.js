@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     m.react('🌙');
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ▢ *ramdan karim,* ${taguser} 🌙
+ ▢ *ramdan karim 🌙,* ${taguser}
 
  _*< Your Accounte />*_
 
@@ -40,7 +40,6 @@ _*< Bot Commnds />*_
 ▢ _/jadibot_
 ▢ _/listjadibot_
 ▢ _/deletesesion_
-▢ _/runtime_
 ▢ _/ping_
 
 _*< Premium Commnds />*_
@@ -49,15 +48,12 @@ _*< Premium Commnds />*_
 ▢ _/obb_
 ▢ _/imganime2_
 ▢ _/imagine2_
-▢ _/fb_
-▢ _/2ytmp4_
-▢ _/2ytmp4_
 
 _*< downloade Commnds />*_
 
-▢ _/play_
-▢ _/ytmp3_
+▢ _/play & ytmp3_
 ▢ _/ytmp4_
+▢ _/fb_
 ▢ _/yts_
 ▢ _/ig_
 ▢ _/img_
