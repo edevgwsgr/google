@@ -6,7 +6,7 @@ const anjuran = `
 let handler = async (m, { args, usedPrefix, command }) => {
     let json = JSON.parse(JSON.stringify(global.asmaulhusna))
     let data = json.map((v, i) => `${i + 1}. ${v.latin}\n${v.arabic}\n${v.translation_id}`).join('\n\n')
-    if (isNaN(args[0])) throw `هذا الأمر يعطيك اسماء الله الحسنى + معناها ♥ \nمثال:\n${usedPrefix + command} 1\n`
+    if (isNaN(args[0])) throw `هذا الأمر يعطيك اسماء الله الحسنى + معناها\nمثال :\n${usedPrefix + command} 1\n`
     if (args[0]) {
         if (args[0] < 1 || args[0] > 99) throw `الحد الادني 1 و الاقصي 99!`
         let { index, latin, arabic, translation_id, translation_en } = json.find(v => v.index == args[0].replace(/[^0-9]/g, ''))
