@@ -23,7 +23,7 @@ let handler = async (m, { isPrems }) => {
 };
 handler.help = ['daily'];
 handler.tags = ['xp'];
-handler.command = ['daily', 'gift'];
+handler.command = ['daily', 'xxxxgift'];
 handler.register = true;
 export default handler;
 
