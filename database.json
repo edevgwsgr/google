@@ -795,6 +795,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10
+    },
+    "212617772342@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 14,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 111,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "fayssal teck",
+      "GBLanguage": 0,
+      "regTime": 1709655268423,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10103
+    },
+    "212625285212@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 14,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 107,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "hamza",
+      "GBLanguage": 0,
+      "regTime": 1709655429968,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10055
+    },
+    "201064374942@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 22,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 115,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Student",
+      "GBLanguage": 0,
+      "regTime": 1709656493141,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10056
     }
   },
   "chats": {
@@ -1422,6 +1479,81 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212617772342@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212625285212@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "201064374942@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -1462,10 +1594,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 11,
-      "success": 2,
-      "last": 1709652020229,
-      "lastSuccess": 1709651639263
+      "total": 15,
+      "success": 5,
+      "last": 1709656494052,
+      "lastSuccess": 1709656494052
     },
     "_config-info.js": {
       "total": 20,
@@ -1552,10 +1684,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1709651675691,
-      "lastSuccess": 1709651675691
+      "total": 26,
+      "success": 26,
+      "last": 1709655342509,
+      "lastSuccess": 1709655342509
     },
     "getvsc.js": {
       "total": 14,
@@ -1588,10 +1720,10 @@
       "lastSuccess": 1709518579030
     },
     "ai-yts.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709518639477,
-      "lastSuccess": 1709518639477
+      "total": 4,
+      "success": 4,
+      "last": 1709655299650,
+      "lastSuccess": 1709655299650
     },
     "ai-owner.js": {
       "total": 2,
@@ -1624,10 +1756,10 @@
       "lastSuccess": 1709629104228
     },
     "downloader-play.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709629144367,
-      "lastSuccess": 1709629144367
+      "total": 3,
+      "success": 3,
+      "last": 1709655415012,
+      "lastSuccess": 1709655415012
     },
     "ai-hd.js": {
       "total": 2,
@@ -1670,6 +1802,18 @@
       "success": 4,
       "last": 1709651814117,
       "lastSuccess": 1709651814117
+    },
+    "ai-geminiimg(bard).js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709655475475,
+      "lastSuccess": 1709655475475
+    },
+    "ai-imagine.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709656528106,
+      "lastSuccess": 1709656528106
     }
   },
   "msgs": {},
