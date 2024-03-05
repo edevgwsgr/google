@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44967,
+      "exp": 44986,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -243,7 +243,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 152,
+      "exp": 171,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -1022,7 +1022,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4
+      "exp": 42
     },
     "212706690815@s.whatsapp.net": {
       "afk": -1,
@@ -1155,7 +1155,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 15
+      "exp": 37
     },
     "212668267882@s.whatsapp.net": {
       "afk": -1,
@@ -1213,6 +1213,44 @@
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10037
+    },
+    "212630886351@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Mouad",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 46
+    },
+    "212656104661@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Taha",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 24
     }
   },
   "chats": {
@@ -2090,6 +2128,131 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212778920070@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212630886351@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "120363255028983782@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212656104661@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212711900592@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -2136,10 +2299,10 @@
       "lastSuccess": 1709663645528
     },
     "_config-info.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1709591657890,
-      "lastSuccess": 1709591657890
+      "total": 21,
+      "success": 21,
+      "last": 1709667167342,
+      "lastSuccess": 1709667167342
     },
     "owner-addprem.js": {
       "total": 7,
@@ -2220,10 +2383,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1709662527653,
-      "lastSuccess": 1709662527653
+      "total": 31,
+      "success": 31,
+      "last": 1709667274177,
+      "lastSuccess": 1709667274177
     },
     "getvsc.js": {
       "total": 14,
@@ -2304,10 +2467,10 @@
       "lastSuccess": 1709629159361
     },
     "main-welcome.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709662494460,
-      "lastSuccess": 1709662494460
+      "total": 7,
+      "success": 7,
+      "last": 1709667180012,
+      "lastSuccess": 1709667180012
     },
     "owner-getvsc.js": {
       "total": 2,
