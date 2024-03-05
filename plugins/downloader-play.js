@@ -167,7 +167,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 };
 
 handler.command = ['play', 'rffewfw'];
-handler.register = true;
+handler.register = true
 handler.exp = 0;
 handler.limit = 4;
 
