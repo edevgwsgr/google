@@ -738,6 +738,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 59
+    },
+    "212622067027@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Abdlah Lhasnaui",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 129
+    },
+    "212646218521@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 20,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 115,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Soufiane",
+      "GBLanguage": 0,
+      "regTime": 1709651638246,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10075
+    },
+    "212694826055@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "oussamaanoss2",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10
     }
   },
   "chats": {
@@ -1290,6 +1347,81 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212622067027@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212646218521@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212694826055@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -1330,10 +1462,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 9,
-      "success": 1,
-      "last": 1709648979093,
-      "lastSuccess": 1709648979093
+      "total": 11,
+      "success": 2,
+      "last": 1709652020229,
+      "lastSuccess": 1709651639263
     },
     "_config-info.js": {
       "total": 20,
@@ -1366,16 +1498,16 @@
       "lastSuccess": 1709392411021
     },
     "_config-gift.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709591636930,
-      "lastSuccess": 1709591636930
+      "total": 7,
+      "success": 7,
+      "last": 1709651979999,
+      "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 19,
-      "success": 15,
-      "last": 1709642332365,
-      "lastSuccess": 1709642332365
+      "total": 22,
+      "success": 18,
+      "last": 1709652055333,
+      "lastSuccess": 1709652055333
     },
     "main-levelup.js": {
       "total": 4,
@@ -1420,10 +1552,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 22,
-      "success": 22,
-      "last": 1709649127022,
-      "lastSuccess": 1709649127022
+      "total": 25,
+      "success": 25,
+      "last": 1709651675691,
+      "lastSuccess": 1709651675691
     },
     "getvsc.js": {
       "total": 14,
@@ -1504,10 +1636,10 @@
       "lastSuccess": 1709629159361
     },
     "main-welcome.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709648801234,
-      "lastSuccess": 1709648801234
+      "total": 5,
+      "success": 5,
+      "last": 1709651511639,
+      "lastSuccess": 1709651511639
     },
     "owner-getvsc.js": {
       "total": 2,
@@ -1516,10 +1648,10 @@
       "lastSuccess": 1709642148951
     },
     "tools-buyprem.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709642420263,
-      "lastSuccess": 1709642420263
+      "total": 4,
+      "success": 4,
+      "last": 1709651857436,
+      "lastSuccess": 1709651857436
     },
     "ai-tr.js": {
       "total": 2,
@@ -1532,6 +1664,12 @@
       "success": 3,
       "last": 1709648986167,
       "lastSuccess": 1709648986167
+    },
+    "ai-gemini(bard).js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709651814117,
+      "lastSuccess": 1709651814117
     }
   },
   "msgs": {},
