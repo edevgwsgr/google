@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44889,
+      "exp": 44919,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -700,6 +700,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 20
+    },
+    "212644841682@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 20,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 115,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "abdo",
+      "GBLanguage": 0,
+      "regTime": 1709648978329,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10089
+    },
+    "212644662642@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Saad",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 59
     }
   },
   "chats": {
@@ -1202,6 +1240,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212644841682@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212644662642@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -1242,10 +1330,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 8,
-      "success": 0,
-      "last": 1709582581740,
-      "lastSuccess": 0
+      "total": 9,
+      "success": 1,
+      "last": 1709648979093,
+      "lastSuccess": 1709648979093
     },
     "_config-info.js": {
       "total": 20,
@@ -1332,10 +1420,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 18,
-      "success": 18,
-      "last": 1709641972845,
-      "lastSuccess": 1709641972845
+      "total": 22,
+      "success": 22,
+      "last": 1709649127022,
+      "lastSuccess": 1709649127022
     },
     "getvsc.js": {
       "total": 14,
@@ -1416,10 +1504,10 @@
       "lastSuccess": 1709629159361
     },
     "main-welcome.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709641294048,
-      "lastSuccess": 1709641294048
+      "total": 3,
+      "success": 3,
+      "last": 1709648801234,
+      "lastSuccess": 1709648801234
     },
     "owner-getvsc.js": {
       "total": 2,
@@ -1438,6 +1526,12 @@
       "success": 2,
       "last": 1709642405731,
       "lastSuccess": 1709642405731
+    },
+    "ai-game.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709648986167,
+      "lastSuccess": 1709648986167
     }
   },
   "msgs": {},
@@ -1453,6 +1547,15 @@
       "jadibotmd": true
     },
     "212679913546@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "autoread2": false,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
+    },
+    "212657003067@s.whatsapp.net": {
       "self": false,
       "autoread": false,
       "autoread2": false,
