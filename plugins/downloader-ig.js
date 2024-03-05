@@ -86,7 +86,6 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
 handler.help = ['instagram <link ig>'];
 handler.tags = ['downloader'];
 handler.register = true;
-handler.limit = 5;
 handler.command = /^(instagram|ig(dl)?)$/i;
 
 export default handler;
