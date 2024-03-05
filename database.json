@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44986,
+      "exp": 45016,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -946,7 +946,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 29
+      "exp": 35
     },
     "212641229803@s.whatsapp.net": {
       "afk": -1,
@@ -1535,7 +1535,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 22
+      "exp": 115
     },
     "212647257821@s.whatsapp.net": {
       "afk": -1,
@@ -1554,7 +1554,26 @@
       "regTime": 1709678041642,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10057
+      "exp": 10086
+    },
+    "212696076168@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "D_R_A_G_O_N",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 133
     }
   },
   "chats": {
@@ -2982,6 +3001,81 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212696076168@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "120363046334408024@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212657338096@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3184,10 +3278,10 @@
       "lastSuccess": 1709629104228
     },
     "downloader-play.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1709678063950,
-      "lastSuccess": 1709678063950
+      "total": 16,
+      "success": 16,
+      "last": 1709678945139,
+      "lastSuccess": 1709678945139
     },
     "ai-hd.js": {
       "total": 2,
@@ -3260,6 +3354,18 @@
       "success": 2,
       "last": 1709677031443,
       "lastSuccess": 1709677031443
+    },
+    "ramdan-ayati.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709680048011,
+      "lastSuccess": 1709680048011
+    },
+    "test22222.js": {
+      "total": 5,
+      "success": 4,
+      "last": 1709679300844,
+      "lastSuccess": 1709679275120
     }
   },
   "msgs": {},
