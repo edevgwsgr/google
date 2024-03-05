@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3808,
+      "exp": 4005,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44678,
+      "exp": 44846,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -204,7 +204,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 195,
+      "exp": 244,
       "level": 0
     },
     "212608740306@s.whatsapp.net": {
@@ -1284,10 +1284,10 @@
       "lastSuccess": 1709591636930
     },
     "downloader-apk.js": {
-      "total": 17,
-      "success": 13,
-      "last": 1709629135765,
-      "lastSuccess": 1709629135765
+      "total": 19,
+      "success": 15,
+      "last": 1709642332365,
+      "lastSuccess": 1709642332365
     },
     "main-levelup.js": {
       "total": 4,
@@ -1302,10 +1302,10 @@
       "lastSuccess": 1709591665573
     },
     "_config-sf-fils.js": {
-      "total": 8,
-      "success": 7,
-      "last": 1709499676344,
-      "lastSuccess": 1709499676344
+      "total": 9,
+      "success": 8,
+      "last": 1709642108735,
+      "lastSuccess": 1709642108735
     },
     "downloader-ytmp4.js": {
       "total": 5,
@@ -1332,10 +1332,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1709591623772,
-      "lastSuccess": 1709591623772
+      "total": 18,
+      "success": 18,
+      "last": 1709641972845,
+      "lastSuccess": 1709641972845
     },
     "getvsc.js": {
       "total": 14,
@@ -1380,15 +1380,15 @@
       "lastSuccess": 1709518715056
     },
     "_config-ping.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709617626132,
-      "lastSuccess": 1709617626132
+      "total": 9,
+      "success": 9,
+      "last": 1709641993381,
+      "lastSuccess": 1709641993381
     },
     "downloader-tiktok.js": {
-      "total": 2,
+      "total": 3,
       "success": 0,
-      "last": 1709556696238,
+      "last": 1709641952087,
       "lastSuccess": 0
     },
     "tooll-ocr.js": {
@@ -1414,6 +1414,30 @@
       "success": 2,
       "last": 1709629159361,
       "lastSuccess": 1709629159361
+    },
+    "main-welcome.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709641294048,
+      "lastSuccess": 1709641294048
+    },
+    "owner-getvsc.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709642148951,
+      "lastSuccess": 1709642148951
+    },
+    "tools-buyprem.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709642420263,
+      "lastSuccess": 1709642420263
+    },
+    "ai-tr.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709642405731,
+      "lastSuccess": 1709642405731
     }
   },
   "msgs": {},
