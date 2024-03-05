@@ -9,11 +9,11 @@ import moment from 'moment-timezone'
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 global.owner = [
-['212621851554', '𝙊𝙬𝙣𝙚𝙧', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['212621851554', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
+['212621851554', '𝙊𝙬𝙣𝙚𝙧', true], // owner
+['212658323376', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
 ['212672837585', 'Develooper', true]]
 
-global.mods = ['212672837585','212621851554'] 
+global.mods = ['212621851554','212621851554'] 
 global.prems = ['212672837585','212621851554']
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
@@ -85,24 +85,24 @@ global.official = [
 ['59894808483', 'test', 1],
 ['5521989092076', 'test', 1]] 
 
-global.mail = '' //agrega tú correo
+global.mail = 'support@mee6.ai' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //agrega tú país ejemplo: 🇪🇨
+global.country = 'moroco' //agrega tú país ejemplo: 🇪🇨
 
 global.vs = '1.5.2 (beta)'
 global.vsJB = '4.5 (Beta)'
 
 global.gt = 'MEE6'
-global.yt = 'https://youtube.com/'
-global.yt2 = 'https://www.youtube.com/'
-global.ig = 'https://www.instagram.com/ang_0y'
-global.md = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be'
-global.fb = 'https://www.facebook.com/'
+global.yt = 'youtube.com/@alixention6598'
+global.yt2 = 'youtu.be/kU53oGA6oaY?si=ZoBiKhtr611vHTPQ'
+global.ig = 'instagram.com/ang_0y'
+global.md = 'chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be'
+global.fb = 'facebook.com/61554547303308'
 
 global.thumbnailUrl = ['https://telegra.ph/file/3e168b7f803aa0d2ecf02.jpg', 'https://telegra.ph/file/a0c30e910d01267ed62de.jpg', 'https://telegra.ph/file/d4af53b64529bdd137227.jpg']
 
-global.nna = 'https://whatsapp.com/channel/HJvDM8zYgsIKu0hMW3i5be' //CANAL UPDATE
+global.nna = 'https://whatsapp.com/channel/0029Va8dVNTGE56gO21d3a3c' //CANAL UPDATE
 global.nn2 = 'HJvDM8zYgsIKu0hMW3i5be' //Canal GataBot
 global.nna2 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Help
 global.nn = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 1
