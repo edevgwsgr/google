@@ -20,7 +20,10 @@ const fkontak = {
 if (!args[0]) throw `*Ex : ${usedPrefix + command} url*`
   const { key } = await conn.sendMessage(m.chat, {text: wait}, {quoted: fkontak});
 // await delay(1000 * 2);
+await conn.sendMessage(m.chat, {text: wait, edit: key});
 await conn.sendMessage(m.chat, {text: waitt, edit: key});
+await conn.sendMessage(m.chat, {text: waittt, edit: key});
+await conn.sendMessage(m.chat, {text: waitttt, edit: key});
 try {
 const apiUrll = `https://api.betabotz.org/api/download/igdowloader?url=${encodeURIComponent(args[0])}&apikey=bot-secx3`;
 const responsel = await axios.get(apiUrll);
