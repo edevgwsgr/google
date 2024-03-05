@@ -38,6 +38,6 @@ let handler = async (m, { args, conn }) => {
 
 handler.help = ['convert'];
 handler.tags = ['misc'];
-handler.command = ['prem'];
+handler.command = ['prem222'];
 
 export default handler;
