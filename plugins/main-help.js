@@ -53,7 +53,7 @@ _*< downloade Commnds />*_
 
 ▢ _/play & ytmp3_
 ▢ _/ytmp4_
-▢ _/fb_
+▢ _/fb (new)_
 ▢ _/yts_
 ▢ _/ig_
 ▢ _/img_
@@ -85,7 +85,7 @@ _*< Accounte Commnds />*_
 ▢ _/levelup_
 ▢ _/gift_
 
-_*< ramdan Commnds />*_
+_*< ramdan Commnds 🌙 />*_
 
 ▢ _/Advice_
 ▢ _/asmaeallah_
