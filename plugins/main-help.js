@@ -87,7 +87,11 @@ _*< Accounte Commnds />*_
 
 _*< ramdan Commnds />*_
 
-▢ _soon..._
+▢ _/Advice_
+▢ _/asmaeallah_
+▢ _/hadiths_
+▢ _/qran_
+▢ _/ayati_
 
 _*< Other Commnds />*_
 
