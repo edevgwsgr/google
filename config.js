@@ -76,6 +76,11 @@ global.moment = moment
 
 global.packname = 'MEE6'
 global.author = 'MD'
+// waitt
+global.wait = "_*Please wait...*_"
+global.waitt = "_*Please wait..*_"
+global.waittt = "_*Please wait.*_"
+global.waitttt = "_*Please wait*_"
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
