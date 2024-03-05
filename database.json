@@ -681,6 +681,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "17179023737@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "『ꪶ𝒁𝚵𝑭𝑰𝑹𝜣̸͢ ꫂ』BOT",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 20
     }
   },
   "chats": {
@@ -1361,10 +1380,10 @@
       "lastSuccess": 1709518715056
     },
     "_config-ping.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709562560546,
-      "lastSuccess": 1709562560546
+      "total": 8,
+      "success": 8,
+      "last": 1709617626132,
+      "lastSuccess": 1709617626132
     },
     "downloader-tiktok.js": {
       "total": 2,
