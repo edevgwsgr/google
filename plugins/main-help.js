@@ -77,13 +77,13 @@ _*< Ai Commnds />*_
 _*< Accounte Commnds />*_
 
 ▢ _/make-account_
-▢ _/serie_
+▢ _/serie ❌_
 ▢ _/del-account_
-▢ _/transfer_
-▢ _/info_
-▢ _/buy_
+▢ _/transfer ❌_
+▢ _/info ❌_
+▢ _/buy ❌_
 ▢ _/levelup_
-▢ _/gift_
+▢ _/gift ❌_
 
 _*< ramdan Commnds 🌙 />*_
 
