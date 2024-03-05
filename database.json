@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6309,
+      "exp": 6333,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -300,7 +300,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 17
+      "exp": 36
     },
     "393791009633@s.whatsapp.net": {
       "afk": -1,
@@ -813,7 +813,7 @@
       "regTime": 1709655268423,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10103
+      "exp": 10116
     },
     "212625285212@s.whatsapp.net": {
       "afk": -1,
@@ -1041,7 +1041,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 24
+      "exp": 47
     },
     "212695219918@s.whatsapp.net": {
       "afk": -1,
@@ -1212,7 +1212,7 @@
       "regTime": 1709663644917,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10037
+      "exp": 10044
     },
     "212630886351@s.whatsapp.net": {
       "afk": -1,
@@ -1327,6 +1327,101 @@
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10305
+    },
+    "212776402877@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Moamen Ridmani",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 54
+    },
+    "212777388144@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "𝐒𝐡𝐚𝐝𝐨𝐰",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 16
+    },
+    "212632652186@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Uhmaan 😏",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 291
+    },
+    "212617009950@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "عبد الحق",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 34
+    },
+    "212608682574@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Zohir<3",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -2454,6 +2549,131 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212776402877@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212777388144@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212632652186@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212617009950@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212608682574@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -2494,9 +2714,9 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 20,
+      "total": 21,
       "success": 9,
-      "last": 1709670672102,
+      "last": 1709673788101,
       "lastSuccess": 1709670672102
     },
     "_config-info.js": {
@@ -2542,16 +2762,16 @@
       "lastSuccess": 1709670547266
     },
     "main-levelup.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709670706613,
-      "lastSuccess": 1709670706613
+      "total": 6,
+      "success": 6,
+      "last": 1709673993829,
+      "lastSuccess": 1709673993829
     },
     "main-global.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709670648176,
-      "lastSuccess": 1709670648176
+      "total": 9,
+      "success": 9,
+      "last": 1709674110789,
+      "lastSuccess": 1709674110789
     },
     "_config-sf-fils.js": {
       "total": 9,
@@ -2584,10 +2804,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 34,
-      "success": 34,
-      "last": 1709670691774,
-      "lastSuccess": 1709670691774
+      "total": 36,
+      "success": 36,
+      "last": 1709674494075,
+      "lastSuccess": 1709674494075
     },
     "getvsc.js": {
       "total": 14,
@@ -2620,10 +2840,10 @@
       "lastSuccess": 1709662833560
     },
     "ai-yts.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709662544992,
-      "lastSuccess": 1709662544992
+      "total": 6,
+      "success": 6,
+      "last": 1709673987180,
+      "lastSuccess": 1709673987180
     },
     "ai-owner.js": {
       "total": 2,
@@ -2656,10 +2876,10 @@
       "lastSuccess": 1709629104228
     },
     "downloader-play.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709663679137,
-      "lastSuccess": 1709663679137
+      "total": 7,
+      "success": 7,
+      "last": 1709674162336,
+      "lastSuccess": 1709674162336
     },
     "ai-hd.js": {
       "total": 2,
@@ -2686,10 +2906,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709642405731,
-      "lastSuccess": 1709642405731
+      "total": 5,
+      "success": 5,
+      "last": 1709674028248,
+      "lastSuccess": 1709674028248
     },
     "ai-game.js": {
       "total": 3,
