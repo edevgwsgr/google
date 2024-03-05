@@ -852,6 +852,25 @@
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10056
+    },
+    "212702258322@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 20,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 111,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "فؤاد",
+      "GBLanguage": 0,
+      "regTime": 1709659080877,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10038
     }
   },
   "chats": {
@@ -1554,6 +1573,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212702258322@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -1594,10 +1638,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 15,
-      "success": 5,
-      "last": 1709656494052,
-      "lastSuccess": 1709656494052
+      "total": 16,
+      "success": 6,
+      "last": 1709659081441,
+      "lastSuccess": 1709659081441
     },
     "_config-info.js": {
       "total": 20,
@@ -1756,10 +1800,10 @@
       "lastSuccess": 1709629104228
     },
     "downloader-play.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709655415012,
-      "lastSuccess": 1709655415012
+      "total": 4,
+      "success": 4,
+      "last": 1709659103034,
+      "lastSuccess": 1709659103034
     },
     "ai-hd.js": {
       "total": 2,
