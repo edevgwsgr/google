@@ -11,9 +11,10 @@ if (!args[0].match(/www.facebook.com|fb.watch/g)) return conn.reply(m.chat, `Ex 
 try {
 const { key } = await conn.sendMessage(m.chat, {text: wait}, {quoted: fkontak});
 // await delay(1000 * 2);
-await conn.sendMessage(m.chat, {text: waitt, edit: key});
-await conn.sendMessage(m.chat, {text: waittt, edit: key});
-await conn.sendMessage(m.chat, {text: waitttt, edit: key});
+    const wait = "Please wait...";
+    const waitt = "Please wait some more...";
+    const waittt = "Still waiting...";
+    const waitttt = "Almost done...";
 const d2ata = await facebook.v1(args[0]);
 let r2es = '';
 if (d2ata.urls && d2ata.urls.length > 0) {
