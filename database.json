@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6778,
+      "exp": 6905,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -3382,10 +3382,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 42,
-      "success": 42,
-      "last": 1709713161996,
-      "lastSuccess": 1709713161996
+      "total": 43,
+      "success": 43,
+      "last": 1709717149794,
+      "lastSuccess": 1709717149794
     },
     "getvsc.js": {
       "total": 14,
@@ -3484,10 +3484,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709674028248,
-      "lastSuccess": 1709674028248
+      "total": 7,
+      "success": 7,
+      "last": 1709717194845,
+      "lastSuccess": 1709717194845
     },
     "ai-game.js": {
       "total": 4,
@@ -3502,10 +3502,10 @@
       "lastSuccess": 1709707540270
     },
     "ai-geminiimg(bard).js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709670625727,
-      "lastSuccess": 1709670625727
+      "total": 8,
+      "success": 7,
+      "last": 1709717220370,
+      "lastSuccess": 1709717220370
     },
     "ai-imagine.js": {
       "total": 7,
