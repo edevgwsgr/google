@@ -756,7 +756,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 148
+      "exp": 149
     },
     "212646218521@s.whatsapp.net": {
       "afk": -1,
@@ -775,7 +775,7 @@
       "regTime": 1709651638246,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10075
+      "exp": 10094
     },
     "212694826055@s.whatsapp.net": {
       "afk": -1,
@@ -1744,7 +1744,7 @@
       "regTime": 1709728434261,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10056
+      "exp": 10077
     },
     "212708931052@s.whatsapp.net": {
       "afk": -1,
@@ -1802,6 +1802,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 15
+    },
+    "212713932503@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Rida",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 26
+    },
+    "212700525660@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "MO5TAR 🇲🇦❤‍🩹🇵🇸",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 18
     }
   },
   "chats": {
@@ -3654,6 +3692,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212713932503@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212700525660@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3760,10 +3848,10 @@
       "lastSuccess": 1709642108735
     },
     "downloader-ytmp4.js": {
-      "total": 11,
-      "success": 5,
-      "last": 1709742505811,
-      "lastSuccess": 1709742505811
+      "total": 12,
+      "success": 6,
+      "last": 1709760551062,
+      "lastSuccess": 1709760551062
     },
     "downloader-obb.js": {
       "total": 2,
@@ -3886,10 +3974,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1709721105714,
-      "lastSuccess": 1709721105714
+      "total": 12,
+      "success": 12,
+      "last": 1709760532099,
+      "lastSuccess": 1709760532099
     },
     "ai-game.js": {
       "total": 4,
@@ -3952,10 +4040,16 @@
       "lastSuccess": 1709707689582
     },
     "downloader-ig.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1709759690665,
+      "lastSuccess": 1709759690665
+    },
+    "tooll-buylimit.js": {
       "total": 2,
       "success": 2,
-      "last": 1709734417286,
-      "lastSuccess": 1709734417286
+      "last": 1709759407891,
+      "lastSuccess": 1709759407891
     }
   },
   "msgs": {},
