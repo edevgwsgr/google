@@ -184,7 +184,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6333,
+      "exp": 6490,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -965,7 +965,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 11
     },
     "212773805908@s.whatsapp.net": {
       "afk": -1,
@@ -1573,7 +1573,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 159
+      "exp": 160
     },
     "201021568145@s.whatsapp.net": {
       "afk": -1,
@@ -1840,6 +1840,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 18
+    },
+    "212690385292@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "🔥❤️ُÏLŸÄS❤️🔥",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 9
     }
   },
   "chats": {
@@ -3742,6 +3761,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212641229803@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212690385292@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3788,10 +3857,10 @@
       "lastSuccess": 1709752228227
     },
     "_config-info.js": {
-      "total": 26,
-      "success": 26,
-      "last": 1709756519743,
-      "lastSuccess": 1709756519743
+      "total": 27,
+      "success": 27,
+      "last": 1709764090336,
+      "lastSuccess": 1709764090336
     },
     "owner-addprem.js": {
       "total": 7,
@@ -3824,10 +3893,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 35,
-      "success": 31,
-      "last": 1709728997997,
-      "lastSuccess": 1709728997997
+      "total": 36,
+      "success": 32,
+      "last": 1709764076596,
+      "lastSuccess": 1709764076596
     },
     "main-levelup.js": {
       "total": 9,
@@ -3872,10 +3941,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 51,
-      "success": 51,
-      "last": 1709757111252,
-      "lastSuccess": 1709757111252
+      "total": 54,
+      "success": 54,
+      "last": 1709764250628,
+      "lastSuccess": 1709764250628
     },
     "getvsc.js": {
       "total": 14,
@@ -3974,10 +4043,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1709760532099,
-      "lastSuccess": 1709760532099
+      "total": 14,
+      "success": 14,
+      "last": 1709764380819,
+      "lastSuccess": 1709764380819
     },
     "ai-game.js": {
       "total": 4,
@@ -3986,10 +4055,10 @@
       "lastSuccess": 1709677108923
     },
     "ai-gemini(bard).js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709707540270,
-      "lastSuccess": 1709707540270
+      "total": 7,
+      "success": 7,
+      "last": 1709764199140,
+      "lastSuccess": 1709764199140
     },
     "ai-geminiimg(bard).js": {
       "total": 9,
@@ -3998,10 +4067,10 @@
       "lastSuccess": 1709752965342
     },
     "ai-imagine.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709685941528,
-      "lastSuccess": 1709685941528
+      "total": 8,
+      "success": 8,
+      "last": 1709764472341,
+      "lastSuccess": 1709764472341
     },
     "ai-sticker.js": {
       "total": 13,
@@ -4050,6 +4119,12 @@
       "success": 2,
       "last": 1709759407891,
       "lastSuccess": 1709759407891
+    },
+    "jadibot-serbot (1).js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709763854086,
+      "lastSuccess": 1709763854086
     }
   },
   "msgs": {},
@@ -4074,6 +4149,15 @@
       "jadibotmd": true
     },
     "212657003067@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "autoread2": false,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
+    },
+    "212696076168@s.whatsapp.net": {
       "self": false,
       "autoread": false,
       "autoread2": false,
