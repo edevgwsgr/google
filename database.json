@@ -1650,6 +1650,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 17
+    },
+    "212669771242@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "داࢦـيـ͠ش اࢦـࢪ͜͡وســ͠ي 🌹⃟🇳🇱",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 69
     }
   },
   "chats": {
@@ -3252,6 +3271,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212669771242@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3484,10 +3528,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709717194845,
-      "lastSuccess": 1709717194845
+      "total": 11,
+      "success": 11,
+      "last": 1709721105714,
+      "lastSuccess": 1709721105714
     },
     "ai-game.js": {
       "total": 4,
