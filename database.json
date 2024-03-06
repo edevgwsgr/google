@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6905,
+      "exp": 6933,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -1745,6 +1745,25 @@
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10056
+    },
+    "212708931052@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "عائلتي حتى الموت",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 17
     }
   },
   "chats": {
@@ -3472,6 +3491,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212708931052@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3768,6 +3812,12 @@
       "success": 26,
       "last": 1709707689582,
       "lastSuccess": 1709707689582
+    },
+    "downloader-ig.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709734417286,
+      "lastSuccess": 1709734417286
     }
   },
   "msgs": {},
