@@ -1635,21 +1635,21 @@
     "212704145464@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 18,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
-      "level": 0,
+      "limit": 115,
+      "level": 4,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Aymane",
+      "name": "aymane",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709731475363,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 24
+      "exp": 10088
     },
     "212669771242@s.whatsapp.net": {
       "afk": -1,
@@ -3512,10 +3512,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 28,
-      "success": 14,
-      "last": 1709728434922,
-      "lastSuccess": 1709728434922
+      "total": 29,
+      "success": 15,
+      "last": 1709731475978,
+      "lastSuccess": 1709731475978
     },
     "_config-info.js": {
       "total": 23,
@@ -3560,10 +3560,10 @@
       "lastSuccess": 1709728997997
     },
     "main-levelup.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709676972644,
-      "lastSuccess": 1709676972644
+      "total": 8,
+      "success": 8,
+      "last": 1709731484313,
+      "lastSuccess": 1709731484313
     },
     "main-global.js": {
       "total": 9,
@@ -3602,10 +3602,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 45,
-      "success": 45,
-      "last": 1709728916228,
-      "lastSuccess": 1709728916228
+      "total": 46,
+      "success": 46,
+      "last": 1709731491921,
+      "lastSuccess": 1709731491921
     },
     "getvsc.js": {
       "total": 14,
