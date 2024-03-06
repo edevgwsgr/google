@@ -842,7 +842,7 @@
       "BannedReason": "",
       "Banneduser": false,
       "limit": 115,
-      "level": 0,
+      "level": 4,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -851,7 +851,7 @@
       "regTime": 1709656493141,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10205
+      "exp": 10265
     },
     "212702258322@s.whatsapp.net": {
       "afk": -1,
@@ -3648,10 +3648,10 @@
       "lastSuccess": 1709728997997
     },
     "main-levelup.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709731484313,
-      "lastSuccess": 1709731484313
+      "total": 9,
+      "success": 9,
+      "last": 1709742652837,
+      "lastSuccess": 1709742652837
     },
     "main-global.js": {
       "total": 9,
@@ -3666,10 +3666,10 @@
       "lastSuccess": 1709642108735
     },
     "downloader-ytmp4.js": {
-      "total": 10,
-      "success": 4,
-      "last": 1709685856212,
-      "lastSuccess": 1709685856212
+      "total": 11,
+      "success": 5,
+      "last": 1709742505811,
+      "lastSuccess": 1709742505811
     },
     "downloader-obb.js": {
       "total": 2,
