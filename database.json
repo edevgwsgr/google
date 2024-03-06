@@ -184,7 +184,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6310,
+      "exp": 6333,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -300,7 +300,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 85
+      "exp": 86
     },
     "393791009633@s.whatsapp.net": {
       "afk": -1,
@@ -756,7 +756,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 129
+      "exp": 148
     },
     "212646218521@s.whatsapp.net": {
       "afk": -1,
@@ -1592,7 +1592,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 143
+      "exp": 248
     },
     "212703974470@s.whatsapp.net": {
       "afk": -1,
@@ -3700,10 +3700,10 @@
       "lastSuccess": 1709752228227
     },
     "_config-info.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1709752933737,
-      "lastSuccess": 1709752933737
+      "total": 26,
+      "success": 26,
+      "last": 1709756519743,
+      "lastSuccess": 1709756519743
     },
     "owner-addprem.js": {
       "total": 7,
@@ -3784,10 +3784,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 49,
-      "success": 49,
-      "last": 1709753594659,
-      "lastSuccess": 1709753594659
+      "total": 51,
+      "success": 51,
+      "last": 1709757111252,
+      "lastSuccess": 1709757111252
     },
     "getvsc.js": {
       "total": 14,
@@ -3916,10 +3916,10 @@
       "lastSuccess": 1709685941528
     },
     "ai-sticker.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1709684875918,
-      "lastSuccess": 1709684875918
+      "total": 13,
+      "success": 13,
+      "last": 1709756956689,
+      "lastSuccess": 1709756956689
     },
     "downloader-facebook.js": {
       "total": 4,
