@@ -184,7 +184,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6490,
+      "exp": 6585,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -1231,7 +1231,7 @@
       "regTime": 1709670617694,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10353
+      "exp": 10371
     },
     "212656104661@s.whatsapp.net": {
       "afk": -1,
@@ -4043,10 +4043,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1709764380819,
-      "lastSuccess": 1709764380819
+      "total": 16,
+      "success": 16,
+      "last": 1709767811920,
+      "lastSuccess": 1709767811920
     },
     "ai-game.js": {
       "total": 4,
@@ -4121,10 +4121,10 @@
       "lastSuccess": 1709759407891
     },
     "jadibot-serbot (1).js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709763854086,
-      "lastSuccess": 1709763854086
+      "total": 5,
+      "success": 5,
+      "last": 1709766963783,
+      "lastSuccess": 1709766963783
     }
   },
   "msgs": {},
