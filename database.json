@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6933,
+      "exp": 6996,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -1160,21 +1160,21 @@
     "212668267882@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 18,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 115,
       "level": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "ࡅٜߺ𐬛ܭܚࡅߺו",
+      "name": "bokssa",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709752227191,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 14
+      "exp": 10035
     },
     "212684681725@s.whatsapp.net": {
       "afk": -1,
@@ -1554,7 +1554,7 @@
       "regTime": 1709678041642,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10086
+      "exp": 10106
     },
     "212696076168@s.whatsapp.net": {
       "afk": -1,
@@ -1573,7 +1573,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 133
+      "exp": 159
     },
     "201021568145@s.whatsapp.net": {
       "afk": -1,
@@ -1783,6 +1783,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 10
+    },
+    "212648372394@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Imane♡",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 15
     }
   },
   "chats": {
@@ -3610,6 +3629,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212648372394@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3650,16 +3694,16 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 30,
-      "success": 15,
-      "last": 1709746074003,
-      "lastSuccess": 1709731475978
+      "total": 31,
+      "success": 16,
+      "last": 1709752228227,
+      "lastSuccess": 1709752228227
     },
     "_config-info.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1709746290700,
-      "lastSuccess": 1709746290700
+      "total": 25,
+      "success": 25,
+      "last": 1709752933737,
+      "lastSuccess": 1709752933737
     },
     "owner-addprem.js": {
       "total": 7,
@@ -3740,10 +3784,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 46,
-      "success": 46,
-      "last": 1709731491921,
-      "lastSuccess": 1709731491921
+      "total": 49,
+      "success": 49,
+      "last": 1709753594659,
+      "lastSuccess": 1709753594659
     },
     "getvsc.js": {
       "total": 14,
@@ -3812,10 +3856,10 @@
       "lastSuccess": 1709629104228
     },
     "downloader-play.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1709728455835,
-      "lastSuccess": 1709728455835
+      "total": 29,
+      "success": 29,
+      "last": 1709752256396,
+      "lastSuccess": 1709752256396
     },
     "ai-hd.js": {
       "total": 2,
@@ -3860,10 +3904,10 @@
       "lastSuccess": 1709707540270
     },
     "ai-geminiimg(bard).js": {
-      "total": 8,
-      "success": 7,
-      "last": 1709717220370,
-      "lastSuccess": 1709717220370
+      "total": 9,
+      "success": 8,
+      "last": 1709752965342,
+      "lastSuccess": 1709752965342
     },
     "ai-imagine.js": {
       "total": 7,
