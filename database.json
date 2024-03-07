@@ -1288,7 +1288,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 27
+      "exp": 102
     },
     "212762541720@s.whatsapp.net": {
       "afk": -1,
@@ -1901,21 +1901,21 @@
     "212676744765@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 115,
       "level": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "🥶🥶",
+      "name": "chafik",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1709820013141,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 20
+      "exp": 10146
     },
     "994403758562@s.whatsapp.net": {
       "afk": -1,
@@ -2030,6 +2030,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 34
+    },
+    "212771448435@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ㅤㅤㅤㅤㅤㅤㅤ",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 45
+    },
+    "212659134577@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "CHAFIK 👻❤‍🩹❤‍🔥",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 33
+    },
+    "212619227414@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Oussama",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 28
     }
   },
   "chats": {
@@ -4207,6 +4264,81 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212771448435@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212659134577@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212619227414@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4247,10 +4379,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 32,
-      "success": 17,
-      "last": 1709797441245,
-      "lastSuccess": 1709797441245
+      "total": 33,
+      "success": 18,
+      "last": 1709820013774,
+      "lastSuccess": 1709820013774
     },
     "_config-info.js": {
       "total": 28,
@@ -4289,10 +4421,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 36,
-      "success": 32,
-      "last": 1709764076596,
-      "lastSuccess": 1709764076596
+      "total": 40,
+      "success": 36,
+      "last": 1709820021688,
+      "lastSuccess": 1709820021688
     },
     "main-levelup.js": {
       "total": 9,
@@ -4337,10 +4469,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 63,
-      "success": 63,
-      "last": 1709804332797,
-      "lastSuccess": 1709804332797
+      "total": 65,
+      "success": 65,
+      "last": 1709819201594,
+      "lastSuccess": 1709819201594
     },
     "getvsc.js": {
       "total": 14,
@@ -4421,10 +4553,10 @@
       "lastSuccess": 1709797541348
     },
     "main-welcome.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709676857017,
-      "lastSuccess": 1709676857017
+      "total": 13,
+      "success": 13,
+      "last": 1709820544192,
+      "lastSuccess": 1709820544192
     },
     "owner-getvsc.js": {
       "total": 2,
@@ -4451,10 +4583,10 @@
       "lastSuccess": 1709677108923
     },
     "ai-gemini(bard).js": {
-      "total": 10,
-      "success": 10,
-      "last": 1709802447618,
-      "lastSuccess": 1709802447618
+      "total": 11,
+      "success": 11,
+      "last": 1709820064367,
+      "lastSuccess": 1709820064367
     },
     "ai-geminiimg(bard).js": {
       "total": 10,
@@ -4475,10 +4607,10 @@
       "lastSuccess": 1709801124045
     },
     "downloader-facebook.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709797462622,
-      "lastSuccess": 1709797462622
+      "total": 7,
+      "success": 7,
+      "last": 1709819172766,
+      "lastSuccess": 1709819172766
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
@@ -4523,10 +4655,10 @@
       "lastSuccess": 1709813879029
     },
     "downloader-mediafire.js": {
-      "total": 4,
-      "success": 2,
-      "last": 1709817099585,
-      "lastSuccess": 1709817099585
+      "total": 8,
+      "success": 3,
+      "last": 1709820164078,
+      "lastSuccess": 1709819272676
     }
   },
   "msgs": {},
