@@ -53,6 +53,7 @@ _*< downloade Commnds />*_
 
 ▢ _/play & ytmp3_
 ▢ _/ytmp4_
+▢ _/mediafire 3days_
 ▢ _/fb (new)_
 ▢ _/yts_
 ▢ _/ig_
@@ -78,7 +79,7 @@ _*< Accounte Commnds />*_
 
 ▢ _/make-account_
 ▢ _/serie ❌_
-▢ _/del-account_
+▢ _/del-account ❌_
 ▢ _/transfer ❌_
 ▢ _/info ❌_
 ▢ _/buy ❌_
@@ -95,7 +96,7 @@ _*< ramdan Commnds 🌙 />*_
 
 _*< Other Commnds />*_
 
-▢ _/infobot_
+▢ _/infobot ❌_
 ▢ _/math_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
