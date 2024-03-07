@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45088,
+      "exp": 45099,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -300,7 +300,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 86
+      "exp": 106
     },
     "393791009633@s.whatsapp.net": {
       "afk": -1,
@@ -1973,6 +1973,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 23
+    },
+    "212712421406@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Yahya",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 13
     }
   },
   "chats": {
@@ -4075,6 +4094,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212712421406@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4373,10 +4417,10 @@
       "lastSuccess": 1709707689582
     },
     "downloader-ig.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709759690665,
-      "lastSuccess": 1709759690665
+      "total": 4,
+      "success": 4,
+      "last": 1709808507571,
+      "lastSuccess": 1709808507571
     },
     "tooll-buylimit.js": {
       "total": 2,
