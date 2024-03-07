@@ -184,7 +184,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6769,
+      "exp": 6814,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -300,7 +300,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 111
+      "exp": 112
     },
     "393791009633@s.whatsapp.net": {
       "afk": -1,
@@ -2125,6 +2125,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212639223011@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "؁iℓyαʂʂ؁",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 33
+    },
+    "212655368209@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "فضــــائـَٕي💊💉🫥",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
     }
   },
   "chats": {
@@ -4427,6 +4465,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212639223011@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212655368209@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4641,10 +4729,10 @@
       "lastSuccess": 1709797541348
     },
     "main-welcome.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1709822895673,
-      "lastSuccess": 1709822895673
+      "total": 15,
+      "success": 15,
+      "last": 1709832628546,
+      "lastSuccess": 1709832628546
     },
     "owner-getvsc.js": {
       "total": 2,
@@ -4695,10 +4783,10 @@
       "lastSuccess": 1709801124045
     },
     "downloader-facebook.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709819172766,
-      "lastSuccess": 1709819172766
+      "total": 8,
+      "success": 8,
+      "last": 1709831811373,
+      "lastSuccess": 1709831811373
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
@@ -4725,10 +4813,10 @@
       "lastSuccess": 1709707689582
     },
     "downloader-ig.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709808507571,
-      "lastSuccess": 1709808507571
+      "total": 5,
+      "success": 5,
+      "last": 1709831901763,
+      "lastSuccess": 1709831901763
     },
     "tooll-buylimit.js": {
       "total": 2,
@@ -4743,10 +4831,10 @@
       "lastSuccess": 1709826337927
     },
     "downloader-mediafire.js": {
-      "total": 8,
-      "success": 3,
-      "last": 1709820164078,
-      "lastSuccess": 1709819272676
+      "total": 11,
+      "success": 6,
+      "last": 1709832708018,
+      "lastSuccess": 1709832708018
     }
   },
   "msgs": {},
