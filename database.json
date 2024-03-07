@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45036,
+      "exp": 45088,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -4073,10 +4073,10 @@
       "lastSuccess": 1709764472341
     },
     "ai-sticker.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1709756956689,
-      "lastSuccess": 1709756956689
+      "total": 14,
+      "success": 14,
+      "last": 1709771601352,
+      "lastSuccess": 1709771601352
     },
     "downloader-facebook.js": {
       "total": 4,
@@ -4121,10 +4121,10 @@
       "lastSuccess": 1709759407891
     },
     "jadibot-serbot (1).js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709766963783,
-      "lastSuccess": 1709766963783
+      "total": 6,
+      "success": 6,
+      "last": 1709771601089,
+      "lastSuccess": 1709771601089
     }
   },
   "msgs": {},
