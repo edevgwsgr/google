@@ -184,7 +184,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6585,
+      "exp": 6769,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7123,
+      "exp": 7170,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -1573,7 +1573,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 160
+      "exp": 217
     },
     "201021568145@s.whatsapp.net": {
       "afk": -1,
@@ -1649,7 +1649,7 @@
       "regTime": 1709731475363,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10088
+      "exp": 10100
     },
     "212669771242@s.whatsapp.net": {
       "afk": -1,
@@ -1935,6 +1935,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 24
+    },
+    "212638220789@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "✨🤤💚",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 6
     }
   },
   "chats": {
@@ -3987,6 +4006,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363027688533548@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4033,10 +4077,10 @@
       "lastSuccess": 1709797441245
     },
     "_config-info.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1709764090336,
-      "lastSuccess": 1709764090336
+      "total": 28,
+      "success": 28,
+      "last": 1709801772539,
+      "lastSuccess": 1709801772539
     },
     "owner-addprem.js": {
       "total": 7,
@@ -4117,10 +4161,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 58,
-      "success": 58,
-      "last": 1709797559531,
-      "lastSuccess": 1709797559531
+      "total": 62,
+      "success": 62,
+      "last": 1709801550414,
+      "lastSuccess": 1709801550414
     },
     "getvsc.js": {
       "total": 14,
@@ -4147,10 +4191,10 @@
       "lastSuccess": 1709499545051
     },
     "ai-chatgpt.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709662833560,
-      "lastSuccess": 1709662833560
+      "total": 9,
+      "success": 9,
+      "last": 1709800845056,
+      "lastSuccess": 1709800845056
     },
     "ai-yts.js": {
       "total": 7,
@@ -4219,10 +4263,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1709767811920,
-      "lastSuccess": 1709767811920
+      "total": 17,
+      "success": 17,
+      "last": 1709802453977,
+      "lastSuccess": 1709802453977
     },
     "ai-game.js": {
       "total": 4,
@@ -4231,28 +4275,28 @@
       "lastSuccess": 1709677108923
     },
     "ai-gemini(bard).js": {
-      "total": 9,
-      "success": 9,
-      "last": 1709798716970,
-      "lastSuccess": 1709798716970
+      "total": 10,
+      "success": 10,
+      "last": 1709802447618,
+      "lastSuccess": 1709802447618
     },
     "ai-geminiimg(bard).js": {
-      "total": 9,
-      "success": 8,
-      "last": 1709752965342,
-      "lastSuccess": 1709752965342
+      "total": 10,
+      "success": 9,
+      "last": 1709800870164,
+      "lastSuccess": 1709800870164
     },
     "ai-imagine.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709764472341,
-      "lastSuccess": 1709764472341
+      "total": 11,
+      "success": 11,
+      "last": 1709801095004,
+      "lastSuccess": 1709801095004
     },
     "ai-sticker.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1709780646912,
-      "lastSuccess": 1709780646912
+      "total": 22,
+      "success": 22,
+      "last": 1709801124045,
+      "lastSuccess": 1709801124045
     },
     "downloader-facebook.js": {
       "total": 6,
@@ -4261,10 +4305,10 @@
       "lastSuccess": 1709797462622
     },
     "ramadan-pickRandom3.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709746328170,
-      "lastSuccess": 1709746328170
+      "total": 8,
+      "success": 8,
+      "last": 1709800759955,
+      "lastSuccess": 1709800759955
     },
     "ramdan-ayati.js": {
       "total": 6,
@@ -4297,10 +4341,10 @@
       "lastSuccess": 1709759407891
     },
     "jadibot-serbot (1).js": {
-      "total": 6,
-      "success": 6,
-      "last": 1709771601089,
-      "lastSuccess": 1709771601089
+      "total": 8,
+      "success": 8,
+      "last": 1709800682163,
+      "lastSuccess": 1709800682163
     }
   },
   "msgs": {},
