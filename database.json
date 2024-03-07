@@ -1859,6 +1859,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 9
+    },
+    "212714632095@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "@𝒔𝒊𝒍𝒇𝒊𝒏𝒂 𝒎𝒂𝒓𝒘𝒂 🖤!",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 18
     }
   },
   "chats": {
@@ -3811,6 +3830,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212714632095@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4073,10 +4117,10 @@
       "lastSuccess": 1709764472341
     },
     "ai-sticker.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1709771601352,
-      "lastSuccess": 1709771601352
+      "total": 16,
+      "success": 16,
+      "last": 1709775368583,
+      "lastSuccess": 1709775368583
     },
     "downloader-facebook.js": {
       "total": 4,
