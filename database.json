@@ -1877,7 +1877,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 18
+      "exp": 90
     }
   },
   "chats": {
@@ -4117,10 +4117,10 @@
       "lastSuccess": 1709764472341
     },
     "ai-sticker.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1709775368583,
-      "lastSuccess": 1709775368583
+      "total": 21,
+      "success": 21,
+      "last": 1709780646912,
+      "lastSuccess": 1709780646912
     },
     "downloader-facebook.js": {
       "total": 4,
