@@ -1954,6 +1954,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 6
+    },
+    "212760150170@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "rabiifatimazahra22",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
     }
   },
   "chats": {
@@ -4031,6 +4050,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212760150170@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -4161,10 +4205,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 62,
-      "success": 62,
-      "last": 1709801550414,
-      "lastSuccess": 1709801550414
+      "total": 63,
+      "success": 63,
+      "last": 1709804332797,
+      "lastSuccess": 1709804332797
     },
     "getvsc.js": {
       "total": 14,
