@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45114,
+      "exp": 45157,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -4523,10 +4523,10 @@
       "lastSuccess": 1709813879029
     },
     "downloader-mediafire.js": {
-      "total": 2,
-      "success": 0,
-      "last": 1709813182241,
-      "lastSuccess": 0
+      "total": 4,
+      "success": 2,
+      "last": 1709817099585,
+      "lastSuccess": 1709817099585
     }
   },
   "msgs": {},
