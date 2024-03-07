@@ -223,7 +223,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7170,
+      "exp": 7184,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -2029,7 +2029,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 62
+      "exp": 89
     },
     "212771448435@s.whatsapp.net": {
       "afk": -1,
@@ -4557,10 +4557,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 67,
-      "success": 67,
-      "last": 1709822944888,
-      "lastSuccess": 1709822944888
+      "total": 69,
+      "success": 69,
+      "last": 1709827554031,
+      "lastSuccess": 1709827554031
     },
     "getvsc.js": {
       "total": 14,
@@ -4737,10 +4737,10 @@
       "lastSuccess": 1709759407891
     },
     "jadibot-serbot (1).js": {
-      "total": 10,
-      "success": 10,
-      "last": 1709813879029,
-      "lastSuccess": 1709813879029
+      "total": 11,
+      "success": 11,
+      "last": 1709826337927,
+      "lastSuccess": 1709826337927
     },
     "downloader-mediafire.js": {
       "total": 8,
