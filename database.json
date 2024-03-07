@@ -1878,6 +1878,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 90
+    },
+    "212644687739@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Po",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 41
     }
   },
   "chats": {
@@ -3855,6 +3874,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212644687739@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -3985,10 +4029,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 54,
-      "success": 54,
-      "last": 1709764250628,
-      "lastSuccess": 1709764250628
+      "total": 55,
+      "success": 55,
+      "last": 1709794563837,
+      "lastSuccess": 1709794563837
     },
     "getvsc.js": {
       "total": 14,
