@@ -28,76 +28,18 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *ramdan karim 🌙,* ${taguser}
 
  _*< Your Accounte />*_
+ 
+ ▢ *Gold :* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')}
 
- ▢ *Level :* ${level}
- ▢ *Exp :* ${exp}
- ▢ *Diamantes :* ${limit}
- ▢ *Premium :* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')}
- ▢ *Registrado :* ${user.registered === true ? '✅' : '❌'}
+_*< Gold Commnds />*_
 
-_*< Bot Commnds />*_
-
-▢ _/jadibot_
-▢ _/listjadibot_
-▢ _/deletesesion_
-▢ _/ping_
-
-_*< Premium Commnds />*_
-
-▢ _/apk_
-▢ _/obb_
-▢ _/imganime2_
-▢ _/imagine2_
-
-_*< downloade Commnds />*_
-
-▢ _/play & ytmp3_
-▢ _/ytmp4_
-▢ _/mediafire 3days_
-▢ _/fb (new)_
-▢ _/yts_
-▢ _/ig_
-▢ _/img_
-▢ _/tiktok_
-
-_*< Ai Commnds />*_
-
-▢ _/imagine_
-▢ _/imganime_
-▢ _/hdr_
-▢ _/bard_
-▢ _/bard2 (beta)_
-▢ _/bardimg_
-▢ _/ai_
-▢ _/chatgpt_
-▢ _/hdr_
-▢ _/ocr_
-▢ _/tr <code>_
-▢ _/cuturl_
-
-_*< Accounte Commnds />*_
-
-▢ _/make-account_
-▢ _/serie ❌_
-▢ _/del-account ❌_
-▢ _/transfer ❌_
-▢ _/info ❌_
-▢ _/buy ❌_
-▢ _/levelup_
-▢ _/gift ❌_
-
-_*< ramdan Commnds 🌙 />*_
-
-▢ _/Advice_
-▢ _/asmaeallah_
-▢ _/hadiths_
-▢ _/qran_
-▢ _/ayati_
-
-_*< Other Commnds />*_
-
-▢ _/infobot ❌_
-▢ _/math_`.trim();
+▢ _/apk 3 days_
+▢ _/obb 3 days_
+▢ _/fb 3 days_
+▢ _/mediafire 3 days_
+_*< Support Commnds />*_
+▢ _/report 3 days_
+▢ _/owner 3 days_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
