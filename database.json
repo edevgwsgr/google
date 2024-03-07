@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4281,
+      "exp": 4433,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45240,
+      "exp": 45291,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -166,7 +166,7 @@
       "regTime": 1709468135443,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 95,
+      "exp": 108,
       "level": 0
     },
     "212779873495@s.whatsapp.net": {
@@ -185,7 +185,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7050,
+      "exp": 7117,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -205,7 +205,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 253,
+      "exp": 283,
       "level": 0
     },
     "212608740306@s.whatsapp.net": {
@@ -814,7 +814,7 @@
       "regTime": 1709655268423,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10155
+      "exp": 10253
     },
     "212625285212@s.whatsapp.net": {
       "afk": -1,
@@ -1232,7 +1232,7 @@
       "regTime": 1709670617694,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10390
+      "exp": 10453
     },
     "212656104661@s.whatsapp.net": {
       "afk": -1,
@@ -1650,7 +1650,7 @@
       "regTime": 1709731475363,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10100
+      "exp": 10127
     },
     "212669771242@s.whatsapp.net": {
       "afk": -1,
@@ -2619,7 +2619,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 27
+      "exp": 47
     },
     "212649456213@s.whatsapp.net": {
       "afk": -1,
@@ -2753,6 +2753,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 5
+    },
+    "212669367522@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "الله ربي",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 16
+    },
+    "212718083653@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "مروان🇪🇸",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 68
+    },
+    "212696363907@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Elmo",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 21
     }
   },
   "chats": {
@@ -5530,6 +5587,106 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212669367522@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212718083653@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212645640678@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212696363907@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -5612,10 +5769,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 45,
-      "success": 41,
-      "last": 1709848564996,
-      "lastSuccess": 1709848564996
+      "total": 49,
+      "success": 45,
+      "last": 1709852860733,
+      "lastSuccess": 1709852860733
     },
     "main-levelup.js": {
       "total": 10,
@@ -5642,10 +5799,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709416533766,
-      "lastSuccess": 1709416533766
+      "total": 4,
+      "success": 4,
+      "last": 1709852531308,
+      "lastSuccess": 1709852531308
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -5660,10 +5817,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 85,
-      "success": 85,
-      "last": 1709849320425,
-      "lastSuccess": 1709849320425
+      "total": 95,
+      "success": 95,
+      "last": 1709853099636,
+      "lastSuccess": 1709853099636
     },
     "getvsc.js": {
       "total": 14,
@@ -5702,10 +5859,10 @@
       "lastSuccess": 1709685657919
     },
     "ai-owner.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1709845179954,
-      "lastSuccess": 1709845179954
+      "total": 4,
+      "success": 4,
+      "last": 1709852595007,
+      "lastSuccess": 1709852595007
     },
     "_config-ping.js": {
       "total": 10,
@@ -5798,10 +5955,10 @@
       "lastSuccess": 1709848802533
     },
     "downloader-facebook.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1709831811373,
-      "lastSuccess": 1709831811373
+      "total": 12,
+      "success": 12,
+      "last": 1709852740091,
+      "lastSuccess": 1709852740091
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
@@ -5846,16 +6003,22 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 13,
-      "success": 8,
-      "last": 1709848591142,
-      "lastSuccess": 1709848591142
+      "total": 14,
+      "success": 9,
+      "last": 1709852575224,
+      "lastSuccess": 1709852575224
     },
     "owner-exec.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709844898464,
-      "lastSuccess": 1709844898464
+      "total": 7,
+      "success": 7,
+      "last": 1709852616390,
+      "lastSuccess": 1709852616390
+    },
+    "ai-report.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1709852536478,
+      "lastSuccess": 1709852536478
     }
   },
   "msgs": {},
