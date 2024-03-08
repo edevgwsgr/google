@@ -244,7 +244,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 240,
+      "exp": 296,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -5788,10 +5788,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 49,
-      "success": 45,
-      "last": 1709852860733,
-      "lastSuccess": 1709852860733
+      "total": 50,
+      "success": 46,
+      "last": 1709879604798,
+      "lastSuccess": 1709879604798
     },
     "main-levelup.js": {
       "total": 10,
@@ -5818,10 +5818,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709852531308,
-      "lastSuccess": 1709852531308
+      "total": 5,
+      "success": 5,
+      "last": 1709879593351,
+      "lastSuccess": 1709879593351
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -5836,10 +5836,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 95,
-      "success": 95,
-      "last": 1709853099636,
-      "lastSuccess": 1709853099636
+      "total": 96,
+      "success": 96,
+      "last": 1709879568735,
+      "lastSuccess": 1709879568735
     },
     "getvsc.js": {
       "total": 14,
