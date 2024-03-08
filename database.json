@@ -16,7 +16,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4433,
+      "exp": 4443,
       "level": 0
     },
     "212672837585@s.whatsapp.net": {
@@ -757,7 +757,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 154
+      "exp": 254
     },
     "212646218521@s.whatsapp.net": {
       "afk": -1,
@@ -1232,7 +1232,7 @@
       "regTime": 1709670617694,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10453
+      "exp": 10493
     },
     "212656104661@s.whatsapp.net": {
       "afk": -1,
@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 33
+      "exp": 60
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -2638,7 +2638,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 110
+      "exp": 164
     },
     "212607602965@s.whatsapp.net": {
       "afk": -1,
@@ -5819,6 +5819,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212649456213@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -5901,10 +5926,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 52,
-      "success": 47,
-      "last": 1709886407118,
-      "lastSuccess": 1709886407118
+      "total": 56,
+      "success": 51,
+      "last": 1709901416594,
+      "lastSuccess": 1709901416594
     },
     "main-levelup.js": {
       "total": 10,
@@ -5949,10 +5974,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 99,
-      "success": 99,
-      "last": 1709896988131,
-      "lastSuccess": 1709896988131
+      "total": 102,
+      "success": 102,
+      "last": 1709901569197,
+      "lastSuccess": 1709901569197
     },
     "getvsc.js": {
       "total": 14,
@@ -6135,10 +6160,10 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 14,
-      "success": 9,
-      "last": 1709852575224,
-      "lastSuccess": 1709852575224
+      "total": 17,
+      "success": 12,
+      "last": 1709901740685,
+      "lastSuccess": 1709901740685
     },
     "owner-exec.js": {
       "total": 7,
