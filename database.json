@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 18
+      "exp": 33
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -5836,10 +5836,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 96,
-      "success": 96,
-      "last": 1709879568735,
-      "lastSuccess": 1709879568735
+      "total": 97,
+      "success": 97,
+      "last": 1709882280457,
+      "lastSuccess": 1709882280457
     },
     "getvsc.js": {
       "total": 14,
