@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45291,
+      "exp": 45303,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -166,7 +166,7 @@
       "regTime": 1709468135443,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 108,
+      "exp": 117,
       "level": 0
     },
     "212779873495@s.whatsapp.net": {
@@ -282,7 +282,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 291
+      "exp": 302
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -1042,7 +1042,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 296
+      "exp": 331
     },
     "212695219918@s.whatsapp.net": {
       "afk": -1,
@@ -1289,7 +1289,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 102
+      "exp": 137
     },
     "212762541720@s.whatsapp.net": {
       "afk": -1,
@@ -6146,10 +6146,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 62,
-      "success": 56,
-      "last": 1709914840312,
-      "lastSuccess": 1709914840312
+      "total": 63,
+      "success": 57,
+      "last": 1709918445250,
+      "lastSuccess": 1709918445250
     },
     "main-levelup.js": {
       "total": 10,
@@ -6194,10 +6194,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 108,
-      "success": 108,
-      "last": 1709914901013,
-      "lastSuccess": 1709914901013
+      "total": 109,
+      "success": 109,
+      "last": 1709918283273,
+      "lastSuccess": 1709918283273
     },
     "getvsc.js": {
       "total": 14,
@@ -6242,10 +6242,10 @@
       "lastSuccess": 1709852595007
     },
     "_config-ping.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1709844708293,
-      "lastSuccess": 1709844708293
+      "total": 11,
+      "success": 11,
+      "last": 1709918455624,
+      "lastSuccess": 1709918455624
     },
     "downloader-tiktok.js": {
       "total": 3,
@@ -6380,9 +6380,9 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 21,
+      "total": 22,
       "success": 13,
-      "last": 1709911408682,
+      "last": 1709918309884,
       "lastSuccess": 1709911408682
     },
     "owner-exec.js": {
