@@ -30,7 +30,7 @@ async function apk(url) {
 }
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft\n\nby instagram.com/ang_0y';
+  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft\n\n by instagram.com/ang_0y';
   if (text.toLowerCase().includes("whatsapp")) {
     return conn.reply(m.chat, 'هل تتحدث الآن معي من تويتر أم أنت غبي؟', m);
   }
@@ -40,22 +40,22 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   const MAX_ALLOWED_SIZE_BYTES = 3072 * 1024 * 1024; // 250MB in bytes
 
   if (res.size > MAX_ALLOWED_SIZE_BYTES) {
-    throw 'The apk file is too large. Maximum download size is 3072MB.';
+    throw 'apk by instagram.com/ang_0y/\n\nThe apk file is too large. Maximum download size is 3072MB.';
   }
 
-  await conn.reply(m.chat, 'Searching for the application...');
+  await conn.reply(m.chat, 'apk by instagram.com/ang_0y/\n\nSearching for the application...');
   const { name, packageN } = info;
   const { img, link, developer, size, fileName } = res;
 
   await conn.sendMessage(m.chat, {
     image: { url: img },
-    caption: `*Name:* ${name}\n*Package* : ${packageN}\n*Developer* : ${developer}`,
+    caption: `apk by instagram.com/ang_0y/\n*Name :* ${name}\n*Package* : ${packageN}\n*Developer* : ${developer}`,
   }, 'extendedTextMessage', { quoted: m });
 
   const appRes = await fetch(link);
   const appBuffer = await appRes.buffer();
 
-  conn.reply(m.chat, 'sending app…', m);
+  conn.reply(m.chat, 'apk by instagram.com/ang_0y/\n\nsending app…', m);
   conn.sendFile(m.chat, appBuffer, `${packageN}.apk`, null, m, false, { mimetype: 'application/vnd.android.package-archive' });
 };
 
