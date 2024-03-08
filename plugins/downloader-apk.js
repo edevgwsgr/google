@@ -30,7 +30,7 @@ async function apk(url) {
 }
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft';
+  if (!args[0]) throw 'Ex: ' + usedPrefix + command + ' minecraft\n\nby instagram.com/ang_0y';
   if (text.toLowerCase().includes("whatsapp")) {
     return conn.reply(m.chat, 'هل تتحدث الآن معي من تويتر أم أنت غبي؟', m);
   }
