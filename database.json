@@ -1859,7 +1859,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 32
+      "exp": 45
     },
     "212714632095@s.whatsapp.net": {
       "afk": -1,
@@ -2923,7 +2923,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 72
+      "exp": 187
     },
     "212721336401@s.whatsapp.net": {
       "afk": -1,
@@ -6146,10 +6146,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 60,
-      "success": 55,
-      "last": 1709908264201,
-      "lastSuccess": 1709908264201
+      "total": 62,
+      "success": 56,
+      "last": 1709914840312,
+      "lastSuccess": 1709914840312
     },
     "main-levelup.js": {
       "total": 10,
@@ -6176,9 +6176,9 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 8,
+      "total": 9,
       "success": 7,
-      "last": 1709908276555,
+      "last": 1709914942030,
       "lastSuccess": 1709908276555
     },
     "downloader-apkdl.js": {
@@ -6194,10 +6194,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 107,
-      "success": 107,
-      "last": 1709908063679,
-      "lastSuccess": 1709908063679
+      "total": 108,
+      "success": 108,
+      "last": 1709914901013,
+      "lastSuccess": 1709914901013
     },
     "getvsc.js": {
       "total": 14,
@@ -6332,10 +6332,10 @@
       "lastSuccess": 1709848802533
     },
     "downloader-facebook.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1709908218447,
-      "lastSuccess": 1709908218447
+      "total": 17,
+      "success": 17,
+      "last": 1709914970886,
+      "lastSuccess": 1709914970886
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
@@ -6392,9 +6392,9 @@
       "lastSuccess": 1709852616390
     },
     "ai-report.js": {
-      "total": 3,
+      "total": 4,
       "success": 1,
-      "last": 1709852536478,
+      "last": 1709914929002,
       "lastSuccess": 1709852536478
     }
   },
