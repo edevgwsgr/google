@@ -529,7 +529,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 0
+      "exp": 68
     },
     "212703206254@s.whatsapp.net": {
       "afk": -1,
@@ -2943,6 +2943,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 30
+    },
+    "212628887310@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "hassan naitaissa",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 28
     }
   },
   "chats": {
@@ -6020,6 +6039,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212628887310@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6336,10 +6380,10 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 20,
-      "success": 12,
-      "last": 1709904878188,
-      "lastSuccess": 1709901740685
+      "total": 21,
+      "success": 13,
+      "last": 1709911408682,
+      "lastSuccess": 1709911408682
     },
     "owner-exec.js": {
       "total": 7,
