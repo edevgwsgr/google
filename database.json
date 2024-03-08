@@ -1707,7 +1707,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 130
     },
     "212659641478@s.whatsapp.net": {
       "afk": -1,
@@ -2905,6 +2905,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 42
+    },
+    "212650394111@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Yassine YT",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 72
+    },
+    "212721336401@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "معـ᭄ــاد ♪『™』",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 30
     }
   },
   "chats": {
@@ -5932,6 +5970,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212650394111@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212721336401@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6014,10 +6102,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 56,
-      "success": 51,
-      "last": 1709901416594,
-      "lastSuccess": 1709901416594
+      "total": 60,
+      "success": 55,
+      "last": 1709908264201,
+      "lastSuccess": 1709908264201
     },
     "main-levelup.js": {
       "total": 10,
@@ -6044,10 +6132,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709879593351,
-      "lastSuccess": 1709879593351
+      "total": 8,
+      "success": 7,
+      "last": 1709908276555,
+      "lastSuccess": 1709908276555
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -6062,10 +6150,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 104,
-      "success": 104,
-      "last": 1709904854318,
-      "lastSuccess": 1709904854318
+      "total": 107,
+      "success": 107,
+      "last": 1709908063679,
+      "lastSuccess": 1709908063679
     },
     "getvsc.js": {
       "total": 14,
@@ -6200,10 +6288,10 @@
       "lastSuccess": 1709848802533
     },
     "downloader-facebook.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1709852740091,
-      "lastSuccess": 1709852740091
+      "total": 16,
+      "success": 16,
+      "last": 1709908218447,
+      "lastSuccess": 1709908218447
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
