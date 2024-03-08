@@ -1289,7 +1289,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 137
+      "exp": 149
     },
     "212762541720@s.whatsapp.net": {
       "afk": -1,
@@ -2201,7 +2201,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 16
+      "exp": 21
     },
     "212679729288@s.whatsapp.net": {
       "afk": -1,
@@ -2962,6 +2962,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 28
+    },
+    "212680702197@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "imrantorki73",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 128
+    },
+    "212632232025@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": ",.",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 46
     }
   },
   "chats": {
@@ -6064,6 +6102,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212680702197@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212632232025@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6146,10 +6234,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 64,
-      "success": 58,
-      "last": 1709922843675,
-      "lastSuccess": 1709922843675
+      "total": 68,
+      "success": 59,
+      "last": 1709926464137,
+      "lastSuccess": 1709925805357
     },
     "main-levelup.js": {
       "total": 10,
@@ -6194,10 +6282,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 109,
-      "success": 109,
-      "last": 1709918283273,
-      "lastSuccess": 1709918283273
+      "total": 111,
+      "success": 111,
+      "last": 1709926416246,
+      "lastSuccess": 1709926416246
     },
     "getvsc.js": {
       "total": 14,
@@ -6380,10 +6468,10 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 22,
-      "success": 13,
-      "last": 1709918309884,
-      "lastSuccess": 1709911408682
+      "total": 23,
+      "success": 14,
+      "last": 1709925857581,
+      "lastSuccess": 1709925857581
     },
     "owner-exec.js": {
       "total": 7,
