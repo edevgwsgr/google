@@ -2372,7 +2372,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45
+      "exp": 66
     },
     "212718576322@s.whatsapp.net": {
       "afk": -1,
@@ -5794,6 +5794,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212717722269@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -5924,10 +5949,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 98,
-      "success": 98,
-      "last": 1709886330197,
-      "lastSuccess": 1709886330197
+      "total": 99,
+      "success": 99,
+      "last": 1709896988131,
+      "lastSuccess": 1709896988131
     },
     "getvsc.js": {
       "total": 14,
