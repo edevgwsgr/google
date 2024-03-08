@@ -2201,7 +2201,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 21
+      "exp": 66
     },
     "212679729288@s.whatsapp.net": {
       "afk": -1,
@@ -2999,7 +2999,26 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 46
+      "exp": 106
+    },
+    "212680335030@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Issam",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 12
     }
   },
   "chats": {
@@ -6152,6 +6171,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212680335030@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6234,10 +6278,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 68,
-      "success": 59,
-      "last": 1709926464137,
-      "lastSuccess": 1709925805357
+      "total": 71,
+      "success": 62,
+      "last": 1709929662633,
+      "lastSuccess": 1709929662633
     },
     "main-levelup.js": {
       "total": 10,
@@ -6264,10 +6308,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 14,
-      "success": 10,
-      "last": 1709922825992,
-      "lastSuccess": 1709922825992
+      "total": 15,
+      "success": 11,
+      "last": 1709929312587,
+      "lastSuccess": 1709929312587
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -6468,9 +6512,9 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 23,
+      "total": 25,
       "success": 14,
-      "last": 1709925857581,
+      "last": 1709929272443,
       "lastSuccess": 1709925857581
     },
     "owner-exec.js": {
