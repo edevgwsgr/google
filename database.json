@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 120
+      "exp": 225
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -3170,7 +3170,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 28
     },
     "212691586783@s.whatsapp.net": {
       "afk": -1,
@@ -3228,6 +3228,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 79
+    },
+    "212619040725@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Saad",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 40
     }
   },
   "chats": {
@@ -6730,6 +6749,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212619040725@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6812,10 +6856,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 99,
-      "success": 85,
-      "last": 1709966053256,
-      "lastSuccess": 1709966053256
+      "total": 105,
+      "success": 87,
+      "last": 1709975023481,
+      "lastSuccess": 1709975023481
     },
     "main-levelup.js": {
       "total": 10,
@@ -6860,10 +6904,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 122,
-      "success": 122,
-      "last": 1709943273124,
-      "lastSuccess": 1709943273124
+      "total": 123,
+      "success": 123,
+      "last": 1709974432678,
+      "lastSuccess": 1709974432678
     },
     "getvsc.js": {
       "total": 14,
