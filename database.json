@@ -185,7 +185,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7117,
+      "exp": 7137,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -3247,6 +3247,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 40
+    },
+    "212672277324@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "الحمد لله",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 124
     }
   },
   "chats": {
@@ -6774,6 +6793,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212672277324@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -6856,10 +6900,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 105,
-      "success": 87,
-      "last": 1709975023481,
-      "lastSuccess": 1709975023481
+      "total": 113,
+      "success": 94,
+      "last": 1709979006822,
+      "lastSuccess": 1709979006822
     },
     "main-levelup.js": {
       "total": 10,
@@ -6904,10 +6948,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 123,
-      "success": 123,
-      "last": 1709974432678,
-      "lastSuccess": 1709974432678
+      "total": 124,
+      "success": 124,
+      "last": 1709978704832,
+      "lastSuccess": 1709978704832
     },
     "getvsc.js": {
       "total": 14,
