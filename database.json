@@ -185,7 +185,7 @@
       "regTime": 1709154132645,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7137,
+      "exp": 7175,
       "level": 3,
       "lastclaim": 1709591636930
     },
@@ -928,7 +928,7 @@
       "regTime": 1709797440214,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10176
+      "exp": 10192
     },
     "212657338096@s.whatsapp.net": {
       "afk": -1,
@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 372
+      "exp": 408
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -3113,7 +3113,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 67
+      "exp": 95
     },
     "212690346550@s.whatsapp.net": {
       "afk": -1,
@@ -7227,10 +7227,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 131,
-      "success": 111,
-      "last": 1709992912532,
-      "lastSuccess": 1709992912532
+      "total": 137,
+      "success": 116,
+      "last": 1709996797361,
+      "lastSuccess": 1709996790366
     },
     "main-levelup.js": {
       "total": 10,
