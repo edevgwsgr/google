@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7571,
+      "exp": 7603,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -3417,7 +3417,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 44
+      "exp": 80
     },
     "212776043141@s.whatsapp.net": {
       "afk": -1,
@@ -7535,10 +7535,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 186,
-      "success": 158,
-      "last": 1710014843060,
-      "lastSuccess": 1710014843060
+      "total": 187,
+      "success": 159,
+      "last": 1710017317366,
+      "lastSuccess": 1710017317366
     },
     "main-levelup.js": {
       "total": 10,
