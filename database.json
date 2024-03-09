@@ -3132,7 +3132,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 62
+      "exp": 93
     },
     "212681317876@s.whatsapp.net": {
       "afk": -1,
@@ -6812,10 +6812,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 98,
-      "success": 84,
-      "last": 1709943425196,
-      "lastSuccess": 1709943425196
+      "total": 99,
+      "success": 85,
+      "last": 1709966053256,
+      "lastSuccess": 1709966053256
     },
     "main-levelup.js": {
       "total": 10,
