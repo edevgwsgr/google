@@ -29,19 +29,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  _*< Your Accounte />*_
  
- ▢ *Gold : End 10/3/2024*
+ ▢ *Gold : End (10/3/2024) 00 : 00*
 
 _*< Gold Commnds />*_
 
-▢ _/apk 3 days_
-▢ _/obb 3 days_
-▢ _/fb 3 days_
-▢ _/mediafire 3 days_
+▢ _/apk_
+▢ _/obb_
+▢ _/fb_
+▢ _/mediafire_
 
 _*< Support Commnds />*_
 
-▢ _/report 3 days_
-▢ _/owner 3 days_`.trim();
+▢ _/report_
+▢ _/owner_`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
