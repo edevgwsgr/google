@@ -719,7 +719,7 @@
       "regTime": 1709648978329,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10089
+      "exp": 10144
     },
     "212644662642@s.whatsapp.net": {
       "afk": -1,
@@ -1232,7 +1232,7 @@
       "regTime": 1709670617694,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10502
+      "exp": 10519
     },
     "212656104661@s.whatsapp.net": {
       "afk": -1,
@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 225
+      "exp": 286
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -3266,6 +3266,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 124
+    },
+    "212647966141@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Mohammad allachi 😎😜",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 6
     }
   },
   "chats": {
@@ -6900,10 +6919,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 113,
-      "success": 94,
-      "last": 1709979006822,
-      "lastSuccess": 1709979006822
+      "total": 119,
+      "success": 100,
+      "last": 1709982117363,
+      "lastSuccess": 1709982117363
     },
     "main-levelup.js": {
       "total": 10,
@@ -6930,10 +6949,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 20,
-      "success": 12,
-      "last": 1709932681818,
-      "lastSuccess": 1709932493318
+      "total": 21,
+      "success": 13,
+      "last": 1709982129122,
+      "lastSuccess": 1709982129122
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -6948,10 +6967,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 124,
-      "success": 124,
-      "last": 1709978704832,
-      "lastSuccess": 1709978704832
+      "total": 125,
+      "success": 125,
+      "last": 1709982070311,
+      "lastSuccess": 1709982070311
     },
     "getvsc.js": {
       "total": 14,
@@ -7134,10 +7153,10 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 30,
-      "success": 18,
-      "last": 1709933017754,
-      "lastSuccess": 1709933017754
+      "total": 31,
+      "success": 19,
+      "last": 1709982052526,
+      "lastSuccess": 1709982052526
     },
     "owner-exec.js": {
       "total": 7,
