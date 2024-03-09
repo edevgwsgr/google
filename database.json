@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7248,
+      "exp": 7550,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -776,7 +776,7 @@
       "regTime": 1709651638246,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10109
+      "exp": 10221
     },
     "212694826055@s.whatsapp.net": {
       "afk": -1,
@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 408
+      "exp": 494
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -7227,10 +7227,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 137,
-      "success": 116,
-      "last": 1709996797361,
-      "lastSuccess": 1709996790366
+      "total": 150,
+      "success": 127,
+      "last": 1710000393931,
+      "lastSuccess": 1710000393931
     },
     "main-levelup.js": {
       "total": 10,
@@ -7257,10 +7257,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 21,
-      "success": 13,
-      "last": 1709982129122,
-      "lastSuccess": 1709982129122
+      "total": 29,
+      "success": 19,
+      "last": 1710000294822,
+      "lastSuccess": 1710000294822
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -7275,10 +7275,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 126,
-      "success": 126,
-      "last": 1709986345739,
-      "lastSuccess": 1709986345739
+      "total": 128,
+      "success": 128,
+      "last": 1710000183444,
+      "lastSuccess": 1710000183444
     },
     "getvsc.js": {
       "total": 14,
@@ -7317,10 +7317,10 @@
       "lastSuccess": 1709685657919
     },
     "ai-owner.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709852595007,
-      "lastSuccess": 1709852595007
+      "total": 5,
+      "success": 5,
+      "last": 1710000181072,
+      "lastSuccess": 1710000181072
     },
     "_config-ping.js": {
       "total": 11,
@@ -7473,10 +7473,10 @@
       "lastSuccess": 1709852616390
     },
     "ai-report.js": {
-      "total": 5,
-      "success": 1,
-      "last": 1709932811008,
-      "lastSuccess": 1709852536478
+      "total": 7,
+      "success": 2,
+      "last": 1710000201342,
+      "lastSuccess": 1710000201342
     }
   },
   "msgs": {},
