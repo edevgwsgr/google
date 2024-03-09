@@ -1517,7 +1517,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 286
+      "exp": 372
     },
     "212770994668@s.whatsapp.net": {
       "afk": -1,
@@ -2866,7 +2866,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 31
+      "exp": 49
     },
     "212654182678@s.whatsapp.net": {
       "afk": -1,
@@ -3113,7 +3113,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 18
+      "exp": 29
     },
     "212690346550@s.whatsapp.net": {
       "afk": -1,
@@ -3361,6 +3361,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 5
+    },
+    "212778223446@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "~AYOUB~",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 14
+    },
+    "212649872863@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Ayoub Ho2012😆😇",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 7
     }
   },
   "chats": {
@@ -7013,6 +7051,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212778223446@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212649872863@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -7095,10 +7183,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 120,
-      "success": 101,
-      "last": 1709986216081,
-      "lastSuccess": 1709986216081
+      "total": 127,
+      "success": 107,
+      "last": 1709989804187,
+      "lastSuccess": 1709989804187
     },
     "main-levelup.js": {
       "total": 10,
