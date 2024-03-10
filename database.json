@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7606,
+      "exp": 7676,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -7535,10 +7535,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 197,
-      "success": 168,
-      "last": 1710030304225,
-      "lastSuccess": 1710030304225
+      "total": 200,
+      "success": 170,
+      "last": 1710062826915,
+      "lastSuccess": 1710062826915
     },
     "main-levelup.js": {
       "total": 10,
@@ -7565,10 +7565,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 32,
-      "success": 22,
-      "last": 1710030231376,
-      "lastSuccess": 1710030231376
+      "total": 33,
+      "success": 23,
+      "last": 1710062858006,
+      "lastSuccess": 1710062858006
     },
     "downloader-apkdl.js": {
       "total": 2,
