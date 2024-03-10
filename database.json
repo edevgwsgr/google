@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45552,
+      "exp": 45600,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7769,
+      "exp": 7774,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -244,7 +244,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 599,
+      "exp": 633,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -2999,7 +2999,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 106
+      "exp": 144
     },
     "212680335030@s.whatsapp.net": {
       "afk": -1,
@@ -3740,7 +3740,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 13
     },
     "212644634650@s.whatsapp.net": {
       "afk": -1,
@@ -3817,6 +3817,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 24
+    },
+    "212669411275@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 669-411275",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212711766413@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "walid khayari",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 36
     }
   },
   "chats": {
@@ -8019,6 +8057,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212711766413@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8101,10 +8164,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 239,
-      "success": 203,
-      "last": 1710108411055,
-      "lastSuccess": 1710108411055
+      "total": 242,
+      "success": 206,
+      "last": 1710110940655,
+      "lastSuccess": 1710110940655
     },
     "main-levelup.js": {
       "total": 10,
@@ -8137,9 +8200,9 @@
       "lastSuccess": 1710080741084
     },
     "downloader-apkdl.js": {
-      "total": 2,
+      "total": 3,
       "success": 2,
-      "last": 1709418904898,
+      "last": 1710110940804,
       "lastSuccess": 1709418904898
     },
     "_config-addprem.js": {
@@ -8149,10 +8212,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 133,
-      "success": 133,
-      "last": 1710107168467,
-      "lastSuccess": 1710107168467
+      "total": 136,
+      "success": 136,
+      "last": 1710110925992,
+      "lastSuccess": 1710110925992
     },
     "getvsc.js": {
       "total": 14,
@@ -8335,10 +8398,10 @@
       "lastSuccess": 1709849257892
     },
     "downloader-mediafire.js": {
-      "total": 37,
-      "success": 24,
-      "last": 1710100355857,
-      "lastSuccess": 1710100355857
+      "total": 38,
+      "success": 25,
+      "last": 1710110923988,
+      "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
       "total": 7,
