@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7677,
+      "exp": 7750,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -510,7 +510,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 39
+      "exp": 53
     },
     "258875288985@s.whatsapp.net": {
       "afk": -1,
@@ -7631,10 +7631,10 @@
       "lastSuccess": 1710000181072
     },
     "_config-ping.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1710014272670,
-      "lastSuccess": 1710014272670
+      "total": 13,
+      "success": 13,
+      "last": 1710069897159,
+      "lastSuccess": 1710069897159
     },
     "downloader-tiktok.js": {
       "total": 3,
