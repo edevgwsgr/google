@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45429,
+      "exp": 45442,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -244,7 +244,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 382,
+      "exp": 554,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -586,7 +586,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 15
+      "exp": 20
     },
     "393207552113@s.whatsapp.net": {
       "afk": -1,
@@ -7535,10 +7535,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 190,
-      "success": 161,
-      "last": 1710021638899,
-      "lastSuccess": 1710021638899
+      "total": 197,
+      "success": 168,
+      "last": 1710030304225,
+      "lastSuccess": 1710030304225
     },
     "main-levelup.js": {
       "total": 10,
@@ -7565,10 +7565,10 @@
       "lastSuccess": 1709842053517
     },
     "downloader-obb.js": {
-      "total": 29,
-      "success": 19,
-      "last": 1710000294822,
-      "lastSuccess": 1710000294822
+      "total": 32,
+      "success": 22,
+      "last": 1710030231376,
+      "lastSuccess": 1710030231376
     },
     "downloader-apkdl.js": {
       "total": 2,
@@ -7583,10 +7583,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 130,
-      "success": 130,
-      "last": 1710014763881,
-      "lastSuccess": 1710014763881
+      "total": 131,
+      "success": 131,
+      "last": 1710028528984,
+      "lastSuccess": 1710028528984
     },
     "getvsc.js": {
       "total": 14,
