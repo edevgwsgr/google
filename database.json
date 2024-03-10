@@ -282,7 +282,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 302
+      "exp": 332
     },
     "212657003067@s.whatsapp.net": {
       "afk": -1,
@@ -3170,7 +3170,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 28
+      "exp": 37
     },
     "212691586783@s.whatsapp.net": {
       "afk": -1,
@@ -3436,7 +3436,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 254
+      "exp": 275
     },
     "212699893568@s.whatsapp.net": {
       "afk": -1,
@@ -3551,6 +3551,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 55
+    },
+    "212780183502@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "َ",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 52
     }
   },
   "chats": {
@@ -7453,6 +7472,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212780183502@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -7535,10 +7579,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 210,
-      "success": 178,
-      "last": 1710066772263,
-      "lastSuccess": 1710066772263
+      "total": 214,
+      "success": 181,
+      "last": 1710074140523,
+      "lastSuccess": 1710073613373
     },
     "main-levelup.js": {
       "total": 10,
@@ -7631,10 +7675,10 @@
       "lastSuccess": 1710000181072
     },
     "_config-ping.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1710069897159,
-      "lastSuccess": 1710069897159
+      "total": 15,
+      "success": 15,
+      "last": 1710074419008,
+      "lastSuccess": 1710074419008
     },
     "downloader-tiktok.js": {
       "total": 3,
