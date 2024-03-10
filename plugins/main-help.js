@@ -29,7 +29,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  _*< Your Accounte />*_
  
- ▢ *Gold : End (10/3/2024) 00 : 00*
+ ▢ *Gold : ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')}*
 
 _*< Gold Commnds />*_
 
