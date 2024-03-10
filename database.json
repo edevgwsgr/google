@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7750,
+      "exp": 7767,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -3455,7 +3455,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 20
+      "exp": 40
     },
     "212634980445@s.whatsapp.net": {
       "afk": -1,
@@ -3589,6 +3589,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 40
+    },
+    "212717261387@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ᎡᏫᎡᏫᏁᏫᎯ__ᏃᏫᎡᏫ_乄",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
     }
   },
   "chats": {
@@ -7541,6 +7560,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212717261387@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -7623,10 +7667,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 219,
-      "success": 184,
-      "last": 1710084744621,
-      "lastSuccess": 1710084744621
+      "total": 220,
+      "success": 185,
+      "last": 1710087397616,
+      "lastSuccess": 1710087397616
     },
     "main-levelup.js": {
       "total": 10,
