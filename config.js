@@ -9,12 +9,12 @@ import moment from 'moment-timezone'
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 global.owner = [
-['212705776824', '𝙊𝙬𝙣𝙚𝙧', true], // owner
+['212641207087', '𝙊𝙬𝙣𝙚𝙧', true], // owner
 ['212641207087', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
-['212621851554', 'Develooper', true]]
+['212641207087', 'Develooper', true]]
 
-global.mods = ['212621851554','212621851554'] 
-global.prems = ['212672837585','212621851554']
+global.mods = ['212641207087','212641207087'] 
+global.prems = ['212641207087','212641207087']
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
