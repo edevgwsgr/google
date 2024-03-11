@@ -166,7 +166,7 @@
       "regTime": 1709468135443,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 145,
+      "exp": 148,
       "level": 0
     },
     "212779873495@s.whatsapp.net": {
@@ -244,7 +244,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 633,
+      "exp": 649,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -3094,7 +3094,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 63
+      "exp": 81
     },
     "212674010070@s.whatsapp.net": {
       "afk": -1,
@@ -3417,7 +3417,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 80
+      "exp": 100
     },
     "212776043141@s.whatsapp.net": {
       "afk": -1,
@@ -3855,6 +3855,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 36
+    },
+    "212716170372@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "––– –––",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 12
+    },
+    "212622462691@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 622-462691",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -8082,6 +8120,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212716170372@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8164,10 +8227,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 242,
-      "success": 206,
-      "last": 1710110940655,
-      "lastSuccess": 1710110940655
+      "total": 243,
+      "success": 207,
+      "last": 1710113829567,
+      "lastSuccess": 1710113829567
     },
     "main-levelup.js": {
       "total": 10,
