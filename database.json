@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45600,
+      "exp": 45629,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -8275,10 +8275,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 136,
-      "success": 136,
-      "last": 1710110925992,
-      "lastSuccess": 1710110925992
+      "total": 137,
+      "success": 137,
+      "last": 1710145622623,
+      "lastSuccess": 1710145622623
     },
     "getvsc.js": {
       "total": 14,
