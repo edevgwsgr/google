@@ -54,7 +54,7 @@
       "regTime": 1709154063328,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45629,
+      "exp": 45640,
       "level": 6,
       "lastclaim": 1709518766364
     },
@@ -3740,7 +3740,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 13
+      "exp": 58
     },
     "212644634650@s.whatsapp.net": {
       "afk": -1,
@@ -3912,6 +3912,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212634414628@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "أيمن إدالخياط",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 20
+    },
+    "212679939932@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "🖤Erys Black🖤",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 13
     }
   },
   "chats": {
@@ -8214,6 +8252,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212634414628@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212679939932@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8296,10 +8384,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 246,
-      "success": 210,
-      "last": 1710153351391,
-      "lastSuccess": 1710153351391
+      "total": 249,
+      "success": 213,
+      "last": 1710155789930,
+      "lastSuccess": 1710155789930
     },
     "main-levelup.js": {
       "total": 10,
@@ -8344,10 +8432,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 138,
-      "success": 138,
-      "last": 1710152344430,
-      "lastSuccess": 1710152344430
+      "total": 139,
+      "success": 139,
+      "last": 1710156122148,
+      "lastSuccess": 1710156122148
     },
     "getvsc.js": {
       "total": 14,
