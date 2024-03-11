@@ -224,7 +224,7 @@
       "regTime": 1709582581503,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7774,
+      "exp": 7795,
       "level": 0,
       "lastclaim": 1709582585881
     },
@@ -1080,7 +1080,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 21
     },
     "212636933205@s.whatsapp.net": {
       "afk": -1,
@@ -3436,7 +3436,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 305
+      "exp": 318
     },
     "212699893568@s.whatsapp.net": {
       "afk": -1,
@@ -8189,6 +8189,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212707676259@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8271,10 +8296,10 @@
       "lastSuccess": 1709651979999
     },
     "downloader-apk.js": {
-      "total": 243,
-      "success": 207,
-      "last": 1710113829567,
-      "lastSuccess": 1710113829567
+      "total": 246,
+      "success": 210,
+      "last": 1710153351391,
+      "lastSuccess": 1710153351391
     },
     "main-levelup.js": {
       "total": 10,
@@ -8319,10 +8344,10 @@
       "lastSuccess": 1709496000914
     },
     "main-help.js": {
-      "total": 137,
-      "success": 137,
-      "last": 1710145622623,
-      "lastSuccess": 1710145622623
+      "total": 138,
+      "success": 138,
+      "last": 1710152344430,
+      "lastSuccess": 1710152344430
     },
     "getvsc.js": {
       "total": 14,
