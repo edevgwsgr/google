@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 91,
+      "exp": 130,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2452,
+      "exp": 2545,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8420,10 +8420,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 28,
-      "success": 21,
-      "last": 1710273913100,
-      "lastSuccess": 1710273913100
+      "total": 31,
+      "success": 24,
+      "last": 1710279108431,
+      "lastSuccess": 1710279108431
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8756,10 +8756,10 @@
       "lastSuccess": 1710199800043
     },
     "tooll-help.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1710267885990,
-      "lastSuccess": 1710267885990
+      "total": 6,
+      "success": 6,
+      "last": 1710278389064,
+      "lastSuccess": 1710278389064
     },
     "_config-runtime.js": {
       "total": 2,
@@ -8815,7 +8815,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710273912675
+      "status": 1710279279673
     }
   }
 }
