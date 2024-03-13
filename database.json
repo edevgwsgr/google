@@ -245,7 +245,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2545,
+      "exp": 2794,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8516,10 +8516,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 42,
-      "success": 41,
-      "last": 1710199810512,
-      "lastSuccess": 1710199810512
+      "total": 45,
+      "success": 44,
+      "last": 1710298018072,
+      "lastSuccess": 1710298018072
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8714,9 +8714,9 @@
       "lastSuccess": 1709841354687
     },
     "downloader-ig.js": {
-      "total": 6,
+      "total": 12,
       "success": 6,
-      "last": 1709844192741,
+      "last": 1710298041840,
       "lastSuccess": 1709844192741
     },
     "tooll-buylimit.js": {
@@ -8738,10 +8738,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1710250376402,
-      "lastSuccess": 1710250376402
+      "total": 12,
+      "success": 12,
+      "last": 1710297981752,
+      "lastSuccess": 1710297981752
     },
     "ai-report.js": {
       "total": 7,
@@ -8766,6 +8766,12 @@
       "success": 2,
       "last": 1710267871877,
       "lastSuccess": 1710267871877
+    },
+    "tourl2.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1710297519948,
+      "lastSuccess": 1710297519948
     }
   },
   "msgs": {},
@@ -8815,7 +8821,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710279279673
+      "status": 1710298041730
     }
   }
 }
