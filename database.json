@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 130,
+      "exp": 149,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -8420,9 +8420,9 @@
   },
   "stats": {
     "obb.js": {
-      "total": 31,
+      "total": 32,
       "success": 24,
-      "last": 1710279108431,
+      "last": 1710322235221,
       "lastSuccess": 1710279108431
     },
     "rpg-verificar.js": {
@@ -8821,7 +8821,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710303100455
+      "status": 1710322235208
     }
   }
 }
