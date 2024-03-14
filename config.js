@@ -98,6 +98,12 @@ global.country = 'moroco' //agrega tú país ejemplo: 🇪🇨
 global.vs = '1.5.2 (beta)'
 global.vsJB = '4.5 (Beta)'
 
+global.wait = "*Charging..._ ▬▭▭▭▭▭▭*"
+global.waitt = "*Charging..._ ▬▬▭▭▭*"
+global.waittt = "*Charging..._ ▬▬▬▬▭▭*"
+global.waitttt = "*Charging..._ ▬▬▬▬▬▬▭*"
+global.waittttt = "*Filled..._ ▬▬▬▬▬▬▬*"
+
 global.gt = 'MEE6'
 global.yt = 'youtube.com/@alixention6598'
 global.yt2 = 'youtu.be/kU53oGA6oaY?si=ZoBiKhtr611vHTPQ'
