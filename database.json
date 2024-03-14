@@ -245,7 +245,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3366,
+      "exp": 3411,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8420,10 +8420,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 32,
-      "success": 24,
-      "last": 1710322235221,
-      "lastSuccess": 1710279108431
+      "total": 33,
+      "success": 25,
+      "last": 1710382547595,
+      "lastSuccess": 1710382547595
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8594,10 +8594,10 @@
       "lastSuccess": 1710000181072
     },
     "_config-ping.js": {
-      "total": 18,
-      "success": 18,
-      "last": 1710199788609,
-      "lastSuccess": 1710199788609
+      "total": 19,
+      "success": 19,
+      "last": 1710382539589,
+      "lastSuccess": 1710382539589
     },
     "downloader-tiktok.js": {
       "total": 3,
@@ -8756,10 +8756,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1710377260729,
-      "lastSuccess": 1710377260729
+      "total": 14,
+      "success": 14,
+      "last": 1710382404156,
+      "lastSuccess": 1710382404156
     },
     "_config-runtime.js": {
       "total": 3,
@@ -8821,7 +8821,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710377258306
+      "status": 1710382546831
     }
   }
 }
