@@ -152,7 +152,7 @@ if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = true  
 } else global.db.data.settings[this.user.jid] = {
 self: false,
-autoread: false,
+autoread: true,
 autoread2: false,
 restrict: false,
 antiCall: true,
