@@ -245,7 +245,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3339,
+      "exp": 3366,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8756,10 +8756,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1710374156950,
-      "lastSuccess": 1710374156950
+      "total": 13,
+      "success": 13,
+      "last": 1710377260729,
+      "lastSuccess": 1710377260729
     },
     "_config-runtime.js": {
       "total": 3,
@@ -8821,7 +8821,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710374436688
+      "status": 1710377258306
     }
   }
 }
