@@ -245,7 +245,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3411,
+      "exp": 3486,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8714,9 +8714,9 @@
       "lastSuccess": 1709841354687
     },
     "downloader-ig.js": {
-      "total": 12,
+      "total": 14,
       "success": 6,
-      "last": 1710298041840,
+      "last": 1710383011262,
       "lastSuccess": 1709844192741
     },
     "tooll-buylimit.js": {
@@ -8756,10 +8756,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1710382404156,
-      "lastSuccess": 1710382404156
+      "total": 15,
+      "success": 15,
+      "last": 1710382945198,
+      "lastSuccess": 1710382945198
     },
     "_config-runtime.js": {
       "total": 3,
@@ -8772,6 +8772,12 @@
       "success": 1,
       "last": 1710297519948,
       "lastSuccess": 1710297519948
+    },
+    "ai-apk.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1710382969411,
+      "lastSuccess": 1710382969411
     }
   },
   "msgs": {},
@@ -8821,7 +8827,7 @@
       "antiCall": true,
       "antiPrivate": false,
       "jadibotmd": true,
-      "status": 1710382546831
+      "status": 1710383010583
     }
   }
 }
