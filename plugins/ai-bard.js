@@ -1,4 +1,4 @@
-himport fetch from 'node-fetch'
+import fetch from 'node-fetch'
 
 var handler = async (m, { text,  usedPrefix, command }) => {
 
