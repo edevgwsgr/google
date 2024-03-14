@@ -14,7 +14,7 @@ global.owner = [
 ['212641207087', 'Develooper', true]]
 
 global.mods = ['212641207087','212641207087'] 
-global.prems = ['212641207087','212641207087']
+global.prems = ['212641207087','212641207080']
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
