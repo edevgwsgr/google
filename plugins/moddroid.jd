@@ -17,7 +17,7 @@ const handler = async (m, { conn, command, text }) => {
 
         await conn.sendMessage(m.chat, { image: { url: data.icon }, caption: response }, { quoted: m });
 
-        const instagramMessage = `Follow me on Instagram: [majnon___98](https://instagram.com/majnon___98)`;
+        const instagramMessage = `Follow me on Instagram:(https://instagram.com/majnon._.98)`;
         await conn.sendMessage(m.chat, { text: instagramMessage }, { quoted: m });
 
         if (data.size.includes('GB') || parseInt(data.size.replace(' MB', '')) > 999) {
