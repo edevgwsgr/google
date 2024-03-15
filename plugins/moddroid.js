@@ -10,6 +10,7 @@ const handler = async (m, { conn, command, text }) => {
 
         const response = `
 📲 *App Name:* ${data.name}
+👨‍💻 *Developer:* ${data.developer}
 📦 *Package ID:* ${data.package}
 🕒 *Last Update:* ${data.lastup}
 💪 *Size:* ${data.size}
@@ -17,8 +18,8 @@ const handler = async (m, { conn, command, text }) => {
 
         await conn.sendMessage(m.chat, { image: { url: data.icon }, caption: response }, { quoted: m });
 
-        const instagramMessage = `Follow me on Instagram:(https://instagram.com/majnon._.98)`;
-        await conn.sendMessage(m.chat, { text: instagramMessage }, { quoted: m });
+        const downloadingMessage = 'تطبيق يتم تحميله، يرجى الانتظار...';
+        await conn.sendMessage(m.chat, { text: downloadingMessage }, { quoted: m });
 
         if (data.size.includes('GB') || parseInt(data.size.replace(' MB', '')) > 999) {
             return await conn.sendMessage(m.chat, { text: '*EL APK ES MUY PESADO.*' }, { quoted: m });
@@ -31,7 +32,7 @@ const handler = async (m, { conn, command, text }) => {
     }
 };
 
-handler.command = /^(test8)$/i;
+handler.command = /^(test2)$/i;
 handler.register = true;
 handler.limit = 2;
 
