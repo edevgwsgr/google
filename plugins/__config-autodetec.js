@@ -1,4 +1,4 @@
-let WAMessageStubType = (await import(global.baileys)).default
+ hlet WAMessageStubType = (await import(global.baileys)).default
 export async function before(m, { conn, participants}) {
 if (!m.messageStubType || !m.isGroup) return
 let usuario = `@${m.sender.split`@`[0]}`
