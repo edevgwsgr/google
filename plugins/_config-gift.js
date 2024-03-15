@@ -1,5 +1,5 @@
-const freeXP = 5000;
-const premXP = 20000;
+const freeXP = 500;
+const premXP = 2000;
 const freelimit = 50; // عدد الجواهر التي سيحصل عليها المستخدم في المكافأة اليومية
 const premlimit = 100; // عدد الجواهر التي سيحصل عليها المستخدم المميز في المكافأة اليومية
 
