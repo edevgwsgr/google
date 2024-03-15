@@ -78,6 +78,10 @@ _*< Ai Commnds />*_
 ▢ _/tr <code>_
 ▢ _/cuturl_
 
+_*< Islamic Commnds />*_
+
+▢ _/ayati_
+▢ _/adhan_
 _*< Accounte Commnds />*_
 
 ▢ _/make-account_
