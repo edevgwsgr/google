@@ -1,31 +1,37 @@
-import { search, download } from 'happymod-scraper'; // استيراد الوظائف من مكتبة HappyMod Scraper
+import { search, download, getAppDeveloper, getObbLink } from 'moddroid-scraper';
 
 const handler = async (m, { conn, command, text }) => {
     if (!text) throw `*Ex: ${command} minecraft*`;
     try {
-        const results = await search(text); // البحث عن التطبيق في HappyMod
+        const results = await search(text);
         if (!results.length) throw 'No results found';
 
-        const data = await download(results[0].id); // تنزيل تفاصيل التطبيق من HappyMod
+        const data = await download(results[0].id);
+        const developer = await getAppDeveloper(results[0].id);
 
         const response = `
 📲 *App Name:* ${data.name}
-👨‍💻 *Developer:* ${data.developer}
 📦 *Package ID:* ${data.package}
 🕒 *Last Update:* ${data.lastup}
 💪 *Size:* ${data.size}
+👨‍💼 *Developer:* ${developer.name}
+🌐 *Developer Website:* ${developer.website}
+📧 *Developer Email:* ${developer.email}
 `;
 
         await conn.sendMessage(m.chat, { image: { url: data.icon }, caption: response }, { quoted: m });
 
-        const downloadingMessage = 'تطبيق يتم تحميله، يرجى الانتظار...';
-        await conn.sendMessage(m.chat, { text: downloadingMessage }, { quoted: m });
-
-        if (data.size.includes('GB') || parseInt(data.size.replace(' MB', '')) > 999) {
-            return await conn.sendMessage(m.chat, { text: '*EL APK ES MUY PESADO.*' }, { quoted: m });
-        }
-
+        // Download APK
         await conn.sendMessage(m.chat, { document: { url: data.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: data.name + '.apk' }, { quoted: m });
+
+        // Check if OBB file exists
+        const obbLink = await getObbLink(results[0].id);
+        if (obbLink) {
+            // Download OBB file
+            await conn.sendMessage(m.chat, { document: { url: obbLink }, mimetype: 'application/octet-stream', fileName: data.name + '.obb' }, { quoted: m });
+        } else {
+            console.log('No OBB file found for the app');
+        }
     } catch (error) {
         console.error(error);
         throw 'An error occurred while processing the request.';
