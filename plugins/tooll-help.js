@@ -82,6 +82,7 @@ _*< Islamic Commnds />*_
 
 ▢ _/ayati_
 ▢ _/adhan_
+
 _*< Accounte Commnds />*_
 
 ▢ _/make-account_
