@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     if (text.length < 10) throw `${fg} ✨ *Minimum 10 characters to make the Report.*\n\n✨ *Minimum 10 characters to make the Report.*`
 
-    if (text.length > 1000) throw `${fg} 😼 *Maximum 1000 characters to make the Report.*\n\n😼 *Maximum 1000 characters to make the Report.*`
+    if (text.length > 1000) throw `${fg} 😼*Maximum 1000 characters to make the Report.*\n\n😼 *Maximum 1000 characters to make the Report.*`
 
     let teks = `*╭━━[ REPORT | REQUEST ]━━━⬣*\n*┃*\n*┃* *SENDER | NUMBER*\n┃ ✦ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* *MESSAGE | REPORT*\n*┃* ✦ ${text}\n*┃*\n*╰━━━━━━━━━━━━━━━━━━⬣*`
 
