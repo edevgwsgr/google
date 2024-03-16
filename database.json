@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 408,
+      "exp": 447,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4114,
+      "exp": 4217,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8516,10 +8516,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 63,
-      "success": 58,
-      "last": 1710430416494,
-      "lastSuccess": 1710430416494
+      "total": 64,
+      "success": 59,
+      "last": 1710614800152,
+      "lastSuccess": 1710614800152
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8756,10 +8756,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1710419464424,
-      "lastSuccess": 1710419464424
+      "total": 17,
+      "success": 17,
+      "last": 1710614741053,
+      "lastSuccess": 1710614741053
     },
     "_config-runtime.js": {
       "total": 4,
