@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 491,
+      "exp": 602,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4360,
+      "exp": 4469,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8648,10 +8648,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1709847864080,
-      "lastSuccess": 1709847864080
+      "total": 20,
+      "success": 20,
+      "last": 1710628996174,
+      "lastSuccess": 1710628996174
     },
     "ai-game.js": {
       "total": 4,
@@ -8678,10 +8678,10 @@
       "lastSuccess": 1709848350515
     },
     "ai-sticker.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1709848802533,
-      "lastSuccess": 1709848802533
+      "total": 24,
+      "success": 24,
+      "last": 1710629049189,
+      "lastSuccess": 1710629049189
     },
     "downloader-facebook.js": {
       "total": 18,
@@ -8802,6 +8802,12 @@
       "success": 2,
       "last": 1710626988960,
       "lastSuccess": 1710626988960
+    },
+    "ai-cartoon.js": {
+      "total": 5,
+      "success": 3,
+      "last": 1710629087903,
+      "lastSuccess": 1710629087903
     }
   },
   "msgs": {},
