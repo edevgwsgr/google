@@ -1,57 +1,54 @@
-import { canLevelUp, xpRange } from '../lib/levelling.js';
-import { levelup } from '../lib/canvas.js';
+import { canLevelUp, xpRange } from '../lib/levelling.js'
+import { levelup } from '../lib/canvas.js'
+import can from 'knights-canvas'
 
-const handler = async (m, { conn }) => {
-  const name = conn.getName(m.sender);
-  const usertag = '@' + m.sender.split('@s.whatsapp.net')[0];
-  const user = global.db.data.users[m.sender];
+let handler = async (m, { conn }) => {
 
-  // Check if the user can level up based on their current experience points and level multiplier
-  if (!canLevelUp(user.level, user.exp, global.multiplier)) {
-    const { min, xp, max } = xpRange(user.level, global.multiplier);
-    const message = `
-🏰 *Adventurers Guild*
-*Welcome, ${usertag}!*
+function test(num, size) {
+var s = num+''
+while (s.length < size) s = '0' + s
+return s
+}
 
-*◉ Current Level :* ${user.level}
-*◉ Current Rank :* ${user.role}
-*◉ Experience Points :* ${user.exp - min}/${xp}
+let user = global.db.data.users[m.sender]
+let name = conn.getName(m.sender)
+let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
 
-*—◉ To level up, you need to earn ${max - user.exp} more experience points. Keep interacting with the bot!*`.trim();
-    return conn.sendMessage(m.chat, { text: message, mentions: [m.sender] }, { quoted: m });
-  }
+let image = await new can.Rank().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/fde739f66f1b81a43fe54.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()
+let data = image.toBuffer()
 
-  // Store the user's level before attempting to level up
-  const before = user.level * 1;
+let { role } = global.db.data.users[m.sender]
+if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+let { min, xp, max } = xpRange(user.level, global.multiplier)
 
-  // Increment the user's level while they can level up
-  while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
+let le = `*Name* ${name}
 
-  // Check if the user leveled up
-  if (before !== user.level) {
-    const levelUpMessage = `🎉 Congratulations, ${name}! You have leveled up to ${user.level}`;
-    const levelUpDetails = `
-🚀 *New Level Achieved*
+Level : *${user.level}* 📊
+XP : *${user.exp - min} / ${xp}*
 
-*◉ Previous Level :* ${before}
-*◉ New Level :* ${user.level}
-*◉ Current Rank :* ${user.role}
+Not enough XP *${max - user.exp}* Again! ✨`
+await conn.sendMessage(m.chat, { image: data, caption: le }, { quoted: m })
+}
+let before = user.level * 1
+while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
+if (before !== user.level) {
 
-*—◉ Continue exploring and completing missions to reach new heights in the Adventurers Guild. Keep interacting with the bot!*`.trim();
+let str = `*🥳 New level 🥳* 
+*• 🧬 Previous level :* ${before}
+*• 🧬 New levels :* ${user.level}
+*• 📅 Date :* ${new Date().toLocaleString('id-ID')}
 
-    try {
-      // If generating the image fails, send the level-up details as a text message
-      conn.sendMessage(m.chat, { text: levelUpDetails, mentions: [m.sender] }, { quoted: m });
-    } catch (e) {
-      // Handle the error, log it, or take appropriate action
-      console.error(e);
-    }
-  }
-};
+*Note:* _Chont more often interact with the bot, the greater your level_`
+try {
+await conn.sendMessage(m.chat, { image: data, caption: str }, { quoted: m })
+} catch (e) {
+m.reply(str)
+}}
 
-// Command information
-handler.help = ['levelup'];
-handler.tags = ['xp'];
-handler.command = ['levelup', 'nivel'];
-handler.register = true;
+}
+handler.help = ['levelup']
+handler.tags = ['rg']
+handler.command = ['levelup|nivel']
+handler.register = true
 export default handler;
