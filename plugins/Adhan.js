@@ -23,7 +23,7 @@ let handler = async (m, {
     }
 }
 handler.help = ['adhan']
-handler.tags = ['islam']
+handler.tags = ['islami']
 handler.command = /^(adhan)$/i
 export default handler
 
