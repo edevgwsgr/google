@@ -1,47 +1,43 @@
-import axios from "axios"
+import fetch from 'node-fetch';
 
-let handler = async (m, {
-    conn,
-    args,
-    usedPrefix,
-    command
-}) => {
-    let text
-    if (args.length >= 1) {
-        text = args.slice(0).join(" ")
-    } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text
-    } else throw "Input Teks"
-    await m.reply(wait)
+const handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text)
+    throw `Ex : /imagine cat`;
+
+  await conn.sendMessage(m.chat, { text: 'Generating image, please wait a moment.' }, { quoted: m });
+
+  try {
+    const tiores1 = await fetch(`https://vihangayt.me/tools/imagine?q=${text}`);
+    const json1 = await tiores1.json();
+    await conn.sendMessage(m.chat, { image: { url: json1.data } }, { quoted: m });
+  } catch {
+    console.log('Error in API number 1 (dall-e).');
 
     try {
-        let data = await textToImage(text)
-        if (data) {
+      const tiores2 = await conn.getFile(`https://vihangayt.me/tools/midjourney?q=${text}`);
+      await conn.sendMessage(m.chat, { image: { url: tiores2.data } }, { quoted: m });
+    } catch {
+      console.log('Error in API number 2 (dall-e).');
 
-            await conn.sendFile(m.chat, data.result_url, '', `Image for ${text}`, m, false, {
-                mentions: [m.sender]
-            });
+      try {
+        const tiores3 = await fetch(`https://vihangayt.me/tools/lexicaart?q=${text}`);
+        const json3 = await tiores3.json();
+        await conn.sendMessage(m.chat, { image: { url: json3.data[0].images[0].url } }, { quoted: m });
+      } catch {
+        console.log('Error in API number 3 (dall-e).');
 
+        try {
+          const tiores4 = await conn.getFile(`https://api.lolhuman.xyz/api/dall-e?apikey=${lolkeysapi}&text=${text}`);
+          await conn.sendMessage(m.chat, { image: { url: tiores4.data } }, { quoted: m });
+        } catch {
+          console.log('Error, none of the APIs are functional.');
+          throw `Error, no results were obtained.`;
         }
-    } catch (e) {
-        await m.reply(eror)
+      }
     }
-}
-handler.help = ["photoleap"]
-handler.tags = ["ai"];
-handler.command = /^(imagine2)$/i
-handler.premium = true
+  }
+};
 
-export default handler
+handler.command = ['imagine2'];
 
-/* New Line */
-async function textToImage(text) {
-    try {
-        const {
-            data
-        } = await axios.get("https://tti.photoleapapp.com/api/v1/generate?prompt=" + text)
-        return data;
-    } catch (err) {
-        return null;
-    }
-}
+export default handler;
