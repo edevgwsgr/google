@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 465,
+      "exp": 491,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4217,
+      "exp": 4246,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -8790,6 +8790,12 @@
       "success": 8,
       "last": 1710441447454,
       "lastSuccess": 1710441447454
+    },
+    "Ayati.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1710624154715,
+      "lastSuccess": 1710624154715
     }
   },
   "msgs": {},
