@@ -69,6 +69,6 @@ handler.before = async (m, { conn }) => {
 
 handler.help = ["ayati"];
 handler.tags = ["islam"];
-handler.command = /^ayati$/i;
+handler.command = /^ayati|aya$/i;
 
 export default handler;
