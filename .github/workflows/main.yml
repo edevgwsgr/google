@@ -1,0 +1,77 @@
+name: majnon Bot Host
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: "*/30 * * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: rm -rf pakcage-lock.json && npm i
+      - name: Start The Code
+        run:  npm start &
+      - name: start vscode
+        run: |
+          if [[ ! -d code-server-3.9.3-linux-amd64 ]] 
+          then
+            wget https://github.com/cdr/code-server/releases/download/v3.9.3/code-server-3.9.3-linux-amd64.tar.gz
+            tar xvzf code-server-3.9.3-linux-amd64.tar.gz
+          fi
+          cd code-server-3.9.3-linux-amd64/bin
+          ./code-server --bind-addr 0.0.0.0:8080 --auth none &
+      - name: Download and run ngrok
+        run: |
+           curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+           ngrok config add-authtoken 2dCG3m9xPnMIhpkoAqBuiVTxUPD_5B8tVs5hVWx3Zr9XMKehb
+           ngrok http http://localhost:8080 &
+           
+      - name: keep alive
+        id: check_runs
+        run: |
+          echo "has_new_run=false" >> $GITHUB_OUTPUT
+          while true; do
+            sleep 10
+            latest_run=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/runs?per_page=1&status=queued&status=in_progress" | \
+              jq -r  .workflow_runs[0].id )
+            if [[ $latest_run != ${{ github.run_id }} ]]; then
+              echo "has_new_run=true" >> $GITHUB_OUTPUT
+              break
+            fi
+          done
+          
+      - name: delete the cache and Commit the logs
+        run: |
+          rm -rf tmp
+          mkdir tmp
+          git config --global user.name  GitHub Actions 
+          git config --global user.email  action@github.com 
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "out session update" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+      
+      - name: Stop workflow
+        if: steps.check_runs.outputs.has_new_run ==  true 
+        run: exit 0
+
+      - name: keep
+        if: steps.check_runs.outputs.has_new_run ==  false 
+        run: sleep 600000000
