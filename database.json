@@ -245,8 +245,8 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4800,
-      "level": 0
+      "exp": 4831,
+      "level": 3
     },
     "393925367872@s.whatsapp.net": {
       "afk": -1,
@@ -8910,10 +8910,10 @@
       "lastSuccess": 1710645057895
     },
     "_config-leveup.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1710646423644,
-      "lastSuccess": 1710646423644
+      "total": 3,
+      "success": 3,
+      "last": 1710647752043,
+      "lastSuccess": 1710647752043
     }
   },
   "msgs": {},
