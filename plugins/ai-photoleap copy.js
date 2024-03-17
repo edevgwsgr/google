@@ -5,7 +5,7 @@ let handler  = async (m, { conn, args, text, usedPrefix, command }) => {
   conn.sendFile(m.chat, res.getRandom(), 'img.png', `
 ✅ Resultado de : *${text}*`.trim(), m)
 }
-handler.help = ['imagen']
+handler.help = ['imagen1']
 handler.tags = ['img']
 handler.command = /^(img|image|gimage|imagen)$/i
 handler.diamond = true
