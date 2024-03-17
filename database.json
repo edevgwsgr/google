@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 5661,
+      "exp": 5758,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3969,7 +3969,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 40
+      "exp": 49
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -8904,9 +8904,9 @@
       "lastSuccess": 1710632396275
     },
     "ai-play.js": {
-      "total": 23,
+      "total": 24,
       "success": 21,
-      "last": 1710693172433,
+      "last": 1710695015207,
       "lastSuccess": 1710683136501
     },
     "_config-leveup.js": {
@@ -8916,10 +8916,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1710689333387,
-      "lastSuccess": 1710689333387
+      "total": 9,
+      "success": 9,
+      "last": 1710694623529,
+      "lastSuccess": 1710694623529
     },
     "alquran.js": {
       "total": 2,
@@ -8944,6 +8944,12 @@
       "success": 0,
       "last": 1710686757446,
       "lastSuccess": 0
+    },
+    "ai-bardimg.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1710694958988,
+      "lastSuccess": 1710694958988
     }
   },
   "msgs": {},
