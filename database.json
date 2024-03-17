@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 5150,
+      "exp": 5327,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8604,10 +8604,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 74,
-      "success": 67,
-      "last": 1710682302206,
-      "lastSuccess": 1710682302206
+      "total": 78,
+      "success": 70,
+      "last": 1710684509172,
+      "lastSuccess": 1710684509172
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8904,22 +8904,34 @@
       "lastSuccess": 1710632396275
     },
     "ai-play.js": {
-      "total": 20,
-      "success": 19,
-      "last": 1710649792778,
-      "lastSuccess": 1710645057895
+      "total": 22,
+      "success": 21,
+      "last": 1710683136501,
+      "lastSuccess": 1710683136501
     },
     "_config-leveup.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1710649858149,
-      "lastSuccess": 1710649858149
+      "total": 8,
+      "success": 8,
+      "last": 1710684513522,
+      "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
       "total": 6,
       "success": 6,
       "last": 1710681901136,
       "lastSuccess": 1710681901136
+    },
+    "alquran.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1710684378203,
+      "lastSuccess": 0
+    },
+    "_config-levelup.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1710684530079,
+      "lastSuccess": 1710684530079
     }
   },
   "msgs": {},
