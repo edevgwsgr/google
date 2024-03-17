@@ -1,54 +1,62 @@
 import { canLevelUp, xpRange } from '../lib/levelling.js'
-import { levelup } from '../lib/canvas.js'
-import can from 'knights-canvas'
-
 let handler = async (m, { conn }) => {
+	  let name = conn.getName(m.sender)
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/whjlJSf.jpg')
+    let user = global.db.data.users[m.sender]
+    if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+        let { min, xp, max } = xpRange(user.level, global.multiplier)
+        let txt = `
+┌───⊷ *LEVEL*
+▢ Number : *${name}*
+▢ Level : *${user.level}*
+▢ XP : *${user.exp - min}/${xp}*
+▢ Role : *${user.role}*
+└──────────────
 
-function test(num, size) {
-var s = num+''
-while (s.length < size) s = '0' + s
-return s
-}
-
-let user = global.db.data.users[m.sender]
-let name = conn.getName(m.sender)
-let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-
-let image = await new can.Rank().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/fde739f66f1b81a43fe54.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()
-let data = image.toBuffer()
-
-let { role } = global.db.data.users[m.sender]
-if (!canLevelUp(user.level, user.exp, global.multiplier)) {
-let { min, xp, max } = xpRange(user.level, global.multiplier)
-
-let le = `*Name* ${name}
-
-Level : *${user.level}* 📊
-XP : *${user.exp - min} / ${xp}*
-
-Not enough XP *${max - user.exp}* Again! ✨`
-await conn.sendMessage(m.chat, { image: data, caption: le }, { quoted: m })
-}
-let before = user.level * 1
-while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
-if (before !== user.level) {
-
-let str = `*🥳 New level 🥳* 
-*• 🧬 Previous level :* ${before}
-*• 🧬 New levels :* ${user.level}
-*• 📅 Date :* ${new Date().toLocaleString('id-ID')}
-
-*Note:* _Chont more often interact with the bot, the greater your level_`
+You lack *${max - user.exp}* of *XP* to level up
+`.trim()
 try {
-await conn.sendMessage(m.chat, { image: data, caption: str }, { quoted: m })
-} catch (e) {
-m.reply(str)
-}}
+  let imgg = API('fgmods', '/api/rank', {
+    username: name,
+    xp: user.exp - min,
+    exp: xp,
+    avatar: pp,
+    level: user.level,
+    background: 'https://i.ibb.co/CsNgBYw/qiyana.jpg'
+}, 'apikey')
 
+    conn.sendFile(m.chat, imgg, 'level.jpg', txt, m)
+} catch (e) {
+    m.reply(txt)
 }
+    }
+    let before = user.level * 1
+    while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
+    if (before !== user.level) {
+    	user.role = global.rpg.role(user.level).name
+
+        let str = `
+┌─⊷ *LEVEL UP*
+▢ Previous level : *${before}*
+▢ current level : *${user.level}*
+▢ Role : *${user.role}*
+└──────────────
+
+*_The more you interact with the bots, the higher your level will be_*
+`.trim()
+        try {
+            let img = API('fgmods', '/api/levelup', { 
+                avatar: pp 
+             }, 'apikey')
+      conn.sendFile(m.chat, img, 'levelup.jpg', str, m)
+        } catch (e) {
+            m.reply(str)
+        }
+    }
+}
+
 handler.help = ['levelup']
-handler.tags = ['rg']
-handler.command = ['nivel']
-handler.register = true
-export default handler;
+handler.tags = ['econ']
+handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
+
+export default handler
