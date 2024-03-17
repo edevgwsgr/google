@@ -1,70 +1,26 @@
-import fetch from "node-fetch";
-import yts from "yt-search";
-import ytdl from 'ytdl-core';
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
+import { youtubeSearch } from '@bochilteam/scraper'
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
+let vid = (await youtubeSearch(text)).video[0]
+if (!vid) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙽𝙾 𝙿𝚄𝙳𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾/𝚅𝙸𝙳𝙴𝙾, 𝙸𝙽𝚃𝙴𝙽𝚃𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙾 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾*'
+try {
+let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
+const url = 'https://www.youtube.com/watch?v=' + videoId
+conn.sendHydrated(m.chat, `
+*◉— 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 —◉*
 
-let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-    // Check if text is empty
-    if (!text) {
-        return conn.reply(m.chat, `يرجى استخدام الأمر بالتالي: ${usedPrefix}${command} [اسم الأغنية]`, m)
-    }
-    
-    try {
-        const yt_play = await search(text);
-        let additionalText = '';
-        if (command === 'play') {
-            additionalText = '🔊 المشغل الآلي';
-        } else if (command === 'rffewfw') {
-            additionalText = '🎥 الفيديو الموسيقي';
-        }
-        
-        // Decorate the search message
-        let decoratedSearchMessage = `🔍 بحث: ${text}\n`;
-        decoratedSearchMessage += `🎤 الفنان: ${yt_play[0].author.name}\n`;
-        decoratedSearchMessage += `🔊 ${additionalText}\n`;
-        decoratedSearchMessage += '🇲🇦'; // Add Moroccan flag
-        
-        // Send the decorated search message
-        await conn.sendMessage(m.chat, {
-            text: decoratedSearchMessage,
-            contextInfo: {
-                externalAdReply: {
-                    title: yt_play[0].title,
-                    thumbnailUrl: yt_play[0].thumbnail, 
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                }
-            }
-        }, { quoted: m });
-        
-        if (command == 'play') {
-            try {
-                let q = '128kbps';
-                let v = yt_play[0].url;
-                const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v));
-                const dl_url = await yt.audio[q].download();
-                
-                // Send the audio with a thumbnail
-                await conn.sendFile(m.chat, dl_url, 'audio.mp3', null, m, { mimetype: 'audio/mpeg' });
-                conn.reply(m.chat, 'تم تشغيل الأغنية 🎶', m);
-            } catch {
-                // Handle error
-            }
-        }
-        // Add more conditions for other commands like 'rffewfw' if needed
-    } catch {
-        // Handle error
-    }
-}
-
-handler.command = ['play', 'rffewfw'];
-handler.register = true;
-handler.exp = 0;
-handler.limit = 4;
-
-export default handler;
-
-async function search(query, options = {}) {
-    const search = await yts.search({ query, hl: "ar", gl: "ES", ...options });
-    return search.videos;
-}
+📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
+📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
+📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
+⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
+👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
+`.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
+['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url}`],
+['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url}`]
+], m)
+}catch(e){
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+console.log(e)
+}}
+handler.command = /^play3|playdoc?$/i
+export default handler
