@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 5327,
+      "exp": 5532,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8604,10 +8604,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 78,
-      "success": 70,
-      "last": 1710684509172,
-      "lastSuccess": 1710684509172
+      "total": 80,
+      "success": 72,
+      "last": 1710686709480,
+      "lastSuccess": 1710686709480
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8916,10 +8916,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1710681901136,
-      "lastSuccess": 1710681901136
+      "total": 7,
+      "success": 7,
+      "last": 1710688019467,
+      "lastSuccess": 1710688019467
     },
     "alquran.js": {
       "total": 2,
@@ -8932,6 +8932,18 @@
       "success": 3,
       "last": 1710684530079,
       "lastSuccess": 1710684530079
+    },
+    "dalle.js": {
+      "total": 5,
+      "success": 2,
+      "last": 1710686495086,
+      "lastSuccess": 1710686495086
+    },
+    "bing.js": {
+      "total": 4,
+      "success": 0,
+      "last": 1710686757446,
+      "lastSuccess": 0
     }
   },
   "msgs": {},

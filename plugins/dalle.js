@@ -1,51 +1,26 @@
-const { dalle } = require("gpti");
+import fetch from 'node-fetch';
 
-// Command to generate images using DALL-E model
-module.exports = {
-  name: "dall-e",
-  alias: ['dalle', 'dale', 'dal-e'],
-  category: "ai",
-  use: "<query>",
-  isSpam: true,
-  isQuery: true,
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`;
 
-  // Asynchronous run function to handle the command logic
-  async run({ conn, msg }, { query }) {
-    // Call the 'de' function to generate an image based on the query
-    let imageArray = await de2(query) ? await de2(query) : await de(query) ? await de(query) : false;
+  try {
+    m.reply('*Please wait, generating images...*');
 
-    if (!imageArray) return msg.reply('Terjadi kesalahan')
-    // Send the generated image as a reply to the user's message
-    for (let i = 0; i < imageArray.length; i++) {
-      conn.sendMessage(msg.from, { image: imageArray[i] }, { quoted: msg });
+    const endpoint = `https://cute-tan-gorilla-yoke.cyclic.app/imagine?text=${encodeURIComponent(text)}`;
+    const response = await fetch(endpoint);
+    
+    if (response.ok) {
+      const imageBuffer = await response.buffer();
+      await conn.sendFile(m.chat, imageBuffer, 'image.png', null, m);
+    } else {
+      throw '*Image generation failed*';
     }
-  },
+  } catch {
+    throw '*Oops! Something went wrong while generating images. Please try again later.*';
+  }
 };
 
-// Asynchronous function to interact with the DALL-E model and generate images
-async function de(query) {
-  // Return a promise
-  return new Promise((resolve) => {
-    // Call the DALL-E model with the provided prompt
-    dalle.v1({ prompt: query }, (err, data) => {
-      // Resolve with the error message if there is an error, otherwise resolve with the generated image
-      if (err !== null) {
-        resolve(err.message);
-      } else {
-        resolve(data.images);
-      }
-    });
-  });
-}
-
-async function de2(query) {
-  return new Promise((resolve) => {
-    dalle.v2({ prompt: query, markdown: false })
-  }, (err, data) => {
-    if (err) {
-      resolve(false)
-    } else {
-      resolve(data.images)
-    }
-  })
-}
+handler.help = ['dalle'];
+handler.tags = ['AI'];
+handler.command = ['dalle', 'gen', 'imagine', 'openai2'];
+export default handler;
