@@ -6,20 +6,21 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality;
-    if (!text) text = "Los Cafres - Tus ojos";
+    if (!text) text = "fatiha";
     try {
         const yt_play = await search(text);
         let additionalText = '';
         if (command === 'play') {
-            additionalText = '🎵 المشغل الآلي';
+            additionalText = '🔊 المشغل الآلي';
         } else if (command === 'rffewfw') {
             additionalText = '🎥 الفيديو الموسيقي';
         }
-        let searchMessage = `🔍 بحث JEEN عن "${text}" \n\n`;
-        searchMessage += `النتائج:\n`;
-        for (let i = 0; i < yt_play.length; i++) {
-            searchMessage += `${i + 1}. ${yt_play[i].title}\n`;
-        }
+        let searchMessage = `═════ •⊰JEEN⊱• ═════\n`;
+        searchMessage += `🔖 ${text}\n`;
+        searchMessage += `🗣 ${yt_play[0].author.name}\n`;
+        searchMessage += `🔊 ${additionalText}\n`;
+        searchMessage += `═════ •⊰JEEN⊱• ═════\n`;
+        
         await conn.sendMessage(m.chat, {
             text: searchMessage,
             contextInfo: {
@@ -33,17 +34,34 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                 }
             }
         }, { quoted: m });
+        
         if (command == 'play') {
             try {
+                // Send the "Please wait..." message
+                const waitMessage = "يتم تحميل الصوت، الرجاء الانتظار...";
+                await conn.sendMessage(m.chat, {
+                    text: `**${waitMessage}**`,
+                    contextInfo: {
+                        externalAdReply: {
+                            title: waitMessage,
+                            body: "",
+                            mediaType: 1
+                        }
+                    }
+                });
+
                 let q = '128kbps';
                 let v = yt_play[0].url;
                 const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v));
                 const dl_url = await yt.audio[q].download();
                 const ttl = await yt.title;
                 const size = await yt.audio[q].fileSizeH;
+                
+                // Send the audio with a bold message
+                const boldTitle = `**${ttl}**`;
                 await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
                     externalAdReply: {
-                        title: ttl,
+                        title: boldTitle,
                         body: "",
                         thumbnailUrl: yt_play[0].thumbnail, 
                         mediaType: 1,
@@ -69,6 +87,6 @@ handler.limit = 4;
 export default handler;
 
 async function search(query, options = {}) {
-    const search = await yts.search({ query, hl: "es", gl: "ES", ...options });
+    const search = await yts.search({ query, hl: "ar", gl: "ES", ...options });
     return search.videos;
 }
