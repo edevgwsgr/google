@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 602,
+      "exp": 664,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -3989,6 +3989,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 54
+    },
+    "212662032170@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Hassan Jamaa",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 60
     }
   },
   "chats": {
@@ -8416,14 +8435,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212662032170@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "obb.js": {
-      "total": 33,
-      "success": 25,
-      "last": 1710382547595,
-      "lastSuccess": 1710382547595
+      "total": 36,
+      "success": 28,
+      "last": 1710636353782,
+      "lastSuccess": 1710636353782
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8792,10 +8836,10 @@
       "lastSuccess": 1710441447454
     },
     "Ayati.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1710624154715,
-      "lastSuccess": 1710624154715
+      "total": 3,
+      "success": 3,
+      "last": 1710632420102,
+      "lastSuccess": 1710632420102
     },
     "ai-photoleap copy.js": {
       "total": 4,
@@ -8808,6 +8852,12 @@
       "success": 3,
       "last": 1710629087903,
       "lastSuccess": 1710629087903
+    },
+    "Adhan.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1710632396275,
+      "lastSuccess": 1710632396275
     }
   },
   "msgs": {},
