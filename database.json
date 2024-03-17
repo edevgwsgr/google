@@ -93,7 +93,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 723,
+      "exp": 776,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 5822,
+      "exp": 6163,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8604,10 +8604,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 81,
-      "success": 73,
-      "last": 1710689587954,
-      "lastSuccess": 1710689587954
+      "total": 85,
+      "success": 76,
+      "last": 1710709639336,
+      "lastSuccess": 1710709639336
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8736,10 +8736,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1710628996174,
-      "lastSuccess": 1710628996174
+      "total": 23,
+      "success": 23,
+      "last": 1710709565640,
+      "lastSuccess": 1710709565640
     },
     "ai-game.js": {
       "total": 4,
@@ -8916,10 +8916,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1710697198863,
-      "lastSuccess": 1710697198863
+      "total": 16,
+      "success": 16,
+      "last": 1710708143833,
+      "lastSuccess": 1710708143833
     },
     "alquran.js": {
       "total": 2,
@@ -8950,6 +8950,12 @@
       "success": 4,
       "last": 1710694958988,
       "lastSuccess": 1710694958988
+    },
+    "dall0.js": {
+      "total": 9,
+      "success": 6,
+      "last": 1710709678996,
+      "lastSuccess": 1710709678996
     }
   },
   "msgs": {},
