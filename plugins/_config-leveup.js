@@ -1,45 +1,55 @@
 import { canLevelUp, xpRange } from '../lib/levelling.js'
-import { levelup } from '../lib/canvas.js'
-import { readFileSync } from 'fs'
+let handler = async (m, { conn }) => {
+	  let name = conn.getName(m.sender)
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/1ZxrXKJ/avatar-contact.jpg')
+    let user = global.db.data.users[m.sender]
+    if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+        let { min, xp, max } = xpRange(user.level, global.multiplier)
+        let txt = `
+┌───⊷ *NIVEL*
+▢ Nombre : *${name}*
+▢ Nivel : *${user.level}*
+▢ XP : *${user.exp - min}/${xp}*
+▢ Rango : *${user.role}*
+└──────────────
 
-let handler = async (m, { conn, usedPrefix }) => {
-    let { exp, level, role } = global.db.data.users[m.sender]
-    let { min, xp, max } = xpRange(level, global.multiplier)
-
-    if (!canLevelUp(level, exp, global.multiplier)) {
-        let remainingXP = max - exp
-        throw `
-╭─ ❖ ── *المستوى* ── ❖ ──╗
-┃ *الاسم:* ${conn.getName(m.sender)}
-┃ *المستوى:* ${level}
-┃ *الرتبة:* ${role}
-┃ *نقاط التجربة:* ${exp - min}/${xp}
-╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝
-
-*تحتاج ${remainingXP} نقاط تجربة إضافية للارتقاء إلى المستوى التالي.*
+Te falta *${max - user.exp}* de *XP* para subir de nivel
 `.trim()
+try {
+  let imgg = API('fgmods', '/api/maker/rank', {
+    username: name,
+    xp: user.exp - min,
+    exp: xp,
+    avatar: pp,
+    level: user.level,
+    ranklog: 'https://i.ibb.co/7gfnyMw/gold.png',
+    background: 'https://i.ibb.co/CsNgBYw/qiyana.jpg'
+}, 'apikey')
+
+    conn.sendFile(m.chat, imgg, 'level.jpg', txt, m)
+} catch (e) {
+    m.reply(txt)
+}
     }
+    let before = user.level * 1
+    while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
+    if (before !== user.level) {
+    	user.role = global.rpg.role(user.level).name
 
-    let before = level
-    while (canLevelUp(level, exp, global.multiplier)) level++
-
-    if (before !== level) {
         let str = `
-╭─ ❖ ── *الارتقاء بالمستوى* ── ❖ ──╗
-┃ *المستوى السابق:* ${before}
-┃ *المستوى الحالي:* ${level}
-┃ *الرتبة:* ${role}
-┃ *التاريخ:* ${new Date().toLocaleString('id-ID')}
-╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝
+┌─⊷ *LEVEL UP*
+▢ Nivel anterior : *${before}*
+▢ Nivel actual : *${user.level}*
+▢ Rango : *${user.role}*
+└──────────────
 
-*تهانينا! ${conn.getName(m.sender)} قد ارتقى بمستواه.*
-*_كلما تفاعلت أكثر مع KatashiBot-MD، زاد مستواك!_* 
-*_قم بتحديث رتبتك باستخدام الأمر ${usedPrefix}rol._*
+*_Cuanto más interactúes con los bots, mayor será tu nivel_*
 `.trim()
-
         try {
-            const img = readFileSync('img1.jpg') // قراءة ملف الصورة
-            conn.sendMessage(m.chat, { image: img, caption: str }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100 })
+            let img = API('fgmods', '/api/maker/levelup', { 
+                avatar: pp 
+             }, 'apikey')
+      conn.sendFile(m.chat, img, 'levelup.jpg', str, m)
         } catch (e) {
             m.reply(str)
         }
@@ -47,8 +57,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 
 handler.help = ['levelup']
-handler.tags = ['xp']
+handler.tags = ['econ']
 handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
-handler.exp = 0
 
 export default handler
