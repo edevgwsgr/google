@@ -1,19 +1,13 @@
-import fetch from "node-fetch";
-import yts from "yt-search";
-import ytdl from 'ytdl-core';
-import axios from 'axios';
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
-
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality;
     if (!text) text = "fatiha";
     try {
         const yt_play = await search(text);
-        let additionalText = '';
-        if (command === 'play') {
-            additionalText = '🔊 المشغل الآلي';
-        } else if (command === 'rffewfw') {
-            additionalText = '🎥 الفيديو الموسيقي';
+        let additionalText =   ;
+        if (command ===  play ) {
+            additionalText =  🔊 المشغل الآلي ;
+        } else if (command ===  rffewfw ) {
+            additionalText =  🎥 الفيديو الموسيقي ;
         }
         let searchMessage = `═════ •⊰JEEN⊱• ═════\n`;
         searchMessage += `🔖 ${text}\n`;
@@ -22,7 +16,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
         searchMessage += `═════ •⊰JEEN⊱• ═════\n`;
         
         // Add bot owner information, publication time, and a message indicating that the audio is being downloaded
-        const botOwner = "Your Bot Owner";
+        const botOwner = "〽️ajnon";
         const currentTime = new Date().toLocaleString();
         const downloadingMessage = "يتم تحميل الصوت، الرجاء الانتظار...";
         searchMessage += `\n🤖 صاحب البوت: ${botOwner}\n`;
@@ -43,15 +37,15 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
             }
         }, { quoted: m });
         
-        if (command == 'play') {
+        if (command ==  play ) {
             try {
-                let q = '128kbps';
+                let q =  128kbps ;
                 let v = yt_play[0].url;
                 const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v));
                 const dl_url = await yt.audio[q].download();
                 const ttl = await yt.title;
                 const size = await yt.audio[q].fileSizeH;
-                await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
+                await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype:  audio/mpeg , contextInfo: {
                     externalAdReply: {
                         title: ttl,
                         body: "",
@@ -65,13 +59,13 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                 // Handle error
             }
         }
-        // Add more conditions for other commands like 'rffewfw' if needed
+        // Add more conditions for other commands like  rffewfw  if needed
     } catch {
         // Handle error
     }
 }
 
-handler.command = ['play', 'rffewfw'];
+handler.command = [ play ,  rffewfw ];
 handler.register = true;
 handler.exp = 0;
 handler.limit = 4;
