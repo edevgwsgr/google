@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4577,
+      "exp": 4767,
       "level": 0
     },
     "393925367872@s.whatsapp.net": {
@@ -4008,6 +4008,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 60
+    },
+    "212678394345@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "simohamed",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 8
     }
   },
   "chats": {
@@ -8460,6 +8479,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212678394345@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8560,10 +8604,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 67,
-      "success": 60,
-      "last": 1710642357955,
-      "lastSuccess": 1710640265864
+      "total": 73,
+      "success": 66,
+      "last": 1710645000303,
+      "lastSuccess": 1710645000303
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -8860,10 +8904,10 @@
       "lastSuccess": 1710632396275
     },
     "ai-play.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1710640295491,
-      "lastSuccess": 1710640295491
+      "total": 19,
+      "success": 19,
+      "last": 1710645057895,
+      "lastSuccess": 1710645057895
     }
   },
   "msgs": {},
