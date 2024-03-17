@@ -1,75 +1,84 @@
-import yts from 'yt-search'
-import fg from 'api-dylux'
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
+import fetch from "node-fetch";
+import yts from "yt-search";
+import ytdl from 'ytdl-core';
+import axios from 'axios';
+import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 
-let limit = 320
-
-let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
-    if (!text) throw `✳️ ${mssg.example} *${usedPrefix + command}* Lil Peep hate my life`
-  
-    let chat = global.db.data.chats[m.chat]
-    let res = await yts(text)
-    let vid = res.videos[0]
-    
-    if (!vid) throw `✳️ Vídeo/Audio no encontrado`
-  
-    let isVideo = /vid$/.test(command)
-    m.react('🎧') 
-
-    let play = `
-┌──────────────
-▢ 📌 *${mssg.title}:* ${vid.title}
-▢ 📆 *${mssg.aploud}:* ${vid.ago}
-▢ ⌚ *${mssg.duration}:* ${vid.timestamp}
-▢ 👀 *${mssg.views}:* ${vid.views.toLocaleString()}
-└──────────────
-
-_Enviando..._` 
-    conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null)
-
-    let q = isVideo ? '360p' : '128kbps' 
-
+let handler = async (m, { conn, command, args, text, usedPrefix }) => {
+    let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality;
+    if (!text) text = "fatiha";
     try {
-        let yt = await (isVideo ? fg.ytv : fg.yta)(vid.url, q)
-        let { title, dl_url, quality, size, sizeB } = yt
-        let isLimit = limit * 1024 < sizeB 
-
-        await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `≡  *DALICH YTDL*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Descarga Completada' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
-
-        if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
-
-*Title* : ${title}
-*🎞️Quality* : ${quality}
-*⚖️Size* : ${size}
-`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
-        
-        m.react(done) 
-    } catch {
-        try {
-            let yt = await (isVideo ? fg.ytmp4 : fg.ytmp3)(vid.url, q)
-            let { title, dl_url, quality, size, sizeB } = yt
-            let isLimit = limit * 1024 < sizeB 
-
-            await conn.loadingMsg(m.chat, '📥 Descargando', ` ${isLimit ? `▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Descarga Completada' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
-
-            if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /2$/.test(command)), `
-
-*Title : ${mssg.title}* : ${title}
-*Quality : ${mssg.quality}* : ${quality}
-*Size : ${mssg.size}* : ${size}
-`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
-                
-            m.react(done) 
-        } catch (error) {
-            m.reply(`❎ ${mssg.error}`)
+        const yt_play = await search(text);
+        let additionalText = '';
+        if (command === 'play') {
+            additionalText = '🔊 المشغل الآلي';
+        } else if (command === 'rffewfw') {
+            additionalText = '🎥 الفيديو الموسيقي';
         }
+        let searchMessage = `═════ •⊰JEEN⊱• ═════\n`;
+        searchMessage += `🔖 ${text}\n`;
+        searchMessage += `🗣 ${yt_play[0].author.name}\n`;
+        searchMessage += `🔊 ${additionalText}\n`;
+        searchMessage += `═════ •⊰JEEN⊱• ═════\n`;
+        
+        // Add bot owner information, publication time, and a message indicating that the audio is being downloaded
+        const botOwner = "Your Bot Owner";
+        const currentTime = new Date().toLocaleString();
+        const downloadingMessage = "يتم تحميل الصوت، الرجاء الانتظار...";
+        searchMessage += `\n🤖 صاحب البوت: ${botOwner}\n`;
+        searchMessage += `⏰ وقت النشر: ${currentTime}\n`;
+        searchMessage += `💬 ${downloadingMessage}\n`;
+        
+        await conn.sendMessage(m.chat, {
+            text: searchMessage,
+            contextInfo: {
+                externalAdReply: {
+                    title: yt_play[0].title,
+                    body: packname,
+                    thumbnailUrl: yt_play[0].thumbnail, 
+                    mediaType: 1,
+                    showAdAttribution: true,
+                    renderLargerThumbnail: true
+                }
+            }
+        }, { quoted: m });
+        
+        if (command == 'play') {
+            try {
+                let q = '128kbps';
+                let v = yt_play[0].url;
+                const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v));
+                const dl_url = await yt.audio[q].download();
+                const ttl = await yt.title;
+                const size = await yt.audio[q].fileSizeH;
+                await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
+                    externalAdReply: {
+                        title: ttl,
+                        body: "",
+                        thumbnailUrl: yt_play[0].thumbnail, 
+                        mediaType: 1,
+                        showAdAttribution: true,
+                        renderLargerThumbnail: true
+                    }
+                }}, { quoted: m });
+            } catch {
+                // Handle error
+            }
+        }
+        // Add more conditions for other commands like 'rffewfw' if needed
+    } catch {
+        // Handle error
     }
 }
 
-handler.help = ['play']
-handler.tags = ['downloader']
-handler.command = ['play', 'playvid']
-handler.group = false
-handler.premium = true
+handler.command = ['play', 'rffewfw'];
+handler.register = true;
+handler.exp = 0;
+handler.limit = 4;
 
-export default handler
+export default handler;
+
+async function search(query, options = {}) {
+    const search = await yts.search({ query, hl: "ar", gl: "ES", ...options });
+    return search.videos;
+}
