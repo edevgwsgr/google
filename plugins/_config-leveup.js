@@ -38,7 +38,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim()
 
         try {
-            const img = readFileSync('levelup.jpg') // قراءة ملف الصورة
+            const img = readFileSync('img1.jpg') // قراءة ملف الصورة
             conn.sendMessage(m.chat, { image: img, caption: str }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100 })
         } catch (e) {
             m.reply(str)
