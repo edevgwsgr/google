@@ -11,14 +11,17 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
         const yt_play = await search(text);
         let additionalText = '';
         if (command === 'play') {
-            additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊';
+            additionalText = '🎵 المشغل الآلي';
         } else if (command === 'rffewfw') {
-            additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥';
+            additionalText = '🎥 الفيديو الموسيقي';
         }
-        let captionvid = `ও 𝙏𝙄𝙏𝙇𝙀
-»  ${yt_play[0].title}`;
+        let searchMessage = `🔍 بحث JEEN عن "${text}" \n\n`;
+        searchMessage += `النتائج:\n`;
+        for (let i = 0; i < yt_play.length; i++) {
+            searchMessage += `${i + 1}. ${yt_play[i].title}\n`;
+        }
         await conn.sendMessage(m.chat, {
-            text: captionvid,
+            text: searchMessage,
             contextInfo: {
                 externalAdReply: {
                     title: yt_play[0].title,
