@@ -1,26 +1,22 @@
-import fetch from 'node-fetch'
+import fetch from 'node-fetch';
 
-var handler = async (m, { text,  usedPrefix, command }) => {
+const handler = async (m, { text, usedPrefix, command, conn }) => {
+    if (!text) return conn.reply(m.chat, `🎌 *Ingrese una petición*\n\nEjemplo: ${usedPrefix}${command} ¿Conoces CuriosityBot-MD?`, m);
 
-if (!text) return conn.reply(m.chat, `🎌 *Ingresé una petición*\n\nEjemplo, !bard Conoces CuriosityBot-MD?`, m, fake, )
+    try {
+        conn.sendPresenceUpdate('composing', m.chat);
+        const apiResponse = await fetch(`https://aemt.me/bard?text=${encodeURIComponent(text)}`);
+        const res = await apiResponse.json();
+        await conn.reply(m.chat, res.result);
+    } catch (error) {
+        console.error(error);
+        return conn.reply(m.chat, '*🚩 Ocurrió un fallo*', m);
+    }
+};
 
-try {
+handler.command = ['bard'];
+handler.help = ['bard'];
+handler.tags = ['ai'];
+handler.premium = false;
 
-conn.sendPresenceUpdate('composing', m.chat)
-var apii = await fetch(`https://aemt.me/bard?text=${text}`)
-var res = await apii.json()
-await m.reply(res.result)
-
-} catch (error) {
-console.error(error)
-return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
-}
-
-}
-handler.command = ['bard']
-handler.help = ['bard']
-handler.tags = ['ai']
-
-handler.premium = false
-
-export default handler
+export default handler;
