@@ -1,44 +1,53 @@
 import { canLevelUp, xpRange } from '../lib/levelling.js';
-import { levelup } from '../lib/canvas.js';
 
-const handler = async (m, { conn }) => {
-  const name = conn.getName(m.sender);
-  const usertag = '@' + m.sender.split('@s.whatsapp.net')[0];
-  const user = global.db.data.users[m.sender];
-  if (!canLevelUp(user.level, user.exp, global.multiplier)) {
-    const { min, xp, max } = xpRange(user.level, global.multiplier);
-    const message = `
-🏰 *Adventurer's Guild*
-*Welcome, ${usertag}!*
+let handler = async (m, { conn }) => {
+    let name = conn.getName(m.sender);
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/whjlJSf.jpg');
+    let user = global.db.data.users[m.sender];
+    let background = 'https://i.ibb.co/4YBNyvP/images-76.jpg'; // Fixed background URL
 
-*◉ Current Level:* ${user.level}
-*◉ Current Rank:* ${user.role}
-*◉ Experience Points:* ${user.exp - min}/${xp}
+    if (!canLevelUp(user.level, user.exp, global.multiplier)) {
+        let { min, xp, max } = xpRange(user.level, global.multiplier);
+        let txt = `
+┌───⊷ *LEVEL*
+▢ Number : *${name}*
+▢ Level : *${user.level}*
+▢ XP : *${user.exp - min}/${xp}*
+▢ Role : *${user.role}*
+└──────────────
 
-*—◉ To level up, you need to earn ${max - user.exp} more experience points. Keep interacting with the Bot!.*`.trim();
-    return conn.sendMessage(m.chat, {text: message, mentions: [m.sender]}, {quoted: m});
-  }
-  const before = user.level * 1;
-  while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
-  if (before !== user.level) {
-    const levelUpMessage = `🎉 Congratulations, ${name}! You've leveled up to ${user.level}`;
-    const levelUpDetails = `
-🚀 *New Level Achieved*
+Hey there, ${name}! You're not ready to level up just yet. It seems like you need to munch up *${max - user.exp}* more XP to level up and reach new heights! Keep going, and the bots will be singing your praises soon! 🚀
+`.trim();
 
-*◉ Previous Level:* ${before}
-*◉ New Level:* ${user.level}
-*◉ Current Rank:* ${user.role}
+        try {
+            let imgg = `https://wecomeapi.onrender.com/rankup-image?username=${encodeURIComponent(name)}&currxp=${user.exp - min}&needxp=${xp}&level=${user.level}&rank=${encodeURIComponent(pp)}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(background)}`;
+            conn.sendFile(m.chat, imgg, 'level.jpg', txt, m);
+        } catch (e) {
+            m.reply(txt);
+        }
+    } else {
+        let str = `
+┌─⊷ *LEVEL UP*
+▢ Previous level : *${user.level - 1}*
+▢ Current level : *${user.level}*
+▢ Role : *${user.role}*
+└──────────────
 
-*—◉ Keep exploring and completing quests to reach new heights in the Adventurer's Guild. Keep interacting with the Bot!.*`.trim();
-    try {
-      const levelUpImage = await levelup(levelUpMessage, user.level);
-      conn.sendFile(m.chat, levelUpImage, 'levelup.jpg', levelUpDetails, m);
-    } catch (e) {
-      conn.sendMessage(m.chat, {text: levelUpDetails, mentions: [m.sender]}, {quoted: m});
+Woo-hoo, ${name}! You've soared to new heights and reached level ${user.level}! 🎉 Time to celebrate! 🎊
+Your newfound power will strike fear into the hearts of trolls, and the bots will bow before your command! Keep up the incredible work, and who knows what epic adventures await you next! 🌟
+`.trim();
+
+        try {
+            let img = `https://wecomeapi.onrender.com/levelup-image?avatar=${encodeURIComponent(pp)}`;
+            conn.sendFile(m.chat, img, 'levelup.jpg', str, m);
+        } catch (e) {
+            m.reply(str);
+        }
     }
-  }
-};
+}
+
 handler.help = ['levelup'];
-handler.tags = ['xp'];
-handler.command = ['level', 'lvl', 'levelup']; // Added alternative command names 'level', 'lvl'
-export default handler;
+handler.tags = ['economy'];
+handler.command = ['lvl', 'levelup', 'level'];
+
+export default handler
