@@ -52,6 +52,6 @@ m.reply(str)
 }
 handler.help = ['levelup']
 handler.tags = ['rg']
-handler.command = ['nivel']
+handler.command = ['nivel', 'lvl', 'levelup', 'level']
 
 export default handler
