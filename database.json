@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 4848,
+      "exp": 4948,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8904,16 +8904,16 @@
       "lastSuccess": 1710632396275
     },
     "ai-play.js": {
-      "total": 19,
+      "total": 20,
       "success": 19,
-      "last": 1710645057895,
+      "last": 1710649792778,
       "lastSuccess": 1710645057895
     },
     "_config-leveup.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1710647752043,
-      "lastSuccess": 1710647752043
+      "total": 7,
+      "success": 7,
+      "last": 1710649858149,
+      "lastSuccess": 1710649858149
     }
   },
   "msgs": {},
