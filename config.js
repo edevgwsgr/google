@@ -74,7 +74,7 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = 'MEE6'
+global.packname = 'JEEN'
 global.author = 'MD'
 // waitt
 global.wait = "_*Please wait...*_"
@@ -86,7 +86,7 @@ global.waitttt = "_*Please wait*_"
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
 ['212621851554', 'test', 1], 
-['5492266466080', 'test', 1],  
+['212641207087', 'test', 1],  
 ['59894808483', 'test', 1],
 ['5521989092076', 'test', 1]] 
 
@@ -104,12 +104,12 @@ global.waittt = "*Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*Charging..._ ▬▬▬▬▬▬▭*"
 global.waittttt = "*Filled..._ ▬▬▬▬▬▬▬*"
 
-global.gt = 'MEE6'
-global.yt = 'youtube.com/@alixention6598'
-global.yt2 = 'youtu.be/kU53oGA6oaY?si=ZoBiKhtr611vHTPQ'
-global.ig = 'instagram.com/ang_0y'
+global.gt = 'JEEN'
+global.yt = 'youtube.com/'
+global.yt2 = 'youtu.be/'
+global.ig = 'instagram.com/majnon._.98'
 global.md = 'chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be'
-global.fb = 'facebook.com/61554547303308'
+global.fb = 'https://www.facebook.com/jamaa.abdessamad'
 
 global.thumbnailUrl = ['https://telegra.ph/file/3e168b7f803aa0d2ecf02.jpg', 'https://telegra.ph/file/a0c30e910d01267ed62de.jpg', 'https://telegra.ph/file/d4af53b64529bdd137227.jpg']
 
@@ -121,16 +121,16 @@ global.nnn = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 2
 global.nnnt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 3
 global.nnntt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 4
 global.nnnttt = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HJvDM8zYgsIKu0hMW3i5be' //A.T.M.M
-global.paypal = 'https://paypal.me/Ang476597'
-global.asistencia = 'Wa.me/212621851554' //Dudas? escríbeme...
+global.nnnttt1 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //A.T.M.M
+global.paypal = 'https://paypal.me/majnonrossi'
+global.asistencia = 'Wa.me/212641207087' //Dudas? escríbeme...
 
-global.wm = 'MEE6-MD'
-global.igfg = 'MEE6-MD'
+global.wm = 'JEEN-MD'
+global.igfg = 'JEEN-MD'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
