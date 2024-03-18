@@ -80,7 +80,7 @@
     "212607967755@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -88,12 +88,12 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Dalich",
+      "name": "dalich",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1710768666146,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 791,
+      "exp": 836,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6228,
+      "exp": 6299,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8508,10 +8508,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 36,
-      "success": 28,
-      "last": 1710636353782,
-      "lastSuccess": 1710636353782
+      "total": 38,
+      "success": 30,
+      "last": 1710768852212,
+      "lastSuccess": 1710768852212
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8544,10 +8544,10 @@
       "lastSuccess": 1709392960753
     },
     "_config-make-account.js": {
-      "total": 38,
-      "success": 22,
-      "last": 1710421421414,
-      "lastSuccess": 1710421421414
+      "total": 39,
+      "success": 23,
+      "last": 1710768666146,
+      "lastSuccess": 1710768666146
     },
     "_config-info.js": {
       "total": 29,
@@ -8676,10 +8676,10 @@
       "lastSuccess": 1709685657919
     },
     "ai-owner.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1710000181072,
-      "lastSuccess": 1710000181072
+      "total": 6,
+      "success": 6,
+      "last": 1710768637770,
+      "lastSuccess": 1710768637770
     },
     "_config-ping.js": {
       "total": 19,
@@ -8844,10 +8844,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 18,
-      "success": 18,
-      "last": 1710764294394,
-      "lastSuccess": 1710764294394
+      "total": 20,
+      "success": 20,
+      "last": 1710768452143,
+      "lastSuccess": 1710768452143
     },
     "_config-runtime.js": {
       "total": 4,
@@ -8904,10 +8904,10 @@
       "lastSuccess": 1710632396275
     },
     "ai-play.js": {
-      "total": 24,
-      "success": 21,
-      "last": 1710695015207,
-      "lastSuccess": 1710683136501
+      "total": 26,
+      "success": 22,
+      "last": 1710768670633,
+      "lastSuccess": 1710768647245
     },
     "_config-leveup.js": {
       "total": 8,
