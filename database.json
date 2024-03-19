@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6380,
+      "exp": 6504,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8504,6 +8504,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363245618760322@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "120363234883179693@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -8736,10 +8786,10 @@
       "lastSuccess": 1709662658341
     },
     "ai-tr.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1710709565640,
-      "lastSuccess": 1710709565640
+      "total": 24,
+      "success": 24,
+      "last": 1710807340732,
+      "lastSuccess": 1710807340732
     },
     "ai-game.js": {
       "total": 4,
