@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6540,
+      "exp": 6559,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4045,7 +4045,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 3
+      "exp": 106
     },
     "212691953970@s.whatsapp.net": {
       "afk": -1,
@@ -8617,6 +8617,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212718997296@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9029,10 +9054,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1710796568063,
-      "lastSuccess": 1710796568063
+      "total": 24,
+      "success": 24,
+      "last": 1710895110822,
+      "lastSuccess": 1710895110822
     },
     "alquran.js": {
       "total": 2,
