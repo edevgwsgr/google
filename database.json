@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 985,
+      "exp": 1157,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6816,
+      "exp": 6935,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8850,10 +8850,10 @@
       "lastSuccess": 1709848909910
     },
     "ai-hd.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709797541348,
-      "lastSuccess": 1709797541348
+      "total": 6,
+      "success": 6,
+      "last": 1711040682527,
+      "lastSuccess": 1711040682527
     },
     "main-welcome.js": {
       "total": 20,
@@ -8964,10 +8964,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1710297981752,
-      "lastSuccess": 1710297981752
+      "total": 17,
+      "success": 17,
+      "last": 1711040908038,
+      "lastSuccess": 1711040908038
     },
     "ai-report.js": {
       "total": 7,
@@ -8982,10 +8982,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1710835841128,
-      "lastSuccess": 1710835841128
+      "total": 22,
+      "success": 22,
+      "last": 1711040738403,
+      "lastSuccess": 1711040738403
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9036,10 +9036,10 @@
       "lastSuccess": 1710629087903
     },
     "Adhan.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1710632396275,
-      "lastSuccess": 1710632396275
+      "total": 10,
+      "success": 6,
+      "last": 1711041000740,
+      "lastSuccess": 1711041000740
     },
     "ai-play.js": {
       "total": 26,
