@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 6701,
+      "exp": 6755,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -8646,10 +8646,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 40,
-      "success": 32,
-      "last": 1710774546944,
-      "lastSuccess": 1710774546944
+      "total": 42,
+      "success": 34,
+      "last": 1710986759288,
+      "lastSuccess": 1710986759288
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8820,10 +8820,10 @@
       "lastSuccess": 1710768637770
     },
     "_config-ping.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1710382539589,
-      "lastSuccess": 1710382539589
+      "total": 20,
+      "success": 20,
+      "last": 1710986703507,
+      "lastSuccess": 1710986703507
     },
     "downloader-tiktok.js": {
       "total": 3,
