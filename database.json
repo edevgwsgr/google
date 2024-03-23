@@ -84,7 +84,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 7,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1439,
+      "exp": 1502,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7378,
+      "exp": 7606,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3988,7 +3988,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 54
+      "exp": 58
     },
     "212662032170@s.whatsapp.net": {
       "afk": -1,
@@ -4083,7 +4083,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 23
+      "exp": 109
     }
   },
   "chats": {
@@ -8686,6 +8686,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363267419604312@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9026,10 +9051,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1711203192863,
-      "lastSuccess": 1711203192863
+      "total": 25,
+      "success": 25,
+      "last": 1711205106532,
+      "lastSuccess": 1711205106532
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9086,9 +9111,9 @@
       "lastSuccess": 1711041000740
     },
     "ai-play.js": {
-      "total": 26,
+      "total": 28,
       "success": 22,
-      "last": 1710768670633,
+      "last": 1711205127664,
       "lastSuccess": 1710768647245
     },
     "_config-leveup.js": {
@@ -9098,10 +9123,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 44,
-      "success": 44,
-      "last": 1711204070280,
-      "lastSuccess": 1711204070280
+      "total": 45,
+      "success": 45,
+      "last": 1711205183726,
+      "lastSuccess": 1711205183726
     },
     "alquran.js": {
       "total": 2,
@@ -9152,10 +9177,10 @@
       "lastSuccess": 1711026815676
     },
     "_config-top-members.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1711186541723,
-      "lastSuccess": 1711186541723
+      "total": 3,
+      "success": 3,
+      "last": 1711205203749,
+      "lastSuccess": 1711205203749
     },
     "tooll-backup.js": {
       "total": 3,
@@ -9164,10 +9189,10 @@
       "lastSuccess": 1711203341534
     },
     "removebg.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711204541112,
-      "lastSuccess": 1711204541112
+      "total": 7,
+      "success": 7,
+      "last": 1711204906977,
+      "lastSuccess": 1711204906977
     }
   },
   "msgs": {},
