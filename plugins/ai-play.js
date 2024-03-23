@@ -1,57 +1,42 @@
-import { search } from './your-search-module'; // Assuming you have a separate search module
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+let yts = require('yt-search')
+let fetch = require('node-fetch')
+const { servers, yta, ytv } = require('../lib/y2mate')
+let handler = async (m, { conn, command, text }) => {
+  if (!text) throw '*📌 Escriba el nombre/título del video o audio a bucar*\n\n*Ejemplo:*\n*#play Billie Eilish - Bellyache*'
+  let results = await yts(text)
+  m.reply('🔁 *Descargando...*\n\n*❰ ❗ ❱ Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
+  let vid = results.all.find(video => video.seconds < 3600)
+  if (!vid) throw '*Video/Audio No encontrado* '
+  let isVideo = /2$/.test(command)
+  let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
+  //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
+  conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
+*🪄 ️Reproductor By Gata Dios 🪄*
 
-const handler = async (m, { conn, command, text, usedPrefix }) => {
-    if (!text) {
-        return conn.reply(m.chat, `Please use the command as follows: ${usedPrefix}${command} [song name]`, m);
-    }
+🙂 *${title}*
+9:99 ━❍──────── -9:99
+↻     ⊲  Ⅱ  ⊳     ↺
+VOLUME: ▁▂▃▄▅▆▇ 100%
 
-    try {
-        const yt_play = await search(text);
-        let additionalText = '';
-        if (command === 'play') {
-            additionalText = '🔊 Auto Player';
-        } else if (command === 'video') {
-            additionalText = '🎥 Music Video';
-        }
-        const searchMessage = `═════ •⊰JEEN⊱• ═════\n🔖 ${text}\n🗣 ${yt_play[0].author.name}\n🔊 ${additionalText}\n═════ •⊰JEEN⊱• ═════\n`;
-
-        await conn.sendMessage(m.chat, {
-            text: searchMessage,
-            contextInfo: {
-                externalAdReply: {
-                    title: yt_play[0].title,
-                    thumbnailUrl: yt_play[0].thumbnail, 
-                    mediaType: 1,
-                    showAdAttribution: true,
-                    renderLargerThumbnail: true
-                }
-            }
-        }, { quoted: m });
-        
-        if (command === 'play') {
-            try {
-                const q = '128kbps';
-                const v = yt_play[0].url;
-                const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v));
-                const dl_url = await yt.audio[q].download();
-                const ttl = await yt.title;
-                const size = await yt.audio[q].fileSizeH;
-                
-                await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg' }, { quoted: m });
-                conn.sendMessage(m.chat, 'done', 'conversation', { quoted: m });
-            } catch {
-                // Handle error
-            }
-        }
-        // Add more conditions for other commands like 'video' if needed
-    } catch {
-        // Handle error
-    }
+*🎈 Tamaño del archivo:* ${filesizeF}
+*🎁 Aguarde un momento en lo que envío su audio/video*
+`.trim(), m)
+  let _thumb = {}
+  try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
+  catch (e) { }
+  conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
+*🎈 Título:* ${title}
+*🎁 Tamaño del archivo:* ${filesizeF}
+`.trim(), m, false, _thumb || {})
 }
+handler.help = ['play', 'play2'].map(v => v + ' <canción >')
+handler.tags = ['downloader']
+handler.command = /^play$/i
+handler.group = false
 
-handler.command = ['play', 'video'];
-handler.register = true;
-handler.exp = 0;
-handler.limit = 4;
+handler.exp = 0
+handler.registrar = false
+handler.limit = false
 
-export default handler;
+module.exports = handler
