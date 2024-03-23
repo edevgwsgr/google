@@ -4083,7 +4083,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 128
+      "exp": 216
     }
   },
   "chats": {
@@ -8715,10 +8715,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 45,
-      "success": 37,
-      "last": 1711186539073,
-      "lastSuccess": 1711186539073
+      "total": 47,
+      "success": 39,
+      "last": 1711212663125,
+      "lastSuccess": 1711212663125
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8883,16 +8883,16 @@
       "lastSuccess": 1709685657919
     },
     "ai-owner.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1710768637770,
-      "lastSuccess": 1710768637770
+      "total": 7,
+      "success": 7,
+      "last": 1711212816480,
+      "lastSuccess": 1711212816480
     },
     "_config-ping.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1710986703507,
-      "lastSuccess": 1710986703507
+      "total": 21,
+      "success": 21,
+      "last": 1711212630520,
+      "lastSuccess": 1711212630520
     },
     "downloader-tiktok.js": {
       "total": 4,
@@ -9069,10 +9069,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 4,
-      "success": 3,
-      "last": 1711057735365,
-      "lastSuccess": 1710382969411
+      "total": 5,
+      "success": 4,
+      "last": 1711212811639,
+      "lastSuccess": 1711212811639
     },
     "tooll-getplugin.js": {
       "total": 6,
@@ -9193,6 +9193,12 @@
       "success": 7,
       "last": 1711204906977,
       "lastSuccess": 1711204906977
+    },
+    "_config-jadibot-lista.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711212644273,
+      "lastSuccess": 1711212644273
     }
   },
   "msgs": {},
