@@ -7,9 +7,8 @@ let handler = async (m, { conn, args, text , usedPrefix, command }) => {
 	conn.sendMessage(m.chat, { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName }, { quoted: m })
 }
 handler.command = /^(obb)$/i
-handler.premuim = true;
-
-export default handler
+handler.premuim = true
+export default handler;
 
 async function apk(url) {
 	let res = await fetch('http://ws75.aptoide.com/api/7/apps/search?query=' + encodeURIComponent(url)+'&limit=1')

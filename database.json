@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7793,
+      "exp": 8043,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3969,7 +3969,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 49
+      "exp": 83
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -4122,7 +4122,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 326
+      "exp": 328
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -4142,6 +4142,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "120363273632963041@g.us": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": {},
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
+    },
+    "212722886999@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "D F K",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212712602811@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "『𝐀𝐒𝐀𝐀𝐃__𝐁𝐄𝐍𝟎𝟕᭄᭄』",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 25
     }
   },
   "chats": {
@@ -8819,14 +8876,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363273632963041@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "obb.js": {
-      "total": 51,
-      "success": 43,
-      "last": 1711295971348,
-      "lastSuccess": 1711295971348
+      "total": 54,
+      "success": 44,
+      "last": 1711317963155,
+      "lastSuccess": 1711317963155
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8919,10 +9001,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 91,
-      "success": 78,
-      "last": 1711232637993,
-      "lastSuccess": 1711232637993
+      "total": 92,
+      "success": 79,
+      "last": 1711317872554,
+      "lastSuccess": 1711317872554
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -9003,9 +9085,9 @@
       "lastSuccess": 1711212630520
     },
     "downloader-tiktok.js": {
-      "total": 4,
+      "total": 5,
       "success": 0,
-      "last": 1711057710212,
+      "last": 1711318131461,
       "lastSuccess": 0
     },
     "tooll-ocr.js": {
@@ -9141,10 +9223,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1711203388502,
-      "lastSuccess": 1711203388502
+      "total": 23,
+      "success": 23,
+      "last": 1711317768432,
+      "lastSuccess": 1711317768432
     },
     "ai-report.js": {
       "total": 7,
@@ -9159,10 +9241,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 33,
-      "success": 33,
-      "last": 1711310055879,
-      "lastSuccess": 1711310055879
+      "total": 35,
+      "success": 35,
+      "last": 1711317657897,
+      "lastSuccess": 1711317657897
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9177,10 +9259,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 7,
-      "success": 6,
-      "last": 1711292373177,
-      "lastSuccess": 1711292373177
+      "total": 8,
+      "success": 7,
+      "last": 1711318067117,
+      "lastSuccess": 1711318067117
     },
     "tooll-getplugin.js": {
       "total": 6,
