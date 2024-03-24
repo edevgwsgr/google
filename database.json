@@ -4069,21 +4069,22 @@
     "212687761878@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 65,
       "level": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Jeen",
+      "name": "jeen",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1711278569619,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 216
+      "exp": 896,
+      "lastclaim": 1711278578618
     }
   },
   "chats": {
@@ -8715,10 +8716,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 47,
-      "success": 39,
-      "last": 1711212663125,
-      "lastSuccess": 1711212663125
+      "total": 48,
+      "success": 40,
+      "last": 1711278633198,
+      "lastSuccess": 1711278633198
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -8751,10 +8752,10 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 39,
-      "success": 23,
-      "last": 1710768666146,
-      "lastSuccess": 1710768666146
+      "total": 40,
+      "success": 24,
+      "last": 1711278569620,
+      "lastSuccess": 1711278569620
     },
     "_config-info.js": {
       "total": 29,
@@ -8787,10 +8788,10 @@
       "lastSuccess": 1710626975061
     },
     "_config-gift.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1709651979999,
-      "lastSuccess": 1709651979999
+      "total": 9,
+      "success": 9,
+      "last": 1711278578618,
+      "lastSuccess": 1711278578618
     },
     "downloader-apk.js": {
       "total": 249,
@@ -8979,10 +8980,10 @@
       "lastSuccess": 1710629049189
     },
     "downloader-facebook.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1711057756001,
-      "lastSuccess": 1711057756001
+      "total": 24,
+      "success": 24,
+      "last": 1711278627129,
+      "lastSuccess": 1711278627129
     },
     "ramadan-pickRandom3.js": {
       "total": 8,
@@ -9009,10 +9010,10 @@
       "lastSuccess": 1709841354687
     },
     "downloader-ig.js": {
-      "total": 24,
-      "success": 12,
-      "last": 1711057726794,
-      "lastSuccess": 1711046655409
+      "total": 26,
+      "success": 13,
+      "last": 1711278621736,
+      "lastSuccess": 1711278621736
     },
     "tooll-buylimit.js": {
       "total": 2,
@@ -9051,10 +9052,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 26,
-      "success": 26,
-      "last": 1711235074689,
-      "lastSuccess": 1711235074689
+      "total": 29,
+      "success": 29,
+      "last": 1711278707815,
+      "lastSuccess": 1711278707815
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9177,10 +9178,10 @@
       "lastSuccess": 1711026815676
     },
     "_config-top-members.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711205203749,
-      "lastSuccess": 1711205203749
+      "total": 4,
+      "success": 4,
+      "last": 1711278581783,
+      "lastSuccess": 1711278581783
     },
     "tooll-backup.js": {
       "total": 3,
