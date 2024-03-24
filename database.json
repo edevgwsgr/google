@@ -3997,7 +3997,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 13,
       "level": 0,
       "money": 150,
       "premium": false,
@@ -4007,7 +4007,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 60
+      "exp": 109
     },
     "212678394345@s.whatsapp.net": {
       "afk": -1,
@@ -4083,7 +4083,7 @@
       "regTime": 1711278569619,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 896,
+      "exp": 936,
       "lastclaim": 1711278578618
     },
     "120363221539352458@g.us": {
@@ -8823,10 +8823,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 50,
-      "success": 42,
-      "last": 1711292378674,
-      "lastSuccess": 1711292378674
+      "total": 51,
+      "success": 43,
+      "last": 1711295971348,
+      "lastSuccess": 1711295971348
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -9159,10 +9159,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 31,
-      "success": 31,
-      "last": 1711292361132,
-      "lastSuccess": 1711292361132
+      "total": 32,
+      "success": 32,
+      "last": 1711295946150,
+      "lastSuccess": 1711295946150
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9261,10 +9261,10 @@
       "lastSuccess": 0
     },
     "ai-bardimg.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1710694958988,
-      "lastSuccess": 1710694958988
+      "total": 6,
+      "success": 6,
+      "last": 1711296001600,
+      "lastSuccess": 1711296001600
     },
     "dall0.js": {
       "total": 9,
@@ -9285,10 +9285,10 @@
       "lastSuccess": 1711026815676
     },
     "_config-top-members.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1711278581783,
-      "lastSuccess": 1711278581783
+      "total": 5,
+      "success": 5,
+      "last": 1711295966037,
+      "lastSuccess": 1711295966037
     },
     "tooll-backup.js": {
       "total": 3,
