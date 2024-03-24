@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8116,
+      "exp": 8373,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3969,7 +3969,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 83
+      "exp": 89
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -4160,7 +4160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 23
+      "exp": 49
     },
     "212722886999@s.whatsapp.net": {
       "afk": -1,
@@ -4199,6 +4199,82 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 25
+    },
+    "212626017383@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "@-𝑲𝒆𝒊𝒂𝒏𝒊 𝒎𝒂𝒚𝒃𝒆 (𝑴)!!",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 116
+    },
+    "33644627104@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "أمي غاليه🇫🇷",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "120363235984421200@g.us": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": {},
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 19
+    },
+    "212621777095@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "𝑬𝑺𝑪𝑨𝑵𝑶𝑹 𝑯𝑨𝑪𝑲⃟㊙️",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 5
     }
   },
   "chats": {
@@ -8901,6 +8977,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "120363235984421200@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212626017383@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9001,10 +9127,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 92,
-      "success": 79,
-      "last": 1711317872554,
-      "lastSuccess": 1711317872554
+      "total": 93,
+      "success": 80,
+      "last": 1711323031135,
+      "lastSuccess": 1711323031135
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -9079,15 +9205,15 @@
       "lastSuccess": 1711212816480
     },
     "_config-ping.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1711212630520,
-      "lastSuccess": 1711212630520
+      "total": 24,
+      "success": 24,
+      "last": 1711322949649,
+      "lastSuccess": 1711322949649
     },
     "downloader-tiktok.js": {
-      "total": 5,
+      "total": 6,
       "success": 0,
-      "last": 1711318131461,
+      "last": 1711322993999,
       "lastSuccess": 0
     },
     "tooll-ocr.js": {
@@ -9163,10 +9289,10 @@
       "lastSuccess": 1709848350515
     },
     "ai-sticker.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1711292473662,
-      "lastSuccess": 1711292473662
+      "total": 26,
+      "success": 26,
+      "last": 1711322965131,
+      "lastSuccess": 1711322965131
     },
     "downloader-facebook.js": {
       "total": 24,
@@ -9199,10 +9325,10 @@
       "lastSuccess": 1709841354687
     },
     "downloader-ig.js": {
-      "total": 26,
-      "success": 13,
-      "last": 1711278621736,
-      "lastSuccess": 1711278621736
+      "total": 27,
+      "success": 14,
+      "last": 1711323113731,
+      "lastSuccess": 1711323113731
     },
     "tooll-buylimit.js": {
       "total": 2,
@@ -9223,10 +9349,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1711317768432,
-      "lastSuccess": 1711317768432
+      "total": 24,
+      "success": 24,
+      "last": 1711323018963,
+      "lastSuccess": 1711323018963
     },
     "ai-report.js": {
       "total": 7,
@@ -9241,10 +9367,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 36,
-      "success": 36,
-      "last": 1711319598651,
-      "lastSuccess": 1711319598651
+      "total": 40,
+      "success": 40,
+      "last": 1711323073622,
+      "lastSuccess": 1711323073622
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9301,9 +9427,9 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 31,
+      "total": 33,
       "success": 22,
-      "last": 1711232645508,
+      "last": 1711323036870,
       "lastSuccess": 1710768647245
     },
     "_config-leveup.js": {
