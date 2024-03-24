@@ -6,8 +6,10 @@ let handler = async (m, { conn, args, text , usedPrefix, command }) => {
 	await m.reply('_In progress, please wait..._')
 	conn.sendMessage(m.chat, { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName }, { quoted: m })
 }
-handler.command = /^(obb)$/i
-handler.premuim = true
+handler.command = /^(obb)$/i;
+handler.help = ['obb'];
+handler.tags = ['downloader'];
+handler.premium = true
 export default handler;
 
 async function apk(url) {
