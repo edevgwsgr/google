@@ -4073,7 +4073,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 65,
+      "limit": 115,
       "level": 0,
       "money": 150,
       "premium": false,
@@ -4083,8 +4083,8 @@
       "regTime": 1711278569619,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 963,
-      "lastclaim": 1711278578618
+      "exp": 1728,
+      "lastclaim": 1711364989084
     },
     "120363221539352458@g.us": {
       "afk": -1,
@@ -9126,10 +9126,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 55,
-      "success": 44,
-      "last": 1711319639953,
-      "lastSuccess": 1711317963155
+      "total": 56,
+      "success": 45,
+      "last": 1711364884296,
+      "lastSuccess": 1711364884296
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -9168,10 +9168,10 @@
       "lastSuccess": 1711360686632
     },
     "_config-info.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1709848301687,
-      "lastSuccess": 1709848301687
+      "total": 31,
+      "success": 31,
+      "last": 1711365006815,
+      "lastSuccess": 1711365006815
     },
     "owner-addprem.js": {
       "total": 7,
@@ -9198,10 +9198,10 @@
       "lastSuccess": 1710626975061
     },
     "_config-gift.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1711278578618,
-      "lastSuccess": 1711278578618
+      "total": 14,
+      "success": 10,
+      "last": 1711364989084,
+      "lastSuccess": 1711364989084
     },
     "downloader-apk.js": {
       "total": 249,
@@ -9294,10 +9294,10 @@
       "lastSuccess": 1711292390712
     },
     "ai-owner.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1711212816480,
-      "lastSuccess": 1711212816480
+      "total": 8,
+      "success": 8,
+      "last": 1711364897119,
+      "lastSuccess": 1711364897119
     },
     "_config-ping.js": {
       "total": 24,
@@ -9348,10 +9348,10 @@
       "lastSuccess": 1710199898014
     },
     "tools-buyprem.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1709662658341,
-      "lastSuccess": 1709662658341
+      "total": 7,
+      "success": 7,
+      "last": 1711364909103,
+      "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
       "total": 28,
@@ -9426,10 +9426,10 @@
       "lastSuccess": 1711323113731
     },
     "tooll-buylimit.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1709759407891,
-      "lastSuccess": 1709759407891
+      "total": 5,
+      "success": 5,
+      "last": 1711365031831,
+      "lastSuccess": 1711365031831
     },
     "jadibot-serbot (1).js": {
       "total": 25,
@@ -9462,10 +9462,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 40,
-      "success": 40,
-      "last": 1711323073622,
-      "lastSuccess": 1711323073622
+      "total": 42,
+      "success": 42,
+      "last": 1711365005792,
+      "lastSuccess": 1711365005792
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9480,10 +9480,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 8,
-      "success": 7,
-      "last": 1711318067117,
-      "lastSuccess": 1711318067117
+      "total": 9,
+      "success": 8,
+      "last": 1711364915678,
+      "lastSuccess": 1711364915678
     },
     "tooll-getplugin.js": {
       "total": 6,
@@ -9522,10 +9522,10 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 35,
-      "success": 23,
-      "last": 1711327407597,
-      "lastSuccess": 1711327407597
+      "total": 36,
+      "success": 24,
+      "last": 1711364934835,
+      "lastSuccess": 1711364934835
     },
     "_config-leveup.js": {
       "total": 8,
@@ -9588,10 +9588,10 @@
       "lastSuccess": 1711026815676
     },
     "_config-top-members.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1711295966037,
-      "lastSuccess": 1711295966037
+      "total": 7,
+      "success": 7,
+      "last": 1711365010311,
+      "lastSuccess": 1711365010311
     },
     "tooll-backup.js": {
       "total": 3,
