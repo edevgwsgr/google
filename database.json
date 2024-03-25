@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1646,
+      "exp": 1659,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4160,7 +4160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 55
+      "exp": 64
     },
     "212722886999@s.whatsapp.net": {
       "afk": -1,
@@ -4274,7 +4274,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 5
+      "exp": 11
     },
     "212705067860@s.whatsapp.net": {
       "afk": -1,
@@ -4479,6 +4479,63 @@
       "premium": false,
       "premiumTime": 0,
       "name": "~Ãñãŝ~",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212772076580@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "♕𓆩𝐁𝐑𝐀𝐙𝐈𝐋𝐈𓆪♕🫀 ⃢⃟ 🇧🇷",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 16
+    },
+    "4591771959@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Ahmed.         .",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212675037319@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 675-037319",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -9261,6 +9318,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212772076580@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9601,10 +9683,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 42,
-      "success": 42,
-      "last": 1711365005792,
-      "lastSuccess": 1711365005792
+      "total": 44,
+      "success": 44,
+      "last": 1711395959979,
+      "lastSuccess": 1711395959979
     },
     "_config-runtime.js": {
       "total": 6,
