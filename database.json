@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8373,
+      "exp": 8438,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4275,6 +4275,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 5
+    },
+    "212705067860@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 705-067860",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -9349,10 +9368,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1711323018963,
-      "lastSuccess": 1711323018963
+      "total": 25,
+      "success": 25,
+      "last": 1711327421450,
+      "lastSuccess": 1711327421450
     },
     "ai-report.js": {
       "total": 7,
@@ -9427,10 +9446,10 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 33,
-      "success": 22,
-      "last": 1711323036870,
-      "lastSuccess": 1710768647245
+      "total": 35,
+      "success": 23,
+      "last": 1711327407597,
+      "lastSuccess": 1711327407597
     },
     "_config-leveup.js": {
       "total": 8,
