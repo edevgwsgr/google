@@ -4160,7 +4160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 50
+      "exp": 55
     },
     "212722886999@s.whatsapp.net": {
       "afk": -1,
@@ -4312,7 +4312,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 39
+      "exp": 88
     },
     "212625118807@s.whatsapp.net": {
       "afk": -1,
@@ -4370,6 +4370,63 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "963965549399@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "⚔️🪓",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 10
+    },
+    "212712003461@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 712-003461",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212718991838@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "زياش",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 9
     }
   },
   "chats": {
@@ -9294,10 +9351,10 @@
       "lastSuccess": 1711292390712
     },
     "ai-owner.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1711364897119,
-      "lastSuccess": 1711364897119
+      "total": 9,
+      "success": 9,
+      "last": 1711370636142,
+      "lastSuccess": 1711370636142
     },
     "_config-ping.js": {
       "total": 24,
@@ -9522,10 +9579,10 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 36,
-      "success": 24,
-      "last": 1711364934835,
-      "lastSuccess": 1711364934835
+      "total": 37,
+      "success": 25,
+      "last": 1711370667308,
+      "lastSuccess": 1711370667308
     },
     "_config-leveup.js": {
       "total": 8,
@@ -9616,6 +9673,18 @@
       "success": 3,
       "last": 1711292462335,
       "lastSuccess": 1711292462335
+    },
+    "Kick.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711370627416,
+      "lastSuccess": 1711370627416
+    },
+    "downloader-img.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711370682829,
+      "lastSuccess": 1711370682829
     }
   },
   "msgs": {},
