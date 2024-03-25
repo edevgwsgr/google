@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8450,
+      "exp": 8500,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3969,7 +3969,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 89
+      "exp": 112
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -4031,21 +4031,21 @@
     "212718997296@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 18,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 3,
       "level": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "mohamed",
+      "name": "ssouffy",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1711360686630,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 352
+      "exp": 453
     },
     "212691953970@s.whatsapp.net": {
       "afk": -1,
@@ -9162,10 +9162,10 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 42,
-      "success": 25,
-      "last": 1711319657090,
-      "lastSuccess": 1711292438577
+      "total": 44,
+      "success": 26,
+      "last": 1711361094164,
+      "lastSuccess": 1711360686632
     },
     "_config-info.js": {
       "total": 29,
@@ -9600,10 +9600,10 @@
       "lastSuccess": 1711203341534
     },
     "removebg.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1711292427721,
-      "lastSuccess": 1711292427721
+      "total": 15,
+      "success": 13,
+      "last": 1711361605493,
+      "lastSuccess": 1711361605493
     },
     "_config-jadibot-lista.js": {
       "total": 2,
