@@ -84,7 +84,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 7,
+      "limit": 3,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1680,
+      "exp": 1784,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8500,
+      "exp": 8621,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4160,7 +4160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 67
+      "exp": 76
     },
     "212722886999@s.whatsapp.net": {
       "afk": -1,
@@ -9575,10 +9575,10 @@
       "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
-      "total": 28,
-      "success": 28,
-      "last": 1710975564462,
-      "lastSuccess": 1710975564462
+      "total": 29,
+      "success": 29,
+      "last": 1711403402344,
+      "lastSuccess": 1711403402344
     },
     "ai-game.js": {
       "total": 4,
@@ -9665,10 +9665,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1711327421450,
-      "lastSuccess": 1711327421450
+      "total": 26,
+      "success": 26,
+      "last": 1711403688986,
+      "lastSuccess": 1711403688986
     },
     "ai-report.js": {
       "total": 7,
@@ -9849,6 +9849,18 @@
       "success": 2,
       "last": 1711370682829,
       "lastSuccess": 1711370682829
+    },
+    "ai-imganime.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1711403540418,
+      "lastSuccess": 1711403540418
+    },
+    "ai-imganime2.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1711403637231,
+      "lastSuccess": 1711403637231
     }
   },
   "msgs": {},
