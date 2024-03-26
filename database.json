@@ -4160,7 +4160,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 76
+      "exp": 84
     },
     "212722886999@s.whatsapp.net": {
       "afk": -1,
@@ -4579,6 +4579,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 19
+    },
+    "212629877050@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 629-877050",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212690481063@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "السـاعــيـقــةـة  🖤🫂",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -9721,10 +9759,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 44,
-      "success": 44,
-      "last": 1711395959979,
-      "lastSuccess": 1711395959979
+      "total": 45,
+      "success": 45,
+      "last": 1711465890682,
+      "lastSuccess": 1711465890682
     },
     "_config-runtime.js": {
       "total": 6,
