@@ -4502,7 +4502,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 34
+      "exp": 63
     },
     "4591771959@s.whatsapp.net": {
       "afk": -1,
@@ -4631,6 +4631,25 @@
       "premium": false,
       "premiumTime": 0,
       "name": "+212 720-721582",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "201222155166@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+20 122 215 5166",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -9863,10 +9882,10 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 38,
-      "success": 26,
-      "last": 1711400593990,
-      "lastSuccess": 1711400593990
+      "total": 40,
+      "success": 28,
+      "last": 1711493767908,
+      "lastSuccess": 1711493767908
     },
     "_config-leveup.js": {
       "total": 8,
