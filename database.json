@@ -4616,7 +4616,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": null
+      "exp": 162
     }
   },
   "chats": {
@@ -9419,6 +9419,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212690481063@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9579,10 +9604,10 @@
       "lastSuccess": 1711203373799
     },
     "ai-chatgpt.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1710796536521,
-      "lastSuccess": 1710796536521
+      "total": 11,
+      "success": 11,
+      "last": 1711470230698,
+      "lastSuccess": 1711470230698
     },
     "ai-yts.js": {
       "total": 8,
@@ -9657,10 +9682,10 @@
       "lastSuccess": 1711403402344
     },
     "ai-game.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1709677108923,
-      "lastSuccess": 1709677108923
+      "total": 6,
+      "success": 6,
+      "last": 1711470083365,
+      "lastSuccess": 1711470083365
     },
     "ai-gemini(bard).js": {
       "total": 12,
@@ -9759,10 +9784,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 45,
-      "success": 45,
-      "last": 1711465890682,
-      "lastSuccess": 1711465890682
+      "total": 50,
+      "success": 50,
+      "last": 1711470217768,
+      "lastSuccess": 1711470217768
     },
     "_config-runtime.js": {
       "total": 6,
@@ -9921,15 +9946,15 @@
       "lastSuccess": 1711370627416
     },
     "downloader-img.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1711370682829,
-      "lastSuccess": 1711370682829
+      "total": 4,
+      "success": 4,
+      "last": 1711470769154,
+      "lastSuccess": 1711470769154
     },
     "ai-imganime.js": {
-      "total": 5,
+      "total": 6,
       "success": 5,
-      "last": 1711409926093,
+      "last": 1711470142078,
       "lastSuccess": 1711409926093
     },
     "ai-imganime2.js": {
