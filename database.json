@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 9199,
+      "exp": 9274,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -9802,10 +9802,10 @@
       "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1711403402344,
-      "lastSuccess": 1711403402344
+      "total": 31,
+      "success": 31,
+      "last": 1711576645026,
+      "lastSuccess": 1711576645026
     },
     "ai-game.js": {
       "total": 6,
@@ -9982,10 +9982,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 52,
-      "success": 52,
-      "last": 1711537583140,
-      "lastSuccess": 1711537583140
+      "total": 54,
+      "success": 54,
+      "last": 1711576082554,
+      "lastSuccess": 1711576082554
     },
     "alquran.js": {
       "total": 2,
