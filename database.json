@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 9184,
+      "exp": 9199,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -9503,6 +9503,31 @@
       "expired": 0
     },
     "212643326509@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "120363261241375939@g.us": {
       "isBanned": false,
       "welcome": true,
       "detect": true,
