@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 8927,
+      "exp": 9158,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -9582,10 +9582,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 101,
-      "success": 86,
-      "last": 1711473971799,
-      "lastSuccess": 1711473971799
+      "total": 103,
+      "success": 88,
+      "last": 1711508877202,
+      "lastSuccess": 1711508877202
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -9840,10 +9840,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 9,
-      "success": 8,
-      "last": 1711364915678,
-      "lastSuccess": 1711364915678
+      "total": 10,
+      "success": 9,
+      "last": 1711507966719,
+      "lastSuccess": 1711507966719
     },
     "tooll-getplugin.js": {
       "total": 6,
@@ -9894,10 +9894,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 47,
-      "success": 47,
-      "last": 1711354661030,
-      "lastSuccess": 1711354661030
+      "total": 51,
+      "success": 51,
+      "last": 1711507823260,
+      "lastSuccess": 1711507823260
     },
     "alquran.js": {
       "total": 2,
@@ -9990,10 +9990,10 @@
       "lastSuccess": 1711470769154
     },
     "ai-imganime.js": {
-      "total": 6,
-      "success": 5,
-      "last": 1711470142078,
-      "lastSuccess": 1711409926093
+      "total": 8,
+      "success": 6,
+      "last": 1711508775685,
+      "lastSuccess": 1711508775685
     },
     "ai-imganime2.js": {
       "total": 3,
@@ -10024,6 +10024,12 @@
       "success": 5,
       "last": 1711474044377,
       "lastSuccess": 1711474044377
+    },
+    "toll-get.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1711507991397,
+      "lastSuccess": 1711507991397
     }
   },
   "msgs": {},
