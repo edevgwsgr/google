@@ -4122,7 +4122,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 328
+      "exp": 374
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -9916,10 +9916,10 @@
       "lastSuccess": 1711470217768
     },
     "_config-runtime.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1710970018827,
-      "lastSuccess": 1710970018827
+      "total": 7,
+      "success": 7,
+      "last": 1711571309593,
+      "lastSuccess": 1711571309593
     },
     "tourl2.js": {
       "total": 5,
@@ -10024,10 +10024,10 @@
       "lastSuccess": 1710709678996
     },
     "_config-welcome.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1710780872569,
-      "lastSuccess": 1710780872569
+      "total": 3,
+      "success": 3,
+      "last": 1711571402825,
+      "lastSuccess": 1711571402825
     },
     "ai-bard2.js": {
       "total": 3,
