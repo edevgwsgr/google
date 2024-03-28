@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 9491,
+      "exp": 9601,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -3969,7 +3969,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 112
+      "exp": 141
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -4038,14 +4038,14 @@
       "limit": 3,
       "level": 0,
       "money": 150,
-      "premium": false,
-      "premiumTime": 0,
+      "premium": true,
+      "premiumTime": 1711674544693,
       "name": "ssouffy",
       "GBLanguage": 0,
       "regTime": 1711360686630,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 470
+      "exp": 537
     },
     "212691953970@s.whatsapp.net": {
       "afk": -1,
@@ -4764,6 +4764,25 @@
       "premium": false,
       "premiumTime": 0,
       "name": "oulghazlhssn",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212632475838@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 632-475838",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -9795,10 +9814,10 @@
       "lastSuccess": 1709418904898
     },
     "_config-addprem.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1711292316719,
-      "lastSuccess": 1711292316719
+      "total": 13,
+      "success": 13,
+      "last": 1711667344694,
+      "lastSuccess": 1711667344694
     },
     "main-help.js": {
       "total": 139,
@@ -9831,10 +9850,10 @@
       "lastSuccess": 1711203373799
     },
     "ai-chatgpt.js": {
-      "total": 11,
-      "success": 11,
-      "last": 1711470230698,
-      "lastSuccess": 1711470230698
+      "total": 12,
+      "success": 12,
+      "last": 1711666010026,
+      "lastSuccess": 1711666010026
     },
     "ai-yts.js": {
       "total": 8,
@@ -10017,10 +10036,10 @@
       "lastSuccess": 1711594878289
     },
     "_config-runtime.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1711571309593,
-      "lastSuccess": 1711571309593
+      "total": 8,
+      "success": 8,
+      "last": 1711666315923,
+      "lastSuccess": 1711666315923
     },
     "tourl2.js": {
       "total": 5,
@@ -10083,10 +10102,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 54,
-      "success": 54,
-      "last": 1711576082554,
-      "lastSuccess": 1711576082554
+      "total": 58,
+      "success": 58,
+      "last": 1711667400997,
+      "lastSuccess": 1711667400997
     },
     "alquran.js": {
       "total": 2,
@@ -10131,10 +10150,10 @@
       "lastSuccess": 1711571402825
     },
     "ai-bard2.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711026815676,
-      "lastSuccess": 1711026815676
+      "total": 5,
+      "success": 5,
+      "last": 1711667435453,
+      "lastSuccess": 1711667435453
     },
     "_config-top-members.js": {
       "total": 7,
