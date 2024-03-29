@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1971,
+      "exp": 1979,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4844,7 +4844,7 @@
       "regTime": 1711723873867,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 202
+      "exp": 239
     }
   },
   "chats": {
@@ -9932,10 +9932,10 @@
       "lastSuccess": 1711203373799
     },
     "ai-chatgpt.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1711724182195,
-      "lastSuccess": 1711724182195
+      "total": 27,
+      "success": 27,
+      "last": 1711726636818,
+      "lastSuccess": 1711726636818
     },
     "ai-yts.js": {
       "total": 8,
