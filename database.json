@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1986,
+      "exp": 1992,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 9767,
+      "exp": 9802,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4198,7 +4198,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 25
+      "exp": 45
     },
     "212626017383@s.whatsapp.net": {
       "afk": -1,
@@ -4845,6 +4845,25 @@
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
       "exp": 239
+    },
+    "212720214067@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 720-214067",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -9776,10 +9795,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 56,
-      "success": 45,
-      "last": 1711364884296,
-      "lastSuccess": 1711364884296
+      "total": 58,
+      "success": 46,
+      "last": 1711735933261,
+      "lastSuccess": 1711735933261
     },
     "rpg-verificar.js": {
       "total": 3,
