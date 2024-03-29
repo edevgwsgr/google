@@ -4711,7 +4711,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 59
+      "exp": 155
     },
     "212626002778@s.whatsapp.net": {
       "afk": -1,
@@ -9952,10 +9952,10 @@
       "lastSuccess": 1709848350515
     },
     "ai-sticker.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1711590235013,
-      "lastSuccess": 1711590235013
+      "total": 28,
+      "success": 28,
+      "last": 1711672165400,
+      "lastSuccess": 1711672165400
     },
     "downloader-facebook.js": {
       "total": 24,
@@ -10030,10 +10030,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 53,
-      "success": 53,
-      "last": 1711594878289,
-      "lastSuccess": 1711594878289
+      "total": 54,
+      "success": 54,
+      "last": 1711672237032,
+      "lastSuccess": 1711672237032
     },
     "_config-runtime.js": {
       "total": 8,
