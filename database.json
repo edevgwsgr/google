@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 9601,
+      "exp": 9631,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4038,8 +4038,8 @@
       "limit": 3,
       "level": 0,
       "money": 150,
-      "premium": true,
-      "premiumTime": 1711674544693,
+      "premium": false,
+      "premiumTime": 0,
       "name": "ssouffy",
       "GBLanguage": 0,
       "regTime": 1711360686630,
@@ -4783,6 +4783,25 @@
       "premium": false,
       "premiumTime": 0,
       "name": "+212 632-475838",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212705669312@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+212 705-669312",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -9922,10 +9941,10 @@
       "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
-      "total": 35,
-      "success": 35,
-      "last": 1711611759736,
-      "lastSuccess": 1711611759736
+      "total": 36,
+      "success": 36,
+      "last": 1711679381455,
+      "lastSuccess": 1711679381455
     },
     "ai-game.js": {
       "total": 6,
