@@ -4826,6 +4826,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212774546643@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 18,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Yahya",
+      "GBLanguage": 0,
+      "regTime": 1711723873867,
+      "registered": true,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 202
     }
   },
   "chats": {
@@ -9728,6 +9747,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212774546643@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -9768,10 +9812,10 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 44,
-      "success": 26,
-      "last": 1711361094164,
-      "lastSuccess": 1711360686632
+      "total": 45,
+      "success": 27,
+      "last": 1711723873868,
+      "lastSuccess": 1711723873868
     },
     "_config-info.js": {
       "total": 31,
@@ -9888,10 +9932,10 @@
       "lastSuccess": 1711203373799
     },
     "ai-chatgpt.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1711666010026,
-      "lastSuccess": 1711666010026
+      "total": 24,
+      "success": 24,
+      "last": 1711724182195,
+      "lastSuccess": 1711724182195
     },
     "ai-yts.js": {
       "total": 8,
@@ -10140,10 +10184,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 58,
-      "success": 58,
-      "last": 1711667400997,
-      "lastSuccess": 1711667400997
+      "total": 59,
+      "success": 59,
+      "last": 1711724053327,
+      "lastSuccess": 1711724053327
     },
     "alquran.js": {
       "total": 2,
@@ -10182,10 +10226,10 @@
       "lastSuccess": 1710709678996
     },
     "_config-welcome.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711571402825,
-      "lastSuccess": 1711571402825
+      "total": 4,
+      "success": 4,
+      "last": 1711723805616,
+      "lastSuccess": 1711723805616
     },
     "ai-bard2.js": {
       "total": 5,
