@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     let teks = `*╭━━[ REPORT | REQUEST ]━━━⬣*\n*┃*\n*┃* *SENDER | NUMBER*\n┃ ✦ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* *MESSAGE | REPORT*\n*┃* ✦ ${text}\n*┃*\n*╰━━━━━━━━━━━━━━━━━━⬣*`
 
-    conn.reply('212621851554@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+    conn.reply('212641207087@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
         contextInfo: {
             mentionedJid: [m.sender]
         }
