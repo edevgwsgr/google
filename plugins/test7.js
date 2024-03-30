@@ -1,38 +1,52 @@
-import fetch from 'node-fetch';
+import axios from "axios";
 
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`;
-
-  try {
-    m.reply('*Please wait, generating images...*');
-
-    const endpoint = `https://www.bing.com/images/search?q=${encodeURIComponent(text)}`;
-    const response = await fetch(endpoint);
-    
-    if (response.ok) {
-      const responseData = await response.text();
-      // Extract image URL from responseData, you can use libraries like cheerio or regex for this
-      const imageURL = ... // Extract image URL logic here
-      if (imageURL) {
-        const imageResponse = await fetch(imageURL);
-        if (imageResponse.ok) {
-          const imageBuffer = await imageResponse.buffer();
-          await conn.sendFile(m.chat, imageBuffer, 'image.png', null, m);
-        } else {
-          throw '*Image generation failed*';
-        }
-      } else {
-        throw '*Image URL not found*';
-      }
+let handler = async (m, {
+    conn,
+    args,
+    usedPrefix,
+    command
+}) => {
+    let text;
+    if (args.length >= 1) {
+        text = args.slice(0).join(" ");
+    } else if (m.quoted && m.quoted.text) {
+        text = m.quoted.text;
     } else {
-      throw '*Image generation failed*';
+        throw "Input Teks";
     }
-  } catch {
-    throw '*Oops! Something went wrong while generating images. Please try again later.*';
-  }
+    await m.reply(wait);
+
+    try {
+        let imageURL = await textToImage(text);
+        if (imageURL) {
+            await conn.sendFile(m.chat, imageURL, '', `Image for ${text}`, m, false, {
+                mentions: [m.sender]
+            });
+        }
+    } catch (e) {
+        await m.reply(eror);
+    }
 };
 
-handler.help = ['dalle'];
-handler.tags = ['AI'];
-handler.command = ['test7'];
+handler.help = ["photoleap"];
+handler.tags = ["ai"];
+handler.command = /^(test7)$/i;
+handler.premium = true;
+
 export default handler;
+
+async function textToImage(text) {
+    try {
+        const searchTerm = encodeURIComponent(text);
+        const {
+            data
+        } = await axios.get(`https://www.bing.com/images/search?q=${searchTerm}&view=detailv2&iss=sbi&form=sbivmi`);
+
+        // يمكنك استخدام مكتبة مثل cheerio لاستخراج رابط الصورة من النص HTML هنا
+        // وإرجاعه لاستخدامه في الإرسال
+
+        return imageURL; // استبدل imageURL برابط الصورة الذي تم استخراجه
+    } catch (err) {
+        return null;
+    }
+}
