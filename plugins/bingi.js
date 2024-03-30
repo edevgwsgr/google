@@ -35,6 +35,6 @@ let handler = async (m, { conn, text }) => {
 
 handler.help = ['generateimg <query>'];
 handler.tags = ['AI'];
-handler.command = /^bigi$/i;
+handler.command = /^bingi$/i;
 
 export default handler;
