@@ -1,36 +1,26 @@
-import puppeteer from 'puppeteer-core';
+import fetch from 'node-fetch';
 
-let handler = async (m, { conn, text }) => {
-    try {
-        if (!text) throw 'Please provide a search query.';
-        m.react('⌛');
-        
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        await page.goto(`https://www.bing.com/images/create?q=${encodeURIComponent(text)}`);
-        
-        // Set viewport size
-        await page.setViewport({ width: 1920, height: 1080 });
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `*هذا الأمر يولّد صورًا من النصوص*\n\n*مثال على الاستخدام*\n*◉ ${usedPrefix + command} فتاة أنمي جميلة*\n*◉ ${usedPrefix + command} إيلون ماسك باللون الوردي*`;
 
-        // Wait for any animations or loading to complete
-        await page.waitForTimeout(5000); // Increased waiting time to ensure proper loading
+  try {
+    m.reply('*الرجاء الانتظار، جارٍ إنشاء الصور...*');
 
-        // Take a screenshot of the page
-        const screenshot = await page.screenshot({ fullPage: true });
-
-        // Close the browser
-        await browser.close();
-
-        // Send image
-        conn.sendFile(m.chat, screenshot, 'image.png', `${text}`, m);
-        m.react('✅');
-    } catch (error) {
-        m.reply(error);
+    const endpoint = `https://cute-tan-gorilla-yoke.cyclic.app/imagine?text=${encodeURIComponent(text)}`;
+    const response = await fetch(endpoint);
+    
+    if (response.ok) {
+      const imageBuffer = await response.buffer();
+      await conn.sendFile(m.chat, imageBuffer, 'image.png', null, m);
+    } else {
+      throw '*فشل إنشاء الصورة*';
     }
-}
+  } catch {
+    throw '*عذرًا! حدث خطأ ما أثناء إنشاء الصور. يرجى المحاولة مرة أخرى لاحقًا.*';
+  }
+};
 
-handler.help = ['createimg <text>'];
+handler.help = ['dalle'];
 handler.tags = ['AI'];
-handler.command = /^bingi$/i;
-
+handler.command = ['dal', '456', 'imagin', 'openai2'];
 export default handler;
