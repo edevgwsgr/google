@@ -17,9 +17,11 @@ let handler = async (m, {
     try {
         let data = await textToImage(text)
         if (data) {
-            await conn.sendFile(m.chat, data.image_url, '', `Image for ${text}`, m, false, {
+
+            await conn.sendFile(m.chat, data.result_url, '', `Image for ${text}`, m, false, {
                 mentions: [m.sender]
             });
+
         }
     } catch (e) {
         await m.reply(eror)
@@ -32,17 +34,13 @@ handler.premium = true
 
 export default handler
 
+/* New Line */
 async function textToImage(text) {
     try {
-        const response = await axios.get("https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=" + encodeURIComponent(text), {
-            headers: {
-                "Ocp-Apim-Subscription-Key": "YOUR_BING_API_KEY"
-            }
-        })
-        const image_url = response.data.value[0].contentUrl
-        return {
-            image_url
-        }
+        const {
+            data
+        } = await axios.get("https://www.bing.com/api/v1/generate?prompt=" + text)
+        return data;
     } catch (err) {
         return null;
     }
