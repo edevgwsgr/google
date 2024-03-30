@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) throw `*هذا الأمر يولد صورًا من النصوص*\n\n*مثال على الاستخدام*\n*◉ ${usedPrefix + command} توصيف الصورة*\n`;
@@ -6,16 +6,19 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     m.reply('*الرجاء الانتظار، يتم إنشاء الصوت...*');
 
-    const endpoint = `https://elevenlabs.io/api/text-to-speech?text=${encodeURIComponent(text)}`;
-    const response = await fetch(endpoint);
+    const response = await axios.get('https://elevenlabs.io/api/text-to-speech', {
+      params: {
+        text: text
+      }
+    });
     
-    if (response.ok) {
-      const audioBuffer = await response.buffer();
+    if (response.status === 200) {
+      const audioBuffer = Buffer.from(response.data, 'base64');
       await conn.sendFile(m.chat, audioBuffer, 'audio.mp3', null, m);
     } else {
       throw '*فشل إنشاء الصوت*';
     }
-  } catch (error) {
+  } catch {
     throw '*عذرًا! حدث خطأ ما أثناء إنشاء الصوت. الرجاء المحاولة مرة أخرى لاحقًا.*';
   }
 };
