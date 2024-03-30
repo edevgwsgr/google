@@ -84,7 +84,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 3,
+      "limit": 2,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2030,
+      "exp": 2049,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4122,7 +4122,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 374
+      "exp": 420
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10359,10 +10359,10 @@
       "lastSuccess": 0
     },
     "ai-bardimg.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1711312729733,
-      "lastSuccess": 1711312729733
+      "total": 8,
+      "success": 8,
+      "last": 1711839025440,
+      "lastSuccess": 1711839025440
     },
     "dall0.js": {
       "total": 9,
@@ -10485,10 +10485,10 @@
       "lastSuccess": 1711767764146
     },
     "bingi.js": {
-      "total": 13,
-      "success": 6,
-      "last": 1711768390527,
-      "lastSuccess": 1711768390527
+      "total": 16,
+      "success": 8,
+      "last": 1711838659895,
+      "lastSuccess": 1711838659895
     },
     "ja.js": {
       "total": 4,
