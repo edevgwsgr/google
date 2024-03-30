@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10575,
+      "exp": 10686,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -9891,10 +9891,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 114,
-      "success": 98,
-      "last": 1711768411370,
-      "lastSuccess": 1711768411370
+      "total": 115,
+      "success": 99,
+      "last": 1711769732401,
+      "lastSuccess": 1711769732401
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -10363,6 +10363,12 @@
       "success": 6,
       "last": 1711768390527,
       "lastSuccess": 1711768390527
+    },
+    "ja.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1711769749659,
+      "lastSuccess": 1711769749659
     }
   },
   "msgs": {},
