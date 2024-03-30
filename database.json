@@ -245,7 +245,7 @@
       "regTime": 1710421421414,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10698,
+      "exp": 10722,
       "level": 3
     },
     "393925367872@s.whatsapp.net": {
@@ -4859,6 +4859,25 @@
       "premium": false,
       "premiumTime": 0,
       "name": "+212 720-214067",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "212648384817@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "RIDa ❤️❤️",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -10131,10 +10150,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 54,
-      "success": 54,
-      "last": 1711672237032,
-      "lastSuccess": 1711672237032
+      "total": 55,
+      "success": 55,
+      "last": 1711775667637,
+      "lastSuccess": 1711775667637
     },
     "_config-runtime.js": {
       "total": 8,
