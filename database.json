@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2021,
+      "exp": 2026,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4921,6 +4921,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212771220844@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "﷼ ديـــࢪآطــوس الملڪي🇦🇴⃢〽️",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 71
     }
   },
   "chats": {
@@ -9873,6 +9892,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212771220844@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -10213,10 +10257,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 55,
-      "success": 55,
-      "last": 1711775667637,
-      "lastSuccess": 1711775667637
+      "total": 56,
+      "success": 56,
+      "last": 1711830072251,
+      "lastSuccess": 1711830072251
     },
     "_config-runtime.js": {
       "total": 8,
@@ -10231,10 +10275,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 13,
-      "success": 11,
-      "last": 1711816408363,
-      "lastSuccess": 1711816408363
+      "total": 14,
+      "success": 12,
+      "last": 1711830158780,
+      "lastSuccess": 1711830158780
     },
     "tooll-getplugin.js": {
       "total": 6,
@@ -10273,10 +10317,10 @@
       "lastSuccess": 1711292493441
     },
     "ai-play.js": {
-      "total": 40,
-      "success": 28,
-      "last": 1711493767908,
-      "lastSuccess": 1711493767908
+      "total": 44,
+      "success": 30,
+      "last": 1711830236537,
+      "lastSuccess": 1711830236537
     },
     "_config-leveup.js": {
       "total": 8,
