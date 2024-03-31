@@ -4978,6 +4978,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212608432044@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "𝐙𝐔𝐄𝐒 𝐇𝐗𝐂𝐊 !",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
     }
   },
   "chats": {
@@ -9955,6 +9974,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212608432044@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -10295,10 +10339,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 56,
-      "success": 56,
-      "last": 1711830072251,
-      "lastSuccess": 1711830072251
+      "total": 57,
+      "success": 57,
+      "last": 1711874564141,
+      "lastSuccess": 1711874564141
     },
     "_config-runtime.js": {
       "total": 8,
