@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const handler = async (m, { text, usedPrefix }) => {
-    if (!text) return conn.reply(m.chat, `🎌 *Ingresa una petición*\n\nEjemplo: ${usedPrefix}bard ¿Conoces a CuriosityBot-MD?`, m, fake);
+    if (!text) return conn.reply(m.chat, `🎌 *Please enter a request*\n\nExample: ${usedPrefix}bard Do you know CuriosityBot-MD?`, m, fake);
 
     try {
         conn.sendPresenceUpdate('composing', m.chat);
@@ -10,7 +10,7 @@ const handler = async (m, { text, usedPrefix }) => {
         await m.reply(data.result);
     } catch (error) {
         console.error(error);
-        return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake);
+        return conn.reply(m.chat, `*🚩 An error occurred*`, m, fake);
     }
 };
 
