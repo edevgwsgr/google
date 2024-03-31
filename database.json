@@ -4122,7 +4122,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 526
+      "exp": 772
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10508,10 +10508,10 @@
       "lastSuccess": 1711212644273
     },
     "dl-ytmp4-3.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711292462335,
-      "lastSuccess": 1711292462335
+      "total": 5,
+      "success": 5,
+      "last": 1711919019399,
+      "lastSuccess": 1711919019399
     },
     "Kick.js": {
       "total": 2,
