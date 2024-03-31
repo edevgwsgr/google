@@ -4122,7 +4122,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 772
+      "exp": 917
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10118,10 +10118,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 116,
-      "success": 100,
-      "last": 1711910036450,
-      "lastSuccess": 1711910036450
+      "total": 117,
+      "success": 101,
+      "last": 1711921567194,
+      "lastSuccess": 1711921567194
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -10274,10 +10274,10 @@
       "lastSuccess": 1709841304131
     },
     "ai-imagine.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1709848350515,
-      "lastSuccess": 1709848350515
+      "total": 15,
+      "success": 14,
+      "last": 1711921575637,
+      "lastSuccess": 1711921575637
     },
     "ai-sticker.js": {
       "total": 28,
@@ -10364,10 +10364,10 @@
       "lastSuccess": 1711874564141
     },
     "_config-runtime.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1711666315923,
-      "lastSuccess": 1711666315923
+      "total": 9,
+      "success": 9,
+      "last": 1711921034044,
+      "lastSuccess": 1711921034044
     },
     "tourl2.js": {
       "total": 5,
@@ -10400,10 +10400,10 @@
       "lastSuccess": 1711292505328
     },
     "ai-photoleap copy.js": {
-      "total": 4,
-      "success": 2,
-      "last": 1710626988960,
-      "lastSuccess": 1710626988960
+      "total": 6,
+      "success": 4,
+      "last": 1711921050073,
+      "lastSuccess": 1711921050073
     },
     "ai-cartoon.js": {
       "total": 5,
