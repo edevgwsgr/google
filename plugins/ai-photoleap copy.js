@@ -1,43 +1,55 @@
-import fetch from 'node-fetch';
+import axios from "axios"
 
-var handler = async (m, { conn, text }) => {
-    if (!text) return conn.reply(m.chat, `*🎌 Ingrese un texto para crear una imagen*\n\nEjemplo, !dall2 gatitos llorando`, m);
+let handler = async (m, {
+    conn,
+    args,
+    usedPrefix,
+    command
+}) => {
+    let text
+    if (args.length >= 1) {
+        text = args.slice(0).join(" ")
+    } else if (m.quoted && m.quoted.text) {
+        text = m.quoted.text
+    } else throw "Input Teks"
 
-    conn.reply(m.chat, '⏰ Espere un momento', m);
+    // String placeholders for waiting and error messages
+    const waitMessage = "Please wait while processing...";
+    const errorMessage = "An error occurred while processing the request.";
+
+    await m.reply(waitMessage)
 
     try {
-        let res1 = await fetch(`https://vihangayt.me/tools/imagine?q=${encodeURIComponent(text)}`);
-        let json1 = await res1.json();
-        await conn.sendMessage(m.chat, { image: { url: json1.data } }, { quoted: m });
-    } catch (error1) {
-        console.log('🚩 Error en la API número 1 de dall-e 2:', error1.message);
-        try {
-            let res2 = await fetch(`https://vihangayt.me/tools/midjourney?q=${encodeURIComponent(text)}`);
-            let json2 = await res2.json();
-            await conn.sendMessage(m.chat, { image: { url: json2.data } }, { quoted: m });
-        } catch (error2) {
-            console.log('🚩 Error en la API número 2 de dall-e 2:', error2.message);
-            try {
-                let res3 = await fetch(`https://vihangayt.me/tools/lexicaart?q=${encodeURIComponent(text)}`);
-                let json3 = await res3.json();
-                await conn.sendMessage(m.chat, { image: { url: json3.data[0].images[0].url } }, { quoted: m });
-            } catch (error3) {
-                console.log('🚩 Error en la API número 3 de dall-e 2:', error3.message);
-                try {
-                    const res4 = await fetch(`https://api.lolhuman.xyz/api/dall-e?apikey=${encodeURIComponent(lolkeysapi)}&text=${encodeURIComponent(text)}`);
-                    const json4 = await res4.json();
-                    await conn.sendMessage(m.chat, { image: { url: json4.result } }, { quoted: m });
-                } catch (error4) {
-                    console.log('🚩 Error, ninguna API funciona:', error4.message);
-                    return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m);
-                }
-            }
+        let data = await textToImage(text)
+        if (data && data.result_url) {
+            await conn.sendFile(m.chat, data.result_url, '', `Image for ${text}`, m, false, {
+                mentions: [m.sender]
+            });
+        } else {
+            await m.reply("Failed to generate image.")
         }
+    } catch (e) {
+        console.error("Error processing request:", e);
+        await m.reply(errorMessage)
     }
 }
 
-handler.help = ['dall2'];
-handler.tags = ['ai'];
-handler.command = /^(dall2)/i;
+handler.help = ["photoleap"]
+handler.tags = ["ai"];
+handler.command = /^(imagine2)$/i
+handler.premium = true
 
-export default handler;
+export default handler
+
+/* New Line */
+async function textToImage(text) {
+    try {
+        const {
+            data
+        } = await axios.get("https://api.openai.com/v1/images/generations?prompt=" + text)
+        return data;
+    } catch (err) {
+        console.error("Axios error:", err);
+        return null;
+    }
+}
