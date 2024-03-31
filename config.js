@@ -10,11 +10,11 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 global.owner = [
 ['212641207087', '𝙊𝙬𝙣𝙚𝙧', true], // owner
-['212641207087', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
+['212705776824', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖', true],
 ['212641207087', 'Develooper', true]]
 
-global.mods = ['212641207087','212641207087'] 
-global.prems = ['212641207087','212641207080']
+global.mods = ['212641207087','212705776824'] 
+global.prems = ['212641207087','212705776824']
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
