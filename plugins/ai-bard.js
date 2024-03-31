@@ -1,16 +1,16 @@
 import fetch from 'node-fetch';
 
-const handler = async (m, { text, usedPrefix, command, conn }) => {
-    if (!text) return conn.reply(m.chat, `🎌 *Ingrese una petición*\n\nEjemplo: ${usedPrefix}${command} ¿Conoces CuriosityBot-MD?`, m);
+const handler = async (m, { text, usedPrefix }) => {
+    if (!text) return conn.reply(m.chat, `🎌 *Ingresa una petición*\n\nEjemplo: ${usedPrefix}bard ¿Conoces a CuriosityBot-MD?`, m, fake);
 
     try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const apiResponse = await fetch(`https://aemt.me/bard?text=${encodeURIComponent(text)}`);
-        const res = await apiResponse.json();
-        await conn.reply(m.chat, res.result);
+        const response = await fetch(`https://aemt.me/bard?text=${encodeURIComponent(text)}`);
+        const data = await response.json();
+        await m.reply(data.result);
     } catch (error) {
         console.error(error);
-        return conn.reply(m.chat, '*🚩 Ocurrió un fallo*', m);
+        return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake);
     }
 };
 
