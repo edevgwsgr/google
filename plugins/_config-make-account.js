@@ -1,67 +1,63 @@
-//by angelo 1.0.0 old vs
+import { createHash } from 'crypto';
 
-import { createHash } from 'crypto'
-
-let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
+let Reg = /\|?(.*)([.|] *?)([0-9]*)\.([a-zA-Z ]*)$/i;
 
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 
-  let user = global.db.data.users[m.sender]
+  let user = global.db.data.users[m.sender];
 
-  let name2 = conn.getName(m.sender)
+  if (user.registered !== true) {
+    m.reply('*hello, to Continue with this function you should register !*\n\n*Ex : /make-account name.age.country*\n\n*Please keep a serial number*');
+    return;
+  }
 
-  if (user.registered === true) throw `✳️ You are already registered\n\nDo you want to re-register?\n\n 📌 Use this command to remove your record \n*${usedPrefix}unreg* <Serial number>`
+  let name2 = conn.getName(m.sender);
 
-  if (!Reg.test(text)) throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age*\n📌Exemple : *${usedPrefix + command}* ${name2}.16`
+  if (!Reg.test(text)) throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age.country*\n📌Example: *${usedPrefix + command}* ${name2}.16.USA`;
 
-  let [_, name, splitter, age] = text.match(Reg)
+  let [_, name, splitter, age, country] = text.match(Reg);
 
-  if (!name) throw '✳️ The name cannot be empty'
+  if (!name) throw '✳️ The name cannot be empty';
 
-  if (!age) throw '✳️ age cannot be empty'
+  if (!age) throw '✳️ age cannot be empty';
 
-  if (name.length >= 30) throw '✳️The name is too long' 
+  if (!country) throw '✳️ country cannot be empty';
 
-  age = parseInt(age)
+  if (name.length >= 30) throw '✳️The name is too long';
 
-  if (age > 100) throw '👴🏻 Wow grandpa wants to play bot'
+  age = parseInt(age);
 
-  if (age < 5) throw '🚼  there is a grandpa baby jsjsj '
+  if (age > 100) throw '👴🏻 Wow grandpa wants to play bot';
 
-  user.name = name.trim()
+  if (age < 5) throw '🚼  there is a grandpa baby jsjsj ';
 
-  user.age = age
+  user.name = name.trim();
 
-  user.regTime = + new Date
+  user.age = age;
 
-  user.registered = true
+  user.country = country.trim();
 
-  let sn = createHash('md5').update(m.sender).digest('hex')
+  user.regTime = + new Date();
+
+  let sn = createHash('md5').update(m.sender).digest('hex');
 
   m.reply(`
 
-┌─「 *REGISTERED* 」─
+👤 *Profile Picture*
 
-▢ *NUMBER:* ${name}
+👤 *Name :* ${name}
+👤 *Age :* ${age} years
+👤 *Country :* ${country}
+👤 *Registration Time :* ${new Date(user.regTime).toLocaleDateString()}
+👤 *Number serie :* ${sn}
 
-▢ *AGE* : ${age} years
+`.trim());
+};
 
-▢ *SERIEL NUMBER* :
+handler.help = ['reg'].map(v => v + ' <name.age.country>');
 
-${sn}
+handler.tags = ['rg'];
 
-└──────────────
+handler.command = ['verify', 'make-account', 'register', 'registrar'];
 
- *${usedPrefix}help* to see menu
-
-`.trim())
-
-}
-
-handler.help = ['reg'].map(v => v + ' <name.age>')
-
-handler.tags = ['rg']
-
-handler.command = ['verify', 'make-account', 'register', 'registrar'] 
-
-export default handler
+export default handler;
