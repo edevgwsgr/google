@@ -1,19 +1,19 @@
 import { createHash } from 'crypto';
 
-let Reg = /\|?(.*)([.|] *?)([0-9]*)\.([a-zA-Z ]*)$/i;
+let Reg = /\|?(.*?)([.|] *?)([0-9]*) (.*)$/i;
 
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   let user = global.db.data.users[m.sender];
 
   if (user.registered !== true) {
-    m.reply('*hello, to Continue with this function you should register !*\n\n*Ex : /make-account name.age.country*\n\n*Please keep a serial number*');
+    m.reply('*hello, to Continue with this function you should register !*\n\n*Ex : /make-account name.age country*\n\n*Please keep a serial number*');
     return;
   }
 
   let name2 = conn.getName(m.sender);
 
-  if (!Reg.test(text)) throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age.country*\n📌Example: *${usedPrefix + command}* ${name2}.16.USA`;
+  if (!Reg.test(text)) throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age country*\n📌Example: *${usedPrefix + command}* ${name2}.16 USA`;
 
   let [_, name, splitter, age, country] = text.match(Reg);
 
@@ -41,23 +41,22 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   let sn = createHash('md5').update(m.sender).digest('hex');
 
+  // Get user profile picture
+  let pp = await conn.getProfilePicture(m.sender);
+
   m.reply(`
-
-👤 *Profile Picture*
-
 👤 *Name :* ${name}
 👤 *Age :* ${age} years
 👤 *Country :* ${country}
 👤 *Registration Time :* ${new Date(user.regTime).toLocaleDateString()}
 👤 *Number serie :* ${sn}
-
-`.trim());
+`, pp);
 };
 
-handler.help = ['reg'].map(v => v + ' <name.age.country>');
+handler.help = ['reg'].map(v => v + ' <name.age country>');
 
 handler.tags = ['rg'];
 
-handler.command = ['verify', 'make-account', 'register', 'registrar'];
+handler.command = ['verify', 'make-account', 'register', 'makeacc'];
 
 export default handler;
