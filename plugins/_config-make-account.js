@@ -1,5 +1,8 @@
 import { createHash } from 'crypto';
 
+// Assuming mssg is imported or defined somewhere in your code
+// let mssg = require('./messages'); 
+
 let Reg = /\|?(.*)([.|+] *?)([0-9]*)([.|+] *?)([MFNO])([.|+] *?)([\w\s]*)?$/i;
 
 let handler = async function (m, { conn, text, usedPrefix, command }) {
@@ -7,41 +10,41 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let name2 = conn.getName(m.sender);
   let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => './src/avatar_contact.png');
 
-  if (user.registered === true) throw `✳️ ${mssg.regIsOn}\n\n${usedPrefix}unreg <sn>`;
+  if (user.registered === true) throw `✳️ Registration is already completed.\n\n${usedPrefix}unreg <serial number>`;
 
-  let te = `✳️ ${mssg.useCmd}: *${usedPrefix + command} ${mssg.name}+${mssg.age}+${mssg.gender}+${mssg.country}*\n📌 ${mssg.example}: *${usedPrefix + command}* majnon+16+M+morocco\n\n▢ ${mssg.genderList}:\n*- M* = ${mssg.man}\n*- F* ${mssg.woman}\n*- N* = ${mssg.other}`;
-  
+  let te = `✳️ Please use the command in the following format: *${usedPrefix + command} name+age+gender+country*\n📌 Example: *${usedPrefix + command}* John+25+M+USA\n\n▢ Gender List:\n*- M* = Male\n*- F* = Female\n*- N* = Other`;
+
   if (!Reg.test(text)) throw te;
 
   let [_, name, splitter, age, splitter2, gen, splitter3, country] = text.match(Reg);
 
   if (!name || !age || !country) throw te;
 
-  if (name.length >= 30) throw `✳️ ${mssg.nameMax}`;
+  if (name.length >= 30) throw `✳️ Maximum length of name exceeded.`;
 
   age = parseInt(age);
-  if (age > 60) throw `👴🏻 ${mssg.oldReg}`;
-  if (age < 10) throw '🚼 Vaya a ver la vaca lola';
+  if (age > 60) throw `👴🏻 You are too old to register.`;
+  if (age < 10) throw '🚼 You must be at least 10 years old to register.';
 
-  let genStr = gen && gen.toUpperCase() === 'M' ? `🙆🏻‍♂️ ${mssg.man}` : (gen && gen.toUpperCase() === 'F' ? `🤵🏻‍♀️ ${mssg.woman}` : (gen && gen.toUpperCase() === 'N' ? `⚧ ${mssg.other}` : null));
+  let genStr = gen && gen.toUpperCase() === 'M' ? `🙆🏻‍♂️ Male` : (gen && gen.toUpperCase() === 'F' ? `🤵🏻‍♀️ Female` : (gen && gen.toUpperCase() === 'N' ? `⚧ Other` : null));
 
-  if (!genStr) throw `✳️ ${mssg.genderList}: M, F o N\n\n*- M* = ${mssg.man}\n*- F*- ${mssg.woman}\n*- N* = ${mssg.other}`;
+  if (!genStr) throw `✳️ Gender should be either M, F, or N\n\n*- M* = Male\n*- F* = Female\n*- N* = Other`;
 
   user.name = name.trim();
   user.age = age;
   user.gender = genStr;
-  user.country = country.trim(); // Store the selected country
+  user.country = country.trim();
   user.regTime = +new Date;
   user.registered = true;
 
   let sn = createHash('md5').update(m.sender).digest('hex');
   let regi = `
-┌─「 *${mssg.regOn.toUpperCase()}* 」─
-▢ *${mssg.name}:* ${name}
-▢ *${mssg.age}:* ${age}
-▢ *${mssg.gender}:* ${genStr}
-▢ *${mssg.country}:* ${country}
-▢ *${mssg.numSn}:*
+┌─「 *REGISTRATION* 」─
+▢ *Name:* ${name}
+▢ *Age:* ${age}
+▢ *Gender:* ${genStr}
+▢ *Country:* ${country}
+▢ *Serial Number:*
 ${sn}
 └──────────────`;
 
@@ -49,8 +52,8 @@ ${sn}
 }
 
 handler.help = ['reg'].map(v => v + ' ');
-handler.tags = ['rg'];
-handler.command = ['verify', 'reg', 'register', 'make-account'];
+handler.tags = ['registration'];
+handler.command = ['verify', 'reg', 'regi', 'make-account'];
 
 export default handler;
 handler.group = false;
