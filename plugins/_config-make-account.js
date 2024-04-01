@@ -7,29 +7,29 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender];
 
   if (user.registered !== true) {
-    m.reply('*hello, to Continue with this function you should register !*\n\n*Ex : /make-account name.age country*\n\n*Please keep a serial number*');
+    m.reply('*مرحبًا، للمتابعة مع هذه الوظيفة يجب عليك التسجيل!*\n\n*مثال: /make-account الاسم.العمر الدولة*\n\n*يرجى الاحتفاظ برقم تسلسلي*');
     return;
   }
 
   let name2 = conn.getName(m.sender);
 
-  if (!Reg.test(text)) throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age country*\n📌Example: *${usedPrefix + command}* ${name2}.16 USA`;
+  if (!Reg.test(text)) throw `⚠️ صيغة غير صحيحة\n\n ✳️ استخدم هذا الأمر: *${usedPrefix + command} الاسم.العمر الدولة*\n📌مثال: *${usedPrefix + command}* ${name2}.16 USA`;
 
   let [_, name, splitter, age, country] = text.match(Reg);
 
-  if (!name) throw '✳️ The name cannot be empty';
+  if (!name) throw '✳️ لا يمكن ترك الاسم فارغًا';
 
-  if (!age) throw '✳️ age cannot be empty';
+  if (!age) throw '✳️ العمر لا يمكن أن يكون فارغًا';
 
-  if (!country) throw '✳️ country cannot be empty';
+  if (!country) throw '✳️ الدولة لا يمكن أن تكون فارغة';
 
-  if (name.length >= 30) throw '✳️The name is too long';
+  if (name.length >= 30) throw '✳️ الاسم طويل جدًا';
 
   age = parseInt(age);
 
-  if (age > 100) throw '👴🏻 Wow grandpa wants to play bot';
+  if (age > 100) throw '👴🏻 واو جدا جداً يريد الجد اللعب';
 
-  if (age < 5) throw '🚼  there is a grandpa baby jsjsj ';
+  if (age < 5) throw '🚼  يوجد طفل جداً جداً ';
 
   user.name = name.trim();
 
@@ -42,21 +42,23 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex');
 
   // Get user profile picture
-  let pp = await conn.getProfilePicture(m.sender);
+  let pp = await conn.getProfilePictureFromServer(m.sender);
 
   m.reply(`
-👤 *Name :* ${name}
-👤 *Age :* ${age} years
-👤 *Country :* ${country}
-👤 *Registration Time :* ${new Date(user.regTime).toLocaleDateString()}
-👤 *Number serie :* ${sn}
-`, pp);
+👤 *الصورة الشخصية*
+${pp}
+👤 *الاسم :* ${name}
+👤 *العمر :* ${age} سنة
+👤 *الدولة :* ${country}
+👤 *وقت التسجيل :* ${new Date(user.regTime).toLocaleDateString()}
+👤 *الرقم التسلسلي :* ${sn}
+`.trim());
 };
 
-handler.help = ['reg'].map(v => v + ' <name.age country>');
+handler.help = ['reg'].map(v => v + ' <الاسم.العمر الدولة>');
 
 handler.tags = ['rg'];
 
-handler.command = ['verify', 'make-account', 'register', 'makeacc'];
+handler.command = ['verify', 'make-account', 'register', 'registrar'];
 
 export default handler;
