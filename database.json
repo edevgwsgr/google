@@ -232,7 +232,7 @@
     "212641207087@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 28,
+      "age": 18,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -240,13 +240,14 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "abdo",
+      "name": "mjnon",
       "GBLanguage": 0,
-      "regTime": 1710421421414,
+      "regTime": 1712009359984,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 11070,
-      "level": 3
+      "exp": 11110,
+      "level": 3,
+      "country": "morocco"
     },
     "393925367872@s.whatsapp.net": {
       "afk": -1,
@@ -10058,9 +10059,9 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 45,
+      "total": 47,
       "success": 27,
-      "last": 1711723873868,
+      "last": 1712009360571,
       "lastSuccess": 1711723873868
     },
     "_config-info.js": {
