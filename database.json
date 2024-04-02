@@ -245,7 +245,7 @@
       "regTime": 1712009359984,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 11142,
+      "exp": 11179,
       "level": 3,
       "country": "morocco"
     },
@@ -10251,10 +10251,10 @@
       "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
-      "total": 52,
-      "success": 52,
-      "last": 1711940767729,
-      "lastSuccess": 1711940767729
+      "total": 53,
+      "success": 53,
+      "last": 1712019238661,
+      "lastSuccess": 1712019238661
     },
     "ai-game.js": {
       "total": 6,
