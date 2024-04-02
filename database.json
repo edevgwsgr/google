@@ -4123,7 +4123,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1040
+      "exp": 1090
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10084,9 +10084,9 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 47,
+      "total": 48,
       "success": 27,
-      "last": 1712009360571,
+      "last": 1712097168362,
       "lastSuccess": 1711723873868
     },
     "_config-info.js": {
@@ -10402,9 +10402,9 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 14,
+      "total": 15,
       "success": 12,
-      "last": 1711830158780,
+      "last": 1712097068662,
       "lastSuccess": 1711830158780
     },
     "tooll-getplugin.js": {
