@@ -1,4 +1,4 @@
-name: the Bot Host
+name: majnon Bot Host
 on:
   workflow_dispatch:
   push:
@@ -22,19 +22,19 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: rm -rf package-lock.json && npm i
+        run: npm ci   # استخدم npm ci بدلاً من npm i لضمان التثبت من package-lock.json
 
       - name: Start The Code
-        run:  npm start &
+        run: nohup npm start > output.log 2>&1 &   # تشغيل الكود في الخلفية وتسجيل الإخراج في ملف output.log
 
-      - name: start vscode
+      - name: Start vscode
         run: |
           if [[ ! -d code-server-3.9.3-linux-amd64 ]]; then
             wget https://github.com/cdr/code-server/releases/download/v3.9.3/code-server-3.9.3-linux-amd64.tar.gz
             tar xvzf code-server-3.9.3-linux-amd64.tar.gz
           fi
           cd code-server-3.9.3-linux-amd64/bin
-          ./code-server --bind-addr 0.0.0.0:8080 --auth none &
+          nohup ./code-server --bind-addr 0.0.0.0:8080 --auth none > vscode.log 2>&1 &   # تشغيل vscode في الخلفية وتسجيل الإخراج في ملف vscode.log
 
       - name: keep alive
         id: check_runs
