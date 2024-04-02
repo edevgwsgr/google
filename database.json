@@ -245,7 +245,7 @@
       "regTime": 1712009359984,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 11181,
+      "exp": 11214,
       "level": 3,
       "country": "morocco"
     },
@@ -3956,7 +3956,7 @@
     "212669448046@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 16,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -3965,12 +3965,14 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "mee6",
+      "name": "abdo",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1712099880584,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 160
+      "exp": 209,
+      "gender": "🙆🏻‍♂️ Male",
+      "country": "morocco"
     },
     "212630368333@s.whatsapp.net": {
       "afk": -1,
@@ -4674,7 +4676,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 7
+      "exp": 13
     },
     "212660956187@s.whatsapp.net": {
       "afk": -1,
@@ -10084,10 +10086,10 @@
       "lastSuccess": 1711203393731
     },
     "_config-make-account.js": {
-      "total": 48,
-      "success": 27,
-      "last": 1712097168362,
-      "lastSuccess": 1711723873868
+      "total": 51,
+      "success": 28,
+      "last": 1712099880587,
+      "lastSuccess": 1712099880587
     },
     "_config-info.js": {
       "total": 31,
@@ -10276,10 +10278,10 @@
       "lastSuccess": 1711364909103
     },
     "ai-tr.js": {
-      "total": 53,
-      "success": 53,
-      "last": 1712019238661,
-      "lastSuccess": 1712019238661
+      "total": 54,
+      "success": 54,
+      "last": 1712099436612,
+      "lastSuccess": 1712099436612
     },
     "ai-game.js": {
       "total": 6,
@@ -10510,10 +10512,10 @@
       "lastSuccess": 1711667435453
     },
     "_config-top-members.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1711365010311,
-      "lastSuccess": 1711365010311
+      "total": 8,
+      "success": 8,
+      "last": 1712099515366,
+      "lastSuccess": 1712099515366
     },
     "tooll-backup.js": {
       "total": 3,
