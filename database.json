@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2329,
+      "exp": 2365,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -10069,10 +10069,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 60,
-      "success": 48,
-      "last": 1712147540181,
-      "lastSuccess": 1712147540181
+      "total": 61,
+      "success": 49,
+      "last": 1712152883058,
+      "lastSuccess": 1712152883058
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -10405,10 +10405,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 57,
-      "success": 57,
-      "last": 1711874564141,
-      "lastSuccess": 1711874564141
+      "total": 59,
+      "success": 59,
+      "last": 1712152857524,
+      "lastSuccess": 1712152857524
     },
     "_config-runtime.js": {
       "total": 9,
