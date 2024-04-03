@@ -1,4 +1,4 @@
-name: WhatsApp Bot Speedy File Sender
+name: WhatsApp Bot 
 
 on:
   workflow_dispatch:
@@ -14,10 +14,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    env:
+      NODE_OPTIONS: --max_old_space_size=4096
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -28,29 +38,12 @@ jobs:
         run: npm install
 
       - name: Start WhatsApp Bot
-        run: |
-          npm start &
-          sleep 10  # Give time for the bot to start
-
-      - name: Delete cache and commit logs
-        run: |
-          rm -rf tmp
-          mkdir tmp
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "action@github.com"
-          git add -A
-          git diff-index --quiet HEAD || git commit -a -m "Update session" --allow-empty
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+        run: npm start &
 
       - name: Stop workflow
-        if: steps.check_runs.outputs.has_new_run ==  true 
+        if: steps.check_runs.outputs.has_new_run == true
         run: exit 0
 
       - name: Keep
-        if: steps.check_runs.outputs.has_new_run ==  false 
+        if: steps.check_runs.outputs.has_new_run == false
         run: sleep 600000000
