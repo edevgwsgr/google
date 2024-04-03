@@ -38,7 +38,7 @@ jobs:
 
       - name: Configure ngrok
         run: |
-          ngrok authtoken your_ngrok_auth_token
+          ngrok authtoken 2dCG3m9xPnMIhpkoAqBuiVTxUPD_5B8tVs5hVWx3Zr9XMKehb
           ngrok http 8080 &
 
       - name: Keep alive
