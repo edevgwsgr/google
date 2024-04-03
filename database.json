@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2365,
+      "exp": 2372,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4125,7 +4125,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1148
+      "exp": 1163
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10387,10 +10387,10 @@
       "lastSuccess": 1710110923988
     },
     "owner-exec.js": {
-      "total": 26,
-      "success": 26,
-      "last": 1711403688986,
-      "lastSuccess": 1711403688986
+      "total": 27,
+      "success": 27,
+      "last": 1712183505309,
+      "lastSuccess": 1712183505309
     },
     "ai-report.js": {
       "total": 7,
