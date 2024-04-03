@@ -1,22 +1,23 @@
 import fetch from 'node-fetch';
 
-const handler = async (m, { text, usedPrefix }) => {
-    if (!text) return conn.reply(m.chat, `🎌 *Please enter a request*\n\nExample: ${usedPrefix}bard Do you know CuriosityBot-MD?`, m, fake);
-
+var handler = async (m, { text, usedPrefix, command }) => {
+    if (!text) throw `${usedPrefix + command} hello mee6`;
     try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const response = await fetch(`https://aemt.me/bard?text=${encodeURIComponent(text)}`);
-        const data = await response.json();
-        await m.reply(data.result);
-    } catch (error) {
-        console.error(error);
-        return conn.reply(m.chat, `*🚩 An error occurred*`, m, fake);
+        var apii = await fetch(`https://aemt.me/gemini?text=${text}`);
+        var res = await apii.json();
+        await m.reply(res.result);
+    } catch (e) {
+        await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m);
+        console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`);
+        console.log(e);
     }
 };
 
 handler.command = ['bard'];
 handler.help = ['bard'];
-handler.tags = ['ai'];
-handler.premium = false;
+handler.tags = ['herramientas'];
+handler.register = true;
+handler.premium = true;
 
 export default handler;

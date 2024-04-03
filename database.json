@@ -245,7 +245,7 @@
       "regTime": 1712009359984,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 11214,
+      "exp": 11328,
       "level": 3,
       "country": "morocco"
     },
@@ -4125,7 +4125,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1091
+      "exp": 1148
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10165,10 +10165,10 @@
       "lastSuccess": 1709822969073
     },
     "_config-sf-fils.js": {
-      "total": 119,
-      "success": 103,
-      "last": 1711926427900,
-      "lastSuccess": 1711926427900
+      "total": 121,
+      "success": 105,
+      "last": 1712180064222,
+      "lastSuccess": 1712180064222
     },
     "downloader-ytmp4.js": {
       "total": 14,
@@ -10405,10 +10405,10 @@
       "lastSuccess": 1710374436691
     },
     "tooll-help.js": {
-      "total": 59,
-      "success": 59,
-      "last": 1712152857524,
-      "lastSuccess": 1712152857524
+      "total": 60,
+      "success": 60,
+      "last": 1712179581629,
+      "lastSuccess": 1712179581629
     },
     "_config-runtime.js": {
       "total": 9,
@@ -10477,10 +10477,10 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 63,
-      "success": 60,
-      "last": 1712147551612,
-      "lastSuccess": 1711909963260
+      "total": 67,
+      "success": 62,
+      "last": 1712179846133,
+      "lastSuccess": 1712179846133
     },
     "alquran.js": {
       "total": 2,
@@ -10661,6 +10661,12 @@
       "success": 0,
       "last": 1711926523699,
       "lastSuccess": 0
+    },
+    "imagine3.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1712180074906,
+      "lastSuccess": 1712180074906
     }
   },
   "msgs": {},
