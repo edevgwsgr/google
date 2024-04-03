@@ -84,7 +84,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 2,
+      "limit": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
@@ -93,7 +93,7 @@
       "regTime": 1710768666146,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2225,
+      "exp": 2329,
       "level": 0
     },
     "212702435346@s.whatsapp.net": {
@@ -4125,7 +4125,7 @@
       "regTime": 1711292438576,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1090
+      "exp": 1091
     },
     "120363212565370375@g.us": {
       "afk": -1,
@@ -10069,10 +10069,10 @@
   },
   "stats": {
     "obb.js": {
-      "total": 58,
-      "success": 46,
-      "last": 1711735933261,
-      "lastSuccess": 1711735933261
+      "total": 60,
+      "success": 48,
+      "last": 1712147540181,
+      "lastSuccess": 1712147540181
     },
     "rpg-verificar.js": {
       "total": 3,
@@ -10423,10 +10423,10 @@
       "lastSuccess": 1710970046311
     },
     "ai-apk.js": {
-      "total": 15,
-      "success": 12,
-      "last": 1712097068662,
-      "lastSuccess": 1711830158780
+      "total": 18,
+      "success": 15,
+      "last": 1712147733878,
+      "lastSuccess": 1712147733878
     },
     "tooll-getplugin.js": {
       "total": 6,
@@ -10477,9 +10477,9 @@
       "lastSuccess": 1710684513522
     },
     "ai-bard.js": {
-      "total": 61,
+      "total": 63,
       "success": 60,
-      "last": 1711909963260,
+      "last": 1712147551612,
       "lastSuccess": 1711909963260
     },
     "alquran.js": {
@@ -10507,10 +10507,10 @@
       "lastSuccess": 0
     },
     "ai-bardimg.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1711839025440,
-      "lastSuccess": 1711839025440
+      "total": 10,
+      "success": 10,
+      "last": 1712147567550,
+      "lastSuccess": 1712147567550
     },
     "dall0.js": {
       "total": 9,
