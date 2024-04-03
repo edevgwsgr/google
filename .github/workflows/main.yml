@@ -1,4 +1,5 @@
-name: The Bot Host
+name: WhatsApp Bot Speedy File Sender
+
 on:
   workflow_dispatch:
   push:
@@ -9,9 +10,11 @@ on:
       - master
   schedule:
     - cron: "*/30 * * * *"
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -22,25 +25,23 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Start The Code
-        run: npm start &
-
-      - name: Start VSCode Server
+      - name: Start WhatsApp Bot
         run: |
-          if [[ ! -d code-server-3.9.3-linux-amd64 ]]; then
-            wget https://github.com/cdr/code-server/releases/download/v3.9.3/code-server-3.9.3-linux-amd64.tar.gz
-            tar xvzf code-server-3.9.3-linux-amd64.tar.gz
-          fi
-          cd code-server-3.9.3-linux-amd64/bin
-          ./code-server --bind-addr 0.0.0.0:8080 --auth none &
+          npm start &
+          sleep 10  # Give time for the bot to start
 
-      - name: Extract bot info from file
+      - name: Download and install ngrok
         run: |
-          export $(grep -v '^#' bot_info.txt | xargs)
+          sudo apt-get update && sudo apt-get install -y ngrok
 
-      - name: Keep workflow running
+      - name: Configure ngrok
+        run: |
+          ngrok authtoken your_ngrok_auth_token
+          ngrok http 8080 &
+
+      - name: Keep alive
         id: check_runs
         run: |
           while true; do
@@ -53,23 +54,25 @@ jobs:
             fi
           done
 
-      - name: Commit logs
+      - name: Delete cache and commit logs
         run: |
+          rm -rf tmp
+          mkdir tmp
           git config --global user.name "GitHub Actions"
           git config --global user.email "action@github.com"
           git add -A
-          git diff-index --quiet HEAD || git commit -a -m "Update session logs" --allow-empty
+          git diff-index --quiet HEAD || git commit -a -m "Update session" --allow-empty
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-      
+
       - name: Stop workflow
         if: steps.check_runs.outputs.has_new_run ==  true 
         run: exit 0
 
-      - name: Keep workflow alive
+      - name: Keep
         if: steps.check_runs.outputs.has_new_run ==  false 
         run: sleep 600000000
