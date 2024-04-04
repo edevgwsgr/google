@@ -17,7 +17,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 70
+      "exp": 116
     },
     "212669448046@s.whatsapp.net": {
       "afk": -1,
@@ -74,10 +74,22 @@
       "lastSuccess": 1712204410129
     },
     "_config-make-account.js": {
-      "total": 2,
+      "total": 3,
       "success": 0,
-      "last": 1712204422989,
+      "last": 1712214500766,
       "lastSuccess": 0
+    },
+    "tooll-help.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712214348186,
+      "lastSuccess": 1712214348186
+    },
+    "_config-on y off.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712214357663,
+      "lastSuccess": 1712214357663
     }
   },
   "msgs": {},
@@ -86,7 +98,7 @@
     "212669448046@s.whatsapp.net": {
       "self": false,
       "autoread": true,
-      "autoread2": false,
+      "autoread2": true,
       "restrict": false,
       "antiCall": true,
       "antiPrivate": false,
