@@ -1,8 +1,64 @@
 {
-  "users": {},
-  "chats": {},
+  "users": {
+    "212641207087@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ᴍᴀᴊɴᴏɴ",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 23
+    }
+  },
+  "chats": {
+    "212641207087@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    }
+  },
   "stats": {},
   "msgs": {},
   "sticker": {},
-  "settings": {}
+  "settings": {
+    "212669448046@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "autoread2": false,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
+    }
+  }
 }
