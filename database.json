@@ -55,7 +55,7 @@
       "regTime": 1712250235494,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 650,
+      "exp": 660,
       "gender": "🙆🏻‍♂️ Male",
       "country": "MAROC",
       "lastclaim": 1712250240624
@@ -173,6 +173,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212705776824@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "مــجـن͡ــو͠ن اࢦـࢪ͜͡وســ͠ي",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 6
     }
   },
   "chats": {
@@ -277,6 +296,31 @@
       "expired": 0
     },
     "120363273632963041@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "212705776824@s.whatsapp.net": {
       "isBanned": false,
       "welcome": true,
       "detect": true,
