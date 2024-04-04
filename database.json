@@ -17,7 +17,26 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 23
+      "exp": 70
+    },
+    "212669448046@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "mee6",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -47,7 +66,20 @@
       "expired": 0
     }
   },
-  "stats": {},
+  "stats": {
+    "_config-runtime.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712204410129,
+      "lastSuccess": 1712204410129
+    },
+    "_config-make-account.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1712204422989,
+      "lastSuccess": 0
+    }
+  },
   "msgs": {},
   "sticker": {},
   "settings": {
