@@ -41,21 +41,24 @@
     "212607967755@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 19,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 65,
       "level": 0,
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "DaLich",
+      "name": "dalich",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1712250235494,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 10
+      "exp": 640,
+      "gender": "🙆🏻‍♂️ Male",
+      "country": "MAROC",
+      "lastclaim": 1712250240624
     },
     "212772076580@s.whatsapp.net": {
       "afk": -1,
@@ -209,6 +212,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212607967755@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -219,22 +247,46 @@
       "lastSuccess": 1712204410129
     },
     "_config-make-account.js": {
-      "total": 3,
-      "success": 0,
-      "last": 1712214500766,
-      "lastSuccess": 0
+      "total": 7,
+      "success": 1,
+      "last": 1712250235497,
+      "lastSuccess": 1712250235497
     },
     "tooll-help.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1712214348186,
-      "lastSuccess": 1712214348186
+      "total": 3,
+      "success": 3,
+      "last": 1712250131475,
+      "lastSuccess": 1712250131475
     },
     "_config-on y off.js": {
       "total": 2,
       "success": 2,
       "last": 1712214357663,
       "lastSuccess": 1712214357663
+    },
+    "_config-top-members.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1712250243402,
+      "lastSuccess": 1712250243402
+    },
+    "_config-gift.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1712250240624,
+      "lastSuccess": 1712250240624
+    },
+    "ai-apk.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712250274282,
+      "lastSuccess": 1712250274282
+    },
+    "obb.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712250279021,
+      "lastSuccess": 1712250279021
     }
   },
   "msgs": {},
