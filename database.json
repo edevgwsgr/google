@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14389,
+      "exp": 14412,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70465,6 +70465,25 @@
         "step": null,
         "soal": null
       }
+    },
+    "212669448046@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "mee6",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 0
     }
   },
   "chats": {
@@ -71389,6 +71408,12 @@
       "success": 1,
       "last": 1707653648554,
       "lastSuccess": 1707653648554
+    },
+    "_config-on y off.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712302432398,
+      "lastSuccess": 1712302432398
     }
   },
   "msgs": {},
@@ -71406,6 +71431,15 @@
       "modoia": false,
       "jadibotmd": true,
       "status": 1707679122214
+    },
+    "212669448046@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "autoread2": true,
+      "restrict": false,
+      "antiCall": true,
+      "antiPrivate": false,
+      "jadibotmd": true
     }
   }
 }
