@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14475,
+      "exp": 14500,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71470,6 +71470,12 @@
       "success": 5,
       "last": 1712433733288,
       "lastSuccess": 1712433733288
+    },
+    "_config-welcome.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712443360341,
+      "lastSuccess": 1712443360341
     }
   },
   "msgs": {},
