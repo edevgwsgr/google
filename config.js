@@ -46,10 +46,10 @@ global.APIs = {
   neoxr: 'https://api.neoxr.my.id',
   zenzapis: 'https://api.zahwazein.xyz',
   akuari: 'https://api.akuari.my.id',
-  akuari2: 'https://apimu.my.id',	
+  akuari2: 'https://apimu.my.id',  
   fgmods: 'https://api-fgmods.ddns.net',
   botcahx: 'https://api.botcahx.biz.id',
-  ibeng: 'https://api.ibeng.tech/docs',	
+  ibeng: 'https://api.ibeng.tech/docs', 
   rose: 'https://api.itsrose.site',
   popcat : 'https://api.popcat.xyz',
   xcoders : 'https://api-xcoders.site'
@@ -57,7 +57,7 @@ global.APIs = {
 global.APIKeys = { 
   'https://api.xteam.xyz': `${keysxteam}`,
   'https://api.lolhuman.xyz': `${lolkeysapi}`,
-  'https://api.neoxr.my.id': `${keysneoxr}`,	
+  'https://api.neoxr.my.id': `${keysneoxr}`,  
   'https://violetics.pw': 'beta',
   'https://api.zahwazein.xyz': `${keysxxx}`,
   'https://api-fgmods.ddns.net': 'fg-dylux',
@@ -72,9 +72,9 @@ global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
 global.axios = axios
-global.moment = moment	
+global.moment = moment  
 
-global.packname = 'JEEN'
+global.packname = 'MEE5'
 global.author = 'MD'
 // waitt
 global.wait = "_*Please wait...*_"
@@ -104,7 +104,7 @@ global.waittt = "*Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*Charging..._ ▬▬▬▬▬▬▭*"
 global.waittttt = "*Filled..._ ▬▬▬▬▬▬▬*"
 
-global.gt = 'JEEN'
+global.gt = 'MEE5'
 global.yt = 'youtube.com/'
 global.yt2 = 'youtu.be/'
 global.ig = 'instagram.com/majnon._.98'
@@ -129,8 +129,8 @@ global.nnnttt5 = 'https://chat.whatsapp.com/LnqUcqNXFlj8ATVAQS0l6r' //A.T.M.M
 global.paypal = 'https://paypal.me/majnonrossi'
 global.asistencia = 'Wa.me/212641207087' //Dudas? escríbeme...
 
-global.wm = 'JEEN-MD'
-global.igfg = 'JEEN-MD'
+global.wm = 'MEE5-MD'
+global.igfg = 'MEE5-MD'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
