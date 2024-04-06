@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14412,
+      "exp": 14447,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 189,
+      "exp": 2445,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3247,7 +3247,7 @@
       "lastbunga": 0,
       "lastbunuhi": 0,
       "lastcoins": 0,
-      "lastclaim": 0,
+      "lastclaim": 1712433584438,
       "lastcode": 0,
       "lastcofre": 0,
       "lastcrusade": 0,
@@ -3304,7 +3304,7 @@
       "lelebakar": 0,
       "leleg": 0,
       "level": 0,
-      "limit": 15,
+      "limit": 115,
       "limitjoinfree": 1,
       "lion": 0,
       "lionexp": 0,
@@ -3354,8 +3354,8 @@
       "pisang": 0,
       "pointxp": 0,
       "potion": 10,
-      "premium": false,
-      "premiumTime": 0,
+      "premium": true,
+      "premiumTime": 1712469563464,
       "ramuan": 0,
       "ramuancentaurlast": 0,
       "ramuangriffinlast": 0,
@@ -70484,6 +70484,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 0
+    },
+    "212705776824@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "مــجـن͡ــو͠ن اࢦـࢪ͜͡وســ͠ي",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 34
     }
   },
   "chats": {
@@ -71190,20 +71209,45 @@
       "antiTraba": false,
       "autolevelup": false,
       "expired": 0
+    },
+    "120363244856747601@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "tooll-help.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1707646054271,
-      "lastSuccess": 1707646054271
+      "total": 15,
+      "success": 15,
+      "last": 1712433580704,
+      "lastSuccess": 1712433580704
     },
     "ai-bard2.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1707652137653,
-      "lastSuccess": 1707652137653
+      "total": 11,
+      "success": 11,
+      "last": 1712432233336,
+      "lastSuccess": 1712432233336
     },
     "ai-bardimg.js": {
       "total": 5,
@@ -71230,16 +71274,16 @@
       "lastSuccess": 1707650329487
     },
     "_config-top-members.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1707592402904,
-      "lastSuccess": 1707592402904
+      "total": 3,
+      "success": 3,
+      "last": 1712433616182,
+      "lastSuccess": 1712433616182
     },
     "_config-gift.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1707592413921,
-      "lastSuccess": 1707592413921
+      "total": 3,
+      "success": 3,
+      "last": 1712433584438,
+      "lastSuccess": 1712433584438
     },
     "_config-make-account.js": {
       "total": 14,
@@ -71260,10 +71304,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 15,
-      "success": 9,
-      "last": 1707671722571,
-      "lastSuccess": 1707671722571
+      "total": 20,
+      "success": 13,
+      "last": 1712433729761,
+      "lastSuccess": 1712433729761
     },
     "_config-banchat.js": {
       "total": 3,
@@ -71326,10 +71370,10 @@
       "lastSuccess": 1707668162566
     },
     "_config-addprem.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1707650409763,
-      "lastSuccess": 1707650409763
+      "total": 7,
+      "success": 7,
+      "last": 1712433563465,
+      "lastSuccess": 1712433563465
     },
     "ai-yts.js": {
       "total": 9,
@@ -71404,16 +71448,28 @@
       "lastSuccess": 0
     },
     "ai-bard.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1707653648554,
-      "lastSuccess": 1707653648554
+      "total": 5,
+      "success": 3,
+      "last": 1712433300574,
+      "lastSuccess": 1712433300574
     },
     "_config-on y off.js": {
       "total": 2,
       "success": 2,
       "last": 1712302432398,
       "lastSuccess": 1712302432398
+    },
+    "_config-runtime.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712433596211,
+      "lastSuccess": 1712433596211
+    },
+    "obb.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1712433733288,
+      "lastSuccess": 1712433733288
     }
   },
   "msgs": {},
