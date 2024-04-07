@@ -5,9 +5,9 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let info = await apkinfo(text);
   let res = await apk(text);
 
-    await conn.sendMessage(m.chat, {
+  await conn.sendMessage(m.chat, {
     image: { url: info.icon },
-    caption: `*Name:* ${info.name}\n*Package:* ${info.packageN}\n*OBB:* ${info.obb_link}`,
+    caption: `*Name:* ${info.name}\n*Package:* ${info.packageN}\n*Download:* ${res.size}\n${res.fileName}`,
     footer: '_Apk files..._',
   });
 
@@ -25,36 +25,20 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.command = /^(apk)$/i;
 handler.help = ['apk'];
 handler.tags = ['downloader'];
-handler.premium = true
+handler.premium = true;
 export default handler;
 
 async function apkinfo(url) {
   let res = await fetch('http://ws75.aptoide.com/api/7/apps/search?query=' + url + '&limit=1');
   let $ = await res.json();
 
-  try {
-    let icon = $.datalist.list[0].icon;
-  } catch {
-    throw 'Can\'t download the apk!';
-  }
-
   let icon = $.datalist.list[0].icon;
   let name = $.datalist.list[0].name;
   let packageN = $.datalist.list[0].package;
   let download = $.datalist.list[0].file.path;
-  let obb_link;
-  let obb;
-
-  try {
-    obb_link = await $.datalist.list[0].obb.main.path;
-    obb = true;
-  } catch {
-    obb_link = '_not available_';
-    obb = true;
-  }
 
   if (!download) throw 'Can\'t download the apk!';
-  return { obb, obb_link, name, icon, packageN };
+  return { name, icon, packageN };
 }
 
 async function apk(url) {
@@ -63,8 +47,10 @@ async function apk(url) {
   let fileName = $.datalist.list[0].package + '.apk';
   let download = $.datalist.list[0].file.path;
   let size = (await fetch(download, { method: 'head' })).headers.get('Content-Length');
-  if (!download) throw 'Can\'t download the apk!';
-  let icon = $.datalist.list[0].icon;
+
+  if (!download || !size) throw 'Can\'t download the apk!';
+  if (parseInt(size) > 300 * 1024 * 1024) throw 'File size exceeds 300 MB limit!';
+
   let mimetype = (await fetch(download, { method: 'head' })).headers.get('content-type');
 
   return { fileName, mimetype, download, size };
