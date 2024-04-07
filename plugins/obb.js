@@ -22,7 +22,7 @@ async function apk(url) {
     let response = await fetch(download)
     let contentLength = response.headers.get('content-length')
     if (contentLength && parseInt(contentLength) > 1073741824) // Check if the file size is more than 1 gigabyte
-        throw 'File size exceeds 1 gigabyte.'
+        throw 'File size exceeds 1.5 gigabyte.'
     let mimetype = response.headers.get('content-type')
     return { fileName, mimetype, download}
 }
