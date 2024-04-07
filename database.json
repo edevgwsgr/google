@@ -70502,7 +70502,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 98
+      "exp": 118
     },
     "212711206405@s.whatsapp.net": {
       "afk": -1,
@@ -71510,9 +71510,9 @@
       "lastSuccess": 1712433596211
     },
     "obb.js": {
-      "total": 6,
+      "total": 7,
       "success": 6,
-      "last": 1712513837553,
+      "last": 1712525473959,
       "lastSuccess": 1712513837553
     },
     "_config-welcome.js": {
