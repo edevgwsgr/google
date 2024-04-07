@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 2445,
+      "exp": 2474,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3354,8 +3354,8 @@
       "pisang": 0,
       "pointxp": 0,
       "potion": 10,
-      "premium": true,
-      "premiumTime": 1712469563464,
+      "premium": false,
+      "premiumTime": 0,
       "ramuan": 0,
       "ramuancentaurlast": 0,
       "ramuangriffinlast": 0,
@@ -70502,7 +70502,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 34
+      "exp": 98
     },
     "212711206405@s.whatsapp.net": {
       "afk": -1,
@@ -71282,10 +71282,10 @@
   },
   "stats": {
     "tooll-help.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1712440217797,
-      "lastSuccess": 1712440217797
+      "total": 17,
+      "success": 17,
+      "last": 1712513763146,
+      "lastSuccess": 1712513763146
     },
     "ai-bard2.js": {
       "total": 11,
@@ -71348,10 +71348,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 20,
-      "success": 13,
-      "last": 1712433729761,
-      "lastSuccess": 1712433729761
+      "total": 21,
+      "success": 14,
+      "last": 1712513847898,
+      "lastSuccess": 1712513847898
     },
     "_config-banchat.js": {
       "total": 3,
@@ -71510,16 +71510,22 @@
       "lastSuccess": 1712433596211
     },
     "obb.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1712433733288,
-      "lastSuccess": 1712433733288
+      "total": 6,
+      "success": 6,
+      "last": 1712513837553,
+      "lastSuccess": 1712513837553
     },
     "_config-welcome.js": {
       "total": 2,
       "success": 2,
       "last": 1712443360341,
       "lastSuccess": 1712443360341
+    },
+    "tooll-getplugin.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712513917791,
+      "lastSuccess": 1712513917791
     }
   },
   "msgs": {},
