@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, text , usedPrefix, command }) => {
 handler.command = /^(obb2)$/i;
 handler.help = ['obb'];
 handler.tags = ['downloader'];
-handler.premium = true
+handler.premium = false;
 export default handler;
 
 async function apk(url) {
