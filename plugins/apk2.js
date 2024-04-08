@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.command = /^(apk2)$/i;
 handler.help = ['apk'];
 handler.tags = ['downloader'];
-handler.premium = true;
+handler.premium = false;
 handler.group = false;
 export default handler;
 
