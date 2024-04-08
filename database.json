@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14517,
+      "exp": 14544,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71634,6 +71634,12 @@
       "success": 6,
       "last": 1712596641311,
       "lastSuccess": 1712596641311
+    },
+    "owner-exec.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712618221854,
+      "lastSuccess": 1712618221854
     }
   },
   "msgs": {},
