@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14507,
+      "exp": 14517,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 232
+      "exp": 343
     },
     "212711206405@s.whatsapp.net": {
       "afk": -1,
@@ -71586,9 +71586,9 @@
       "lastSuccess": 1712433596211
     },
     "obb.js": {
-      "total": 7,
+      "total": 8,
       "success": 6,
-      "last": 1712525473959,
+      "last": 1712592688317,
       "lastSuccess": 1712513837553
     },
     "_config-welcome.js": {
@@ -71610,10 +71610,22 @@
       "lastSuccess": 1712588703749
     },
     "obb2.js": {
+      "total": 5,
+      "success": 3,
+      "last": 1712592696264,
+      "lastSuccess": 1712592696264
+    },
+    "apk2.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1712592643606,
+      "lastSuccess": 1712592643606
+    },
+    "removebg.js": {
       "total": 3,
-      "success": 1,
-      "last": 1712588387486,
-      "lastSuccess": 1712588387486
+      "success": 3,
+      "last": 1712593445555,
+      "lastSuccess": 1712593445555
     }
   },
   "msgs": {},
