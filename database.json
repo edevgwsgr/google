@@ -70488,7 +70488,7 @@
     "212705776824@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 27,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -70497,12 +70497,14 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "مــجـن͡ــو͠ن اࢦـࢪ͜͡وســ͠ي",
+      "name": "abfo",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1712596602413,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 343
+      "exp": 457,
+      "gender": "🙆🏻‍♂️ Male",
+      "country": "m"
     },
     "212711206405@s.whatsapp.net": {
       "afk": -1,
@@ -71406,10 +71408,10 @@
       "lastSuccess": 1712433584438
     },
     "_config-make-account.js": {
-      "total": 14,
-      "success": 1,
-      "last": 1707651841176,
-      "lastSuccess": 1707650531776
+      "total": 15,
+      "success": 2,
+      "last": 1712596602416,
+      "lastSuccess": 1712596602416
     },
     "downloader-ig.js": {
       "total": 4,
@@ -71604,10 +71606,10 @@
       "lastSuccess": 1712513917791
     },
     "_config-sf-fils.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1712588703749,
-      "lastSuccess": 1712588703749
+      "total": 5,
+      "success": 5,
+      "last": 1712596579544,
+      "lastSuccess": 1712596579544
     },
     "obb2.js": {
       "total": 5,
@@ -71626,6 +71628,12 @@
       "success": 3,
       "last": 1712593445555,
       "lastSuccess": 1712593445555
+    },
+    "gemini2.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1712596641311,
+      "lastSuccess": 1712596641311
     }
   },
   "msgs": {},
