@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 457,
+      "exp": 505,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71414,10 +71414,10 @@
       "lastSuccess": 1712596602416
     },
     "downloader-ig.js": {
-      "total": 4,
-      "success": 3,
-      "last": 1707602514289,
-      "lastSuccess": 1707602438550
+      "total": 6,
+      "success": 5,
+      "last": 1712662102620,
+      "lastSuccess": 1712662102620
     },
     "ai-sticker.js": {
       "total": 3,
