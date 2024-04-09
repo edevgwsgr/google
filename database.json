@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14588,
+      "exp": 14608,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 2696,
+      "exp": 2722,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70600,6 +70600,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "967716727481@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "+967 716 727 481",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
     }
   },
   "chats": {
@@ -71414,10 +71433,10 @@
       "lastSuccess": 1712596602416
     },
     "downloader-ig.js": {
-      "total": 6,
-      "success": 5,
-      "last": 1712662102620,
-      "lastSuccess": 1712662102620
+      "total": 7,
+      "success": 6,
+      "last": 1712692358088,
+      "lastSuccess": 1712692358088
     },
     "ai-sticker.js": {
       "total": 3,
