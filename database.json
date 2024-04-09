@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14548,
+      "exp": 14588,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71640,6 +71640,12 @@
       "success": 2,
       "last": 1712618221854,
       "lastSuccess": 1712618221854
+    },
+    "Adhan.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1712688642728,
+      "lastSuccess": 1712688642728
     }
   },
   "msgs": {},
