@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 2862,
+      "exp": 2911,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71445,10 +71445,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 21,
-      "success": 14,
-      "last": 1712513847898,
-      "lastSuccess": 1712513847898
+      "total": 22,
+      "success": 15,
+      "last": 1712745148451,
+      "lastSuccess": 1712745148451
     },
     "_config-banchat.js": {
       "total": 3,
@@ -71607,10 +71607,10 @@
       "lastSuccess": 1712433596211
     },
     "obb.js": {
-      "total": 8,
-      "success": 6,
-      "last": 1712592688317,
-      "lastSuccess": 1712513837553
+      "total": 9,
+      "success": 7,
+      "last": 1712745154014,
+      "lastSuccess": 1712745154014
     },
     "_config-welcome.js": {
       "total": 2,
