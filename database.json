@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 529,
+      "exp": 551,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71644,9 +71644,9 @@
       "lastSuccess": 1712513917791
     },
     "_config-sf-fils.js": {
-      "total": 5,
+      "total": 6,
       "success": 5,
-      "last": 1712596579544,
+      "last": 1712779673093,
       "lastSuccess": 1712596579544
     },
     "obb2.js": {
