@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 2947,
+      "exp": 2985,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71483,10 +71483,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 22,
-      "success": 15,
-      "last": 1712745148451,
-      "lastSuccess": 1712745148451
+      "total": 24,
+      "success": 16,
+      "last": 1712833381443,
+      "lastSuccess": 1712833381443
     },
     "_config-banchat.js": {
       "total": 3,
