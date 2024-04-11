@@ -22,10 +22,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const readMore = more.repeat(850);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
-    m.react('🌙');
+    m.react('📚');
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ▢ *ramadan karim,* ${taguser}
+ ▢ *hello,* ${taguser}
 
  _*< Your Accounte />*_
 
@@ -34,6 +34,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Diamantes :* ${limit}
  ▢ *Premium :* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')}
  ▢ *Registrado :* ${user.registered === true ? '✅' : '❌'}
+_*< Owner Bot  Majnon />*_
+
+ https://instagram.com/majnon._.98
 
 _*< Bot Commnds />*_
 
