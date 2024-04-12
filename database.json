@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14924,
+      "exp": 15017,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71822,10 +71822,10 @@
       "lastSuccess": 1712302432398
     },
     "_config-runtime.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1712923203094,
-      "lastSuccess": 1712923203094
+      "total": 4,
+      "success": 4,
+      "last": 1712923936937,
+      "lastSuccess": 1712923936937
     },
     "obb.js": {
       "total": 9,
@@ -71846,10 +71846,10 @@
       "lastSuccess": 1712513917791
     },
     "_config-sf-fils.js": {
-      "total": 12,
-      "success": 11,
-      "last": 1712923705695,
-      "lastSuccess": 1712923705695
+      "total": 14,
+      "success": 13,
+      "last": 1712924333927,
+      "lastSuccess": 1712924333927
     },
     "obb2.js": {
       "total": 5,
@@ -71894,9 +71894,9 @@
       "lastSuccess": 1712911088435
     },
     "apkpure.js": {
-      "total": 3,
+      "total": 4,
       "success": 0,
-      "last": 1712923272893,
+      "last": 1712923946423,
       "lastSuccess": 0
     },
     "a.js": {
@@ -71922,6 +71922,12 @@
       "success": 0,
       "last": 1712923726913,
       "lastSuccess": 0
+    },
+    "apkpu.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1712924349995,
+      "lastSuccess": 1712924349995
     }
   },
   "msgs": {},
