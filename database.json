@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3226,
+      "exp": 3232,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 576,
+      "exp": 602,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71619,10 +71619,10 @@
   },
   "stats": {
     "tooll-help.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1712911093088,
-      "lastSuccess": 1712911093088
+      "total": 26,
+      "success": 26,
+      "last": 1712951816733,
+      "lastSuccess": 1712951816733
     },
     "ai-bard2.js": {
       "total": 11,
