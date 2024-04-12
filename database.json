@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 14652,
+      "exp": 14672,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70483,7 +70483,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 2
+      "exp": 33
     },
     "212705776824@s.whatsapp.net": {
       "afk": -1,
@@ -70709,6 +70709,25 @@
       "premium": false,
       "premiumTime": 0,
       "name": "+212 768-901386",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": null
+    },
+    "265994499476@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "C Bot",
       "GBLanguage": 0,
       "regTime": -1,
       "registered": false,
@@ -71495,14 +71514,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "265994499476@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "tooll-help.js": {
-      "total": 22,
-      "success": 22,
-      "last": 1712840364048,
-      "lastSuccess": 1712840364048
+      "total": 24,
+      "success": 24,
+      "last": 1712900976028,
+      "lastSuccess": 1712900976028
     },
     "ai-bard2.js": {
       "total": 11,
