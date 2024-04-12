@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15128,
+      "exp": 15255,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3217,
+      "exp": 3222,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 565,
+      "exp": 576,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71846,10 +71846,10 @@
       "lastSuccess": 1712929990606
     },
     "_config-sf-fils.js": {
-      "total": 15,
-      "success": 14,
-      "last": 1712930232579,
-      "lastSuccess": 1712930232579
+      "total": 19,
+      "success": 18,
+      "last": 1712932978292,
+      "lastSuccess": 1712932978292
     },
     "obb2.js": {
       "total": 5,

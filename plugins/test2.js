@@ -9,8 +9,6 @@ const handler = async (m, { conn, command, text }) => {
         const data = await download(results[0].id);
         const developer = await getAppDeveloper(results[0].id);
 
-        if (!data || !developer) throw 'Failed to fetch app data';
-
         const response = `
 📲 *App Name:* ${data.name}
 📦 *Package ID:* ${data.package}
@@ -23,11 +21,7 @@ const handler = async (m, { conn, command, text }) => {
         await conn.sendMessage(m.chat, { image: { url: data.icon }, caption: response }, { quoted: m });
 
         // Download APK
-        if (data.dllink) {
-            await conn.sendMessage(m.chat, { document: { url: data.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: data.name + '.apk' }, { quoted: m });
-        } else {
-            throw 'APK download link not found';
-        }
+        await conn.sendMessage(m.chat, { document: { url: data.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: data.name + '.apk' }, { quoted: m });
 
         // Check if OBB file exists
         const obbLink = await getObbLink(results[0].id);

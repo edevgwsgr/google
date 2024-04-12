@@ -1,4 +1,4 @@
-import { search, download, getAppDeveloper, getObbLink } from 'moddroid-scraper';
+import { search, download, getAppDeveloper } from 'moddroid-scraper';
 
 const handler = async (m, { conn, command, text }) => {
     if (!text) throw `*Example: ${command} minecraft*`;
@@ -28,22 +28,13 @@ const handler = async (m, { conn, command, text }) => {
         } else {
             throw 'APK download link not found';
         }
-
-        // Check if OBB file exists
-        const obbLink = await getObbLink(results[0].id);
-        if (obbLink) {
-            // Download OBB file
-            await conn.sendMessage(m.chat, { document: { url: obbLink }, mimetype: 'application/octet-stream', fileName: data.name + '.obb' }, { quoted: m });
-        } else {
-            console.log('No OBB file found for the app');
-        }
     } catch (error) {
         console.error(error);
         throw 'An error occurred while processing the request.';
     }
 };
 
-handler.command = /^(test2)$/i;
+handler.command = /^(testo)$/i;
 handler.register = true;
 handler.limit = 2;
 
