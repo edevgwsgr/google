@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1336,
+      "exp": 1409,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71663,10 +71663,10 @@
   },
   "stats": {
     "tooll-help.js": {
-      "total": 26,
-      "success": 26,
-      "last": 1712951816733,
-      "lastSuccess": 1712951816733
+      "total": 27,
+      "success": 27,
+      "last": 1713044060084,
+      "lastSuccess": 1713044060084
     },
     "ai-bard2.js": {
       "total": 11,
@@ -71729,10 +71729,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 31,
-      "success": 19,
-      "last": 1713037238713,
-      "lastSuccess": 1713019466559
+      "total": 33,
+      "success": 20,
+      "last": 1713044067743,
+      "lastSuccess": 1713044067743
     },
     "_config-banchat.js": {
       "total": 3,
