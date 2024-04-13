@@ -70483,7 +70483,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 33
+      "exp": 55
     },
     "212705776824@s.whatsapp.net": {
       "afk": -1,
@@ -70828,6 +70828,44 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 29
+    },
+    "212658323376@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Polydev✨",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 61
+    },
+    "33757057291@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "😂",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 45
     }
   },
   "chats": {
@@ -71659,6 +71697,56 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212658323376@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
+    },
+    "33757057291@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -71729,10 +71817,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 36,
-      "success": 23,
-      "last": 1713047321811,
-      "lastSuccess": 1713047321811
+      "total": 39,
+      "success": 26,
+      "last": 1713050821616,
+      "lastSuccess": 1713050821616
     },
     "_config-banchat.js": {
       "total": 3,
@@ -71885,10 +71973,10 @@
       "lastSuccess": 1712302432398
     },
     "_config-runtime.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1712923936937,
-      "lastSuccess": 1712923936937
+      "total": 5,
+      "success": 5,
+      "last": 1713050026348,
+      "lastSuccess": 1713050026348
     },
     "obb.js": {
       "total": 9,
@@ -72032,6 +72120,12 @@
       "total": 3,
       "success": 0,
       "last": 1713022152260,
+      "lastSuccess": 0
+    },
+    "toll-get.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1713051000836,
       "lastSuccess": 0
     }
   },
