@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15255,
+      "exp": 15262,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3275,
+      "exp": 3350,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 616,
+      "exp": 726,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71685,10 +71685,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 26,
-      "success": 17,
-      "last": 1713014012753,
-      "lastSuccess": 1713014012753
+      "total": 30,
+      "success": 19,
+      "last": 1713019466559,
+      "lastSuccess": 1713019466559
     },
     "_config-banchat.js": {
       "total": 3,
@@ -71859,16 +71859,16 @@
       "lastSuccess": 1712443360341
     },
     "tooll-getplugin.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1712929990606,
-      "lastSuccess": 1712929990606
+      "total": 4,
+      "success": 4,
+      "last": 1713019644967,
+      "lastSuccess": 1713019644967
     },
     "_config-sf-fils.js": {
-      "total": 19,
-      "success": 18,
-      "last": 1712932978292,
-      "lastSuccess": 1712932978292
+      "total": 21,
+      "success": 20,
+      "last": 1713019993738,
+      "lastSuccess": 1713019993738
     },
     "obb2.js": {
       "total": 5,
