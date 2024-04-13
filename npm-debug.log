@@ -2,7 +2,7 @@
 1 verbose cli [
 1 verbose cli   '/opt/hostedtoolcache/node/16.20.2/x64/bin/node',
 1 verbose cli   '/home/runner/work/FORKX/FORKX/node_modules/.bin/npm',
-1 verbose cli   'i'
+1 verbose cli   'install'
 1 verbose cli ]
 2 info using npm@2.15.12
 3 info using node@v16.20.2
@@ -20,7 +20,7 @@
 6 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
 7 verbose cwd /home/runner/work/FORKX/FORKX
 8 error Linux 6.5.0-1017-azure
-9 error argv "/opt/hostedtoolcache/node/16.20.2/x64/bin/node" "/home/runner/work/FORKX/FORKX/node_modules/.bin/npm" "i"
+9 error argv "/opt/hostedtoolcache/node/16.20.2/x64/bin/node" "/home/runner/work/FORKX/FORKX/node_modules/.bin/npm" "install"
 10 error node v16.20.2
 11 error npm  v2.15.12
 12 error Invalid version: "1.3.2-(beta)"
