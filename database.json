@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1131,
+      "exp": 1211,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71865,10 +71865,10 @@
       "lastSuccess": 1713019644967
     },
     "_config-sf-fils.js": {
-      "total": 29,
-      "success": 28,
-      "last": 1713025442417,
-      "lastSuccess": 1713025442417
+      "total": 30,
+      "success": 29,
+      "last": 1713034863916,
+      "lastSuccess": 1713034863916
     },
     "obb2.js": {
       "total": 5,
@@ -71895,10 +71895,10 @@
       "lastSuccess": 1712596641311
     },
     "owner-exec.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1713025382122,
-      "lastSuccess": 1713025382122
+      "total": 6,
+      "success": 6,
+      "last": 1713034944806,
+      "lastSuccess": 1713034944806
     },
     "Adhan.js": {
       "total": 3,
