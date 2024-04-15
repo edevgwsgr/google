@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1644,
+      "exp": 1716,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71828,10 +71828,10 @@
       "lastSuccess": 1713164139061
     },
     "ai-bard2.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1713133128040,
-      "lastSuccess": 1713133128040
+      "total": 14,
+      "success": 14,
+      "last": 1713208279064,
+      "lastSuccess": 1713208279064
     },
     "ai-bardimg.js": {
       "total": 6,
@@ -72032,10 +72032,10 @@
       "lastSuccess": 0
     },
     "ai-bard.js": {
-      "total": 6,
-      "success": 4,
-      "last": 1713133064102,
-      "lastSuccess": 1713133064102
+      "total": 8,
+      "success": 5,
+      "last": 1713208278160,
+      "lastSuccess": 1713208278160
     },
     "_config-on y off.js": {
       "total": 2,
