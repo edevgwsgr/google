@@ -18,6 +18,6 @@ handler.command = ['bard'];
 handler.help = ['bard'];
 handler.tags = ['herramientas'];
 handler.register = true;
-handler.premium = true;
+handler.premium = false;
 
 export default handler;
