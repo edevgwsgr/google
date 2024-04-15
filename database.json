@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1603,
+      "exp": 1627,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -70866,6 +70866,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": 69
+    },
+    "212696076168@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "Dragon",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 28
     }
   },
   "chats": {
@@ -71747,14 +71766,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212696076168@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "tooll-help.js": {
-      "total": 27,
-      "success": 27,
-      "last": 1713044060084,
-      "lastSuccess": 1713044060084
+      "total": 28,
+      "success": 28,
+      "last": 1713164139061,
+      "lastSuccess": 1713164139061
     },
     "ai-bard2.js": {
       "total": 12,
@@ -71805,10 +71849,10 @@
       "lastSuccess": 1712596602416
     },
     "downloader-ig.js": {
-      "total": 7,
-      "success": 6,
-      "last": 1712692358088,
-      "lastSuccess": 1712692358088
+      "total": 8,
+      "success": 7,
+      "last": 1713164831616,
+      "lastSuccess": 1713164831616
     },
     "ai-sticker.js": {
       "total": 3,
