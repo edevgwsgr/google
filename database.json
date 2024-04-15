@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3379,
+      "exp": 3411,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1634,
+      "exp": 1644,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -70870,7 +70870,7 @@
     "212696076168@s.whatsapp.net": {
       "afk": -1,
       "afkReason": "",
-      "age": 0,
+      "age": 17,
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
@@ -70879,12 +70879,14 @@
       "money": 150,
       "premium": false,
       "premiumTime": 0,
-      "name": "Dragon",
+      "name": "dragon",
       "GBLanguage": 0,
-      "regTime": -1,
-      "registered": false,
+      "regTime": 1713189441972,
+      "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 28
+      "exp": 64,
+      "gender": "🙆🏻‍♂️ Male",
+      "country": "USA"
     }
   },
   "chats": {
@@ -71850,16 +71852,16 @@
       "lastSuccess": 1707605428464
     },
     "_config-info.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1713037322173,
-      "lastSuccess": 1713037322173
+      "total": 10,
+      "success": 10,
+      "last": 1713189528332,
+      "lastSuccess": 1713189528332
     },
     "_config-top-members.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1712433616182,
-      "lastSuccess": 1712433616182
+      "total": 4,
+      "success": 4,
+      "last": 1713189557674,
+      "lastSuccess": 1713189557674
     },
     "_config-gift.js": {
       "total": 3,
@@ -71868,10 +71870,10 @@
       "lastSuccess": 1712433584438
     },
     "_config-make-account.js": {
-      "total": 15,
-      "success": 2,
-      "last": 1712596602416,
-      "lastSuccess": 1712596602416
+      "total": 16,
+      "success": 3,
+      "last": 1713189441977,
+      "lastSuccess": 1713189441977
     },
     "downloader-ig.js": {
       "total": 8,
