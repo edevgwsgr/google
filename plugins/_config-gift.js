@@ -1,7 +1,7 @@
 const freeXP = 500;
 const premXP = 2000;
-const freelimit = 50; // عدد الجواهر التي سيحصل عليها المستخدم في المكافأة اليومية
-const premlimit = 100; // عدد الجواهر التي سيحصل عليها المستخدم المميز في المكافأة اليومية
+const freelimit = 150; // عدد الجواهر التي سيحصل عليها المستخدم في المكافأة اليومية
+const premlimit = 200; // عدد الجواهر التي سيحصل عليها المستخدم المميز في المكافأة اليومية
 
 let handler = async (m, { isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000;
