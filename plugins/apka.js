@@ -1,37 +1,52 @@
-const apkpure_scraper = require('apkpure-scraper-v1');
+import fetch from 'node-fetch';
 
-const handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
-  if (!text) throw '*[❗] يرجى إدخال اسم التطبيق الذي تريد البحث عنه.*';
+let handler = async (m, { conn, args, text, usedPrefix, command }) => {
+    if (!text) throw 'Ex: ' + usedPrefix + command + ' minecraft';
 
-  try {
-    const searchResults = await apkpure_scraper.apkpure.all(text);
-    if (searchResults.length === 0) {
-      throw new Error('*[❗] لم يتم العثور على نتائج لبحثك.*');
-    }
+    await m.reply('_In progress, please wait..._');
 
-    const downloadResult = await apkpure_scraper.apkpure.detail(searchResults[0].url);
-
-    let response = `*منزل التطبيق من ApkPure*\n\n*الاسم:* ${downloadResult.title}\n*الحزمة:* ${downloadResult.package_name}\n*الإصدار:* ${downloadResult.version}\n*الحجم:* ${downloadResult.size}`;
-    await conn.sendMessage(m.chat, { image: { url: downloadResult.icon }, caption: response });
-
-    if (parseInt(downloadResult.size.replace(' MB', '')) > 999) {
-      throw new Error('*[⛔] الملف ثقيل جدًا لذا لن يتم إرساله.*');
-    }
-
+    let res = await apk(text);
+    
     await conn.sendMessage(m.chat, {
-      document: {
-        url: downloadResult.download_link,
-        mimetype: 'application/vnd.android.package-archive',
-        fileName: downloadResult.title + '.apk',
-        caption: null
-      }
-    });
-  } catch (error) {
-    throw new Error(`*[❗] حدث خطأ: ${error.message}*`);
-  }
-};
+    image: { url: res.icon },
+    caption: `*Name:* ${res.name}\n*Downloads:* ${res.dc}\n*Package:* ${res.path}\n*File Size:* ${res.size}`,
+    footer: '_Apk files..._',
+  });
+    
+    const fileName = `${res.path}.${res.format}`;
+    await conn.sendMessage(
+    m.chat,
+    { document: { url: res.dl }, mimetype: res.mimetype, fileName: fileName },
+    { quoted: m }
+  );
+}
 
 handler.command = /^(apka)$/i;
-handler.premium = true;
+handler.help = ['apk'];
+handler.tags = ['downloader'];
+export default handler;
 
-module.exports = handler;
+async function apk(text) {
+  let response = await fetch(`https://energetic-charm-mastodon.glitch.me/search?q=${text}`);
+  let $ = await response.json();
+  let name = $.appName;
+  let icon = $.image;
+  let dl = $.Downloadlink;
+  let format = $.appFormat;
+  if(!dl) throw 'Can\'t download the apk!';
+  let dc = $.downloadCount;
+  let path = $.packageName;
+  let mimetype = (await fetch(dl, { method: 'head' })).headers.get('content-type');
+  const getsize = (await fetch(dl, { method: 'head' })).headers.get('Content-Length');
+  let size = formatBytes(parseInt(getsize));
+  return { name, icon, dl, dc, path, format, size, mimetype}
+}
+
+function formatBytes(bytes, decimals = 2) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const dm = decimals < 0 ? 0 : decimals;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+}

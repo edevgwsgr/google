@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15506,
+      "exp": 15587,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3370,
+      "exp": 3379,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70483,7 +70483,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 55
+      "exp": 135
     },
     "212705776824@s.whatsapp.net": {
       "afk": -1,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1627,
+      "exp": 1634,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -70817,7 +70817,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 14,
       "level": 0,
       "money": 150,
       "premium": false,
@@ -70827,7 +70827,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 29
+      "exp": 159
     },
     "212658323376@s.whatsapp.net": {
       "afk": -1,
@@ -71791,6 +71791,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212687761878@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -71807,10 +71832,10 @@
       "lastSuccess": 1713133128040
     },
     "ai-bardimg.js": {
-      "total": 5,
-      "success": 1,
-      "last": 1707668149315,
-      "lastSuccess": 1707668149315
+      "total": 6,
+      "success": 2,
+      "last": 1713168122368,
+      "lastSuccess": 1713168122368
     },
     "ai-chatgpt.js": {
       "total": 9,
@@ -71861,10 +71886,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 39,
-      "success": 26,
-      "last": 1713050821616,
-      "lastSuccess": 1713050821616
+      "total": 45,
+      "success": 28,
+      "last": 1713168669235,
+      "lastSuccess": 1713168246707
     },
     "_config-banchat.js": {
       "total": 3,
@@ -72017,10 +72042,10 @@
       "lastSuccess": 1712302432398
     },
     "_config-runtime.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1713050026348,
-      "lastSuccess": 1713050026348
+      "total": 6,
+      "success": 6,
+      "last": 1713168062511,
+      "lastSuccess": 1713168062511
     },
     "obb.js": {
       "total": 9,
@@ -72041,10 +72066,10 @@
       "lastSuccess": 1713019644967
     },
     "_config-sf-fils.js": {
-      "total": 31,
-      "success": 30,
-      "last": 1713132703251,
-      "lastSuccess": 1713132703251
+      "total": 32,
+      "success": 31,
+      "last": 1713168630976,
+      "lastSuccess": 1713168630976
     },
     "obb2.js": {
       "total": 5,
@@ -72177,6 +72202,12 @@
       "success": 1,
       "last": 1713133086700,
       "lastSuccess": 1713133086700
+    },
+    "apka.js": {
+      "total": 4,
+      "success": 0,
+      "last": 1713168741210,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
