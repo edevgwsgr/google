@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1716,
+      "exp": 1770,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -70887,6 +70887,25 @@
       "exp": 64,
       "gender": "🙆🏻‍♂️ Male",
       "country": "USA"
+    },
+    "212773798013@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "ال شلحة ♓❤️",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 15
     }
   },
   "chats": {
@@ -71818,6 +71837,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212773798013@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -71834,10 +71878,10 @@
       "lastSuccess": 1713208279064
     },
     "ai-bardimg.js": {
-      "total": 6,
-      "success": 2,
-      "last": 1713168122368,
-      "lastSuccess": 1713168122368
+      "total": 8,
+      "success": 4,
+      "last": 1713218549746,
+      "lastSuccess": 1713218549746
     },
     "ai-chatgpt.js": {
       "total": 9,
