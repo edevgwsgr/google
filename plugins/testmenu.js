@@ -106,7 +106,7 @@ _*< Other Commnds />*_
 _*< Contact Bot Owner />*_
 `;
 
-const ownerNumber = 'YOUR_OWNER_NUMBER'; // Replace this with the bot owner's number
+const ownerNumber = '212641207087'; // Replace this with the bot owner's number
 
 const buttons = [
   { buttonId: 'contact_owner', buttonText: { displayText: 'Contact Bot Owner' }, type: 1, 
