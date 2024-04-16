@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3420,
+      "exp": 3438,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1770,
+      "exp": 1806,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -71920,10 +71920,10 @@
       "lastSuccess": 1713189441977
     },
     "downloader-ig.js": {
-      "total": 8,
-      "success": 7,
-      "last": 1713164831616,
-      "lastSuccess": 1713164831616
+      "total": 10,
+      "success": 9,
+      "last": 1713280293465,
+      "lastSuccess": 1713280293465
     },
     "ai-sticker.js": {
       "total": 3,
