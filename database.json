@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15909,
+      "exp": 15978,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 3946,
+      "exp": 3959,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -71930,10 +71930,10 @@
       "lastSuccess": 1713307637630
     },
     "ai-bard2.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1713208279064,
-      "lastSuccess": 1713208279064
+      "total": 16,
+      "success": 16,
+      "last": 1713477646608,
+      "lastSuccess": 1713477646608
     },
     "ai-bardimg.js": {
       "total": 8,
