@@ -70874,7 +70874,7 @@
       "banned": false,
       "BannedReason": "",
       "Banneduser": false,
-      "limit": 15,
+      "limit": 165,
       "level": 0,
       "money": 150,
       "premium": false,
@@ -70884,9 +70884,10 @@
       "regTime": 1713189441972,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 64,
+      "exp": 586,
       "gender": "🙆🏻‍♂️ Male",
-      "country": "USA"
+      "country": "USA",
+      "lastclaim": 1713443847901
     },
     "212773798013@s.whatsapp.net": {
       "afk": -1,
@@ -71953,10 +71954,10 @@
       "lastSuccess": 1707605428464
     },
     "_config-info.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1713189528332,
-      "lastSuccess": 1713189528332
+      "total": 12,
+      "success": 12,
+      "last": 1713443855967,
+      "lastSuccess": 1713443855967
     },
     "_config-top-members.js": {
       "total": 4,
@@ -71965,10 +71966,10 @@
       "lastSuccess": 1713189557674
     },
     "_config-gift.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1712433584438,
-      "lastSuccess": 1712433584438
+      "total": 4,
+      "success": 4,
+      "last": 1713443847901,
+      "lastSuccess": 1713443847901
     },
     "_config-make-account.js": {
       "total": 16,
