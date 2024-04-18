@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15803,
+      "exp": 15907,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -72170,10 +72170,10 @@
       "lastSuccess": 1713019644967
     },
     "_config-sf-fils.js": {
-      "total": 33,
-      "success": 32,
-      "last": 1713251178610,
-      "lastSuccess": 1713251178610
+      "total": 34,
+      "success": 33,
+      "last": 1713466476413,
+      "lastSuccess": 1713466476413
     },
     "obb2.js": {
       "total": 5,
@@ -72302,10 +72302,10 @@
       "lastSuccess": 0
     },
     "aianime.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1713133086700,
-      "lastSuccess": 1713133086700
+      "total": 4,
+      "success": 2,
+      "last": 1713466840749,
+      "lastSuccess": 1713466840749
     },
     "apka.js": {
       "total": 4,
@@ -72318,6 +72318,12 @@
       "success": 1,
       "last": 1713251199243,
       "lastSuccess": 1713251199243
+    },
+    "anime.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1713466506349,
+      "lastSuccess": 1713466506349
     }
   },
   "msgs": {},
