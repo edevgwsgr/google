@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 16116,
+      "exp": 16191,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -72252,9 +72252,9 @@
       "lastSuccess": 1713559957049
     },
     "_config-sf-fils.js": {
-      "total": 34,
+      "total": 35,
       "success": 33,
-      "last": 1713466476413,
+      "last": 1713562671686,
       "lastSuccess": 1713466476413
     },
     "obb2.js": {
@@ -72282,10 +72282,10 @@
       "lastSuccess": 1712596641311
     },
     "owner-exec.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1713037985270,
-      "lastSuccess": 1713037985270
+      "total": 10,
+      "success": 10,
+      "last": 1713562616840,
+      "lastSuccess": 1713562616840
     },
     "Adhan.js": {
       "total": 3,
