@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 15978,
+      "exp": 16036,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -72124,10 +72124,10 @@
       "lastSuccess": 1707652817675
     },
     "ai-play.js": {
-      "total": 28,
-      "success": 28,
-      "last": 1707664943847,
-      "lastSuccess": 1707664943847
+      "total": 30,
+      "success": 30,
+      "last": 1713510628606,
+      "lastSuccess": 1713510628606
     },
     "downloader-facebook.js": {
       "total": 2,
@@ -72190,10 +72190,10 @@
       "lastSuccess": 1712302432398
     },
     "_config-runtime.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1713390743605,
-      "lastSuccess": 1713390743605
+      "total": 8,
+      "success": 8,
+      "last": 1713510442501,
+      "lastSuccess": 1713510442501
     },
     "obb.js": {
       "total": 9,
