@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 16191,
+      "exp": 16236,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70502,7 +70502,7 @@
       "regTime": 1712596602413,
       "registered": true,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 1836,
+      "exp": 1907,
       "gender": "🙆🏻‍♂️ Male",
       "country": "m"
     },
@@ -72246,16 +72246,16 @@
       "lastSuccess": 1712443360341
     },
     "tooll-getplugin.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1713559957049,
-      "lastSuccess": 1713559957049
+      "total": 9,
+      "success": 9,
+      "last": 1713566298645,
+      "lastSuccess": 1713566298645
     },
     "_config-sf-fils.js": {
-      "total": 35,
-      "success": 33,
-      "last": 1713562671686,
-      "lastSuccess": 1713466476413
+      "total": 36,
+      "success": 34,
+      "last": 1713567919318,
+      "lastSuccess": 1713567919318
     },
     "obb2.js": {
       "total": 5,
@@ -72406,6 +72406,12 @@
       "success": 1,
       "last": 1713466506349,
       "lastSuccess": 1713466506349
+    },
+    "dalle3.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1713567949241,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
