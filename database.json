@@ -70964,6 +70964,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212660958030@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "🙂",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 45
     }
   },
   "chats": {
@@ -71920,6 +71939,31 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212660958030@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
@@ -72308,10 +72352,10 @@
       "lastSuccess": 1713466840749
     },
     "apka.js": {
-      "total": 4,
-      "success": 0,
-      "last": 1713168741210,
-      "lastSuccess": 0
+      "total": 6,
+      "success": 1,
+      "last": 1713483855936,
+      "lastSuccess": 1713483855936
     },
     "playstore.js": {
       "total": 3,
