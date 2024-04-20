@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 4018,
+      "exp": 4024,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70982,7 +70982,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 45
+      "exp": 165
     },
     "212669010032@s.whatsapp.net": {
       "afk": -1,
@@ -72272,10 +72272,10 @@
       "lastSuccess": 1712302432398
     },
     "_config-runtime.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1713510442501,
-      "lastSuccess": 1713510442501
+      "total": 9,
+      "success": 9,
+      "last": 1713655133252,
+      "lastSuccess": 1713655133252
     },
     "obb.js": {
       "total": 9,
@@ -72422,10 +72422,10 @@
       "lastSuccess": 0
     },
     "toll-get.js": {
-      "total": 2,
-      "success": 0,
-      "last": 1713051000836,
-      "lastSuccess": 0
+      "total": 8,
+      "success": 6,
+      "last": 1713655889860,
+      "lastSuccess": 1713655889860
     },
     "aianime.js": {
       "total": 4,
