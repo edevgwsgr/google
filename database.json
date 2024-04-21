@@ -71059,6 +71059,25 @@
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
       "exp": null
+    },
+    "212772076580@s.whatsapp.net": {
+      "afk": -1,
+      "afkReason": "",
+      "age": 0,
+      "banned": false,
+      "BannedReason": "",
+      "Banneduser": false,
+      "limit": 15,
+      "level": 0,
+      "money": 150,
+      "premium": false,
+      "premiumTime": 0,
+      "name": "BRAZILI😁😁",
+      "GBLanguage": 0,
+      "regTime": -1,
+      "registered": false,
+      "role": "*NOVATO(A)* 🪤",
+      "exp": 64
     }
   },
   "chats": {
@@ -72065,14 +72084,39 @@
       "antitoxic": true,
       "reaction": true,
       "expired": 0
+    },
+    "212772076580@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiver": true,
+      "modoadmin": false,
+      "antiLink": false,
+      "antiLink2": false,
+      "antiTiktok": false,
+      "antiYoutube": false,
+      "antiTelegram": false,
+      "antiFacebook": false,
+      "antiInstagram": false,
+      "antiTwitter": false,
+      "antifake": false,
+      "antiTraba": true,
+      "antitoxic": true,
+      "reaction": true,
+      "expired": 0
     }
   },
   "stats": {
     "tooll-help.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1713307637630,
-      "lastSuccess": 1713307637630
+      "total": 30,
+      "success": 30,
+      "last": 1713693059172,
+      "lastSuccess": 1713693059172
     },
     "ai-bard2.js": {
       "total": 16,
@@ -72225,10 +72269,10 @@
       "lastSuccess": 1707652817675
     },
     "ai-play.js": {
-      "total": 32,
-      "success": 32,
-      "last": 1713630164091,
-      "lastSuccess": 1713630164091
+      "total": 34,
+      "success": 34,
+      "last": 1713693305517,
+      "lastSuccess": 1713693305517
     },
     "downloader-facebook.js": {
       "total": 2,
