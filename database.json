@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 16469,
+      "exp": 16523,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -3135,7 +3135,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 4066,
+      "exp": 4071,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -72484,10 +72484,10 @@
       "lastSuccess": 1712596641311
     },
     "owner-exec.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1713821893774,
-      "lastSuccess": 1713821893774
+      "total": 13,
+      "success": 13,
+      "last": 1713825036128,
+      "lastSuccess": 1713825036128
     },
     "Adhan.js": {
       "total": 3,
