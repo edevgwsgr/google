@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command, sender }) => {
     if (info && info.icon) {
         caption = `*الاسم:* ${info.name}\n*الباكج:* ${info.packageN}\n*التحميل:* ${res.size}\n${res.fileName}`;
     } else {
-        caption = `*الاسم:* غير معروف\n*الباكج:* غير معروف\n*التحميل:* ${res.size}\n${res.fileName}`;
+        caption = `*الاسم:* غيرمعروف\n*الباكج:* غير معروف\n*التحميل:* ${res.size}\n${res.fileName}`;
     }
 
     await conn.sendMessage(m.chat, {
