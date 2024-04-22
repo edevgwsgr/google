@@ -1,45 +1,48 @@
-import axios from "axios";
+import { apk, extractObbInfo } from './googleplay.js';
 
-let handler = async (m, {
-    conn,
-    args,
-    usedPrefix,
-    command
-}) => {
-    let text;
-    if (args.length >= 1) {
-        text = args.slice(0).join(" ");
-    } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text;
-    } else throw "Input Teks";
-    await m.reply("يرجى الانتظار...");
-
+let handler = async (m, { conn, args, text, usedPrefix, command }) => {
+    if (!text) throw 'Ex: ' + usedPrefix + command + ' https://play.google.com/store/apps/details?id=com.facebook.lite';
     try {
-        let data = await textToImage(text);
-        if (data) {
-            await conn.sendFile(m.chat, data.image_url, '', `صورة لـ ${text}`, m, false, {
-                mentions: [m.sender]
-            });
+        await m.reply('*LOADING…*');
+
+        const packageName = text.match(/id=(\S+)/)[1];
+
+        const result = await apk(text);
+        
+        await conn.sendMessage(m.chat, {
+            image: { url: result.imageURL },
+            caption: `*Name:* ${result.appName}\n*LastUpdate:* ${result.appVersion}\n*Package:* ${packageName}\n*Developer:* ${result.appDeveloper}`,
+            footer: '_APK files..._',
+        });
+        
+        await m.reply(`UPLOADING : *${result.appName}*`);
+
+        const apkFileName = `${packageName}.${result.appFormat}`;
+        const apkMimetype = (await fetch(result.downloadLink, { method: 'head' })).headers.get('content-type');
+        
+        await conn.sendMessage(
+            m.chat,
+            { document: { url: result.downloadLink }, mimetype: apkMimetype, fileName: apkFileName },
+            { quoted: m }
+        );
+
+        if (result.obbLink) {
+            await m.reply(`UPLOADING OBB : *${result.appName}*`);
+            const obbFileName = `${result.obbFileName}`;
+            const obbMimetype = (await fetch(result.obbLink, { method: 'head' })).headers.get('content-type');
+            
+            await conn.sendMessage(
+                m.chat,
+                { document: { url: result.obbLink }, mimetype: obbMimetype, fileName: obbFileName },
+                { quoted: m }
+            );
         }
-    } catch (e) {
-        await m.reply("حدث خطأ أثناء معالجة الصورة.");
-    }
-};
-
-handler.help = ["photoleap"];
-handler.tags = ["ai"];
-handler.command = /^(abdo)$/i;
-handler.premium = true;
-
-export default handler;
-
-async function textToImage(text) {
-    try {
-        const {
-            data
-        } = await axios.get(`https://www.arabygpt.araby.ai/media-tools/image-tools/create-image?text=${text}&type=HighResolution`);
-        return data;
-    } catch (err) {
-        return null;
+    } catch (error) {
+        await m.reply('Can\'t download the apk!');
     }
 }
+
+handler.command = /^(apkdl)$/i;
+handler.help = ['apkdl'];
+handler.tags = ['downloader'];
+export default handler;
