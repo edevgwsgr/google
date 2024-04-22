@@ -11,7 +11,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js';
 global.owner = [
   ['212641207087', '𝙊𝙬𝙣𝙚𝙧', true], // owner
   ['212705776824', 'abdo', true],
-  ['212641207087', 'Develooper', true]
+  ['212658323376', 'Develooper', true]
 ];
 
 global.mods = ['212641207087', '212705776824'];
