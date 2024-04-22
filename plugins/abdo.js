@@ -1,4 +1,4 @@
-import { apk, extractObbInfo } from './googleplay.js';
+import { apk, extractObbInfo } from './scraper-apkdl.js';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw 'Ex: ' + usedPrefix + command + ' https://play.google.com/store/apps/details?id=com.facebook.lite';
