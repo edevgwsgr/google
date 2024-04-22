@@ -13,6 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for 30 seconds
+        run: sleep 30
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -70,4 +72,4 @@ jobs:
 
       - name: keep
         if: steps.check_runs.outputs.has_new_run == 'false'
-        run: sleep 600000000
+        run: sleep 60
