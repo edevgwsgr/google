@@ -1,5 +1,4 @@
 import puppeteer from 'puppeteer';
-import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     var regex = /^https?:\/\/play\.google\.com\/store\/apps\/details\?id=[a-zA-Z0-9.]+$/;
@@ -21,31 +20,24 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = handler.alias = ['appdl'];
 handler.tags = ['downloader'];
-handler.command = /^(test1)$/i;
+handler.command = /^(abdojs)$/i;
 
 export default handler;
 
 async function appDl(url) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://apk.support/apk-downloader', { waitUntil: 'networkidle0' });
+    await page.goto('https://apk.support/gapi/index.php', { waitUntil: 'networkidle0' });
 
-    await page.waitForSelector('input[name="q"]');
-    await page.type('input[name="q"]', url);
+    await page.type('input[name="google_id"]', url);
     await page.click('button[type="submit"]');
 
-    await page.waitForSelector('div[role="alert"]');
-    const alertText = await page.evaluate(() => {
-        return document.querySelector('div[role="alert"]').innerText;
+    await page.waitForSelector('div.browser > div.dvContents > ul > li > a');
+    const fileName = await page.evaluate(() => {
+        return document.querySelector('div.browser > div.dvContents > ul > li > a').innerText.trim().split(' ')[0];
     });
-
-    if (alertText.includes('not found')) {
-        throw 'App not found!';
-    }
-
-    await page.waitForSelector('a[data-action="download"]');
     const downloadLink = await page.evaluate(() => {
-        return document.querySelector('a[data-action="download"]').href;
+        return document.querySelector('div.browser > div.dvContents > ul > li > a').href;
     });
 
     await browser.close();
@@ -56,7 +48,7 @@ async function appDl(url) {
     const mimetype = response.headers.get('content-type');
 
     return {
-        fileName: 'app.apk',
+        fileName,
         mimetype,
         download: downloadLink
     };

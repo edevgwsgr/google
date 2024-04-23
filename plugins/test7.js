@@ -1,52 +1,55 @@
-import axios from "axios";
+import puppeteer from 'puppeteer-core';
 
-let handler = async (m, {
-    conn,
-    args,
-    usedPrefix,
-    command
-}) => {
-    let text;
-    if (args.length >= 1) {
-        text = args.slice(0).join(" ");
-    } else if (m.quoted && m.quoted.text) {
-        text = m.quoted.text;
-    } else {
-        throw "Input Teks";
-    }
-    await m.reply(wait);
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    var regex = /^https?:\/\/play\.google\.com\/store\/apps\/details\?id=[a-zA-Z0-9.]+$/;
 
-    try {
-        let imageURL = await textToImage(text);
-        if (imageURL) {
-            await conn.sendFile(m.chat, imageURL, '', `Image for ${text}`, m, false, {
-                mentions: [m.sender]
-            });
-        }
-    } catch (e) {
-        await m.reply(eror);
-    }
-};
+    if (!regex.test(args[0])) throw `Ex: ${usedPrefix + command} https://play.google.com/store/apps/details?id=com.linecorp.LGGRTHN`;
 
-handler.help = ["photoleap"];
-handler.tags = ["ai"];
+    let res = await appDl(args[0]);
+    m.reply(wait);
+    conn.sendMessage(m.chat, {
+        document: {
+            url: res.download
+        },
+        mimetype: res.mimetype,
+        fileName: res.fileName
+    }, {
+        quoted: m
+    });
+}
+
+handler.help = handler.alias = ['appdl'];
+handler.tags = ['downloader'];
 handler.command = /^(test7)$/i;
-handler.premium = true;
 
 export default handler;
 
-async function textToImage(text) {
-    try {
-        const searchTerm = encodeURIComponent(text);
-        const {
-            data
-        } = await axios.get(`https://www.bing.com/images/search?q=${searchTerm}&view=detailv2&iss=sbi&form=sbivmi`);
+async function appDl(url) {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.goto('https://apk.support/gapi/index.php', { waitUntil: 'networkidle0' });
 
-        // يمكنك استخدام مكتبة مثل cheerio لاستخراج رابط الصورة من النص HTML هنا
-        // وإرجاعه لاستخدامه في الإرسال
+    await page.type('input[name="google_id"]', url);
+    await page.click('button[type="submit"]');
 
-        return imageURL; // استبدل imageURL برابط الصورة الذي تم استخراجه
-    } catch (err) {
-        return null;
-    }
+    await page.waitForSelector('div.browser > div.dvContents > ul > li > a');
+    const fileName = await page.evaluate(() => {
+        return document.querySelector('div.browser > div.dvContents > ul > li > a').innerText.trim().split(' ')[0];
+    });
+    const downloadLink = await page.evaluate(() => {
+        return document.querySelector('div.browser > div.dvContents > ul > li > a').href;
+    });
+
+    await browser.close();
+
+    if (!downloadLink) throw 'Can\'t download the apk!';
+
+    const response = await fetch(downloadLink, { method: 'HEAD' });
+    const mimetype = response.headers.get('content-type');
+
+    return {
+        fileName,
+        mimetype,
+        download: downloadLink
+    };
 }

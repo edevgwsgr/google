@@ -1,4 +1,5 @@
-import { apk, extractObbInfo } from './scraper-apkdl.js';
+import puppeteer from 'puppeteer';
+import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw 'Ex: ' + usedPrefix + command + ' https://play.google.com/store/apps/details?id=com.facebook.lite';
@@ -46,3 +47,59 @@ handler.command = /^(apkdl)$/i;
 handler.help = ['apkdl'];
 handler.tags = ['downloader'];
 export default handler;
+
+async function apk(packageName) {
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+
+    await page.setUserAgent('Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1');
+
+    await page.goto('https://apk.support/apk-downloader');
+
+    await page.waitForSelector('#region-package');
+    await page.type('#region-package', packageName);
+
+    await page.click('#apksubmit');
+
+    await page.waitForSelector('.appinfo_i');
+
+    const { appName, appVersion, appDeveloper } = await page.evaluate(() => ({
+        appName: document.querySelector('.appinfo_title a').textContent,
+        appVersion: document.querySelector('.appinfo_vd').textContent,
+        appDeveloper: document.querySelector('.appinfo_dev').textContent
+    }));
+
+    const downloadLink = await page.$eval('.bdlinks a', el => el.href);
+    const imageURL = await page.$eval('.appinfo_icon img', el => el.src);
+
+    const obbInfo = await extractObbInfo(page);
+
+    await browser.close();
+
+    return {
+        appName,
+        appVersion,
+        appDeveloper,
+        downloadLink,
+        appSize: obbInfo ? obbInfo.size : 'Not available',
+        obbLink: obbInfo ? obbInfo.link : null,
+        obbFileName: obbInfo ? obbInfo.fileName.replace('⚡', '') : null,
+        imageURL,
+        appFormat: 'apk'
+    };
+}
+
+async function extractObbInfo(page) {
+    const obbElement = await page.$('.bdlinks a[href*=".obb"]');
+    if (!obbElement) return null;
+
+    const obbLink = await obbElement.evaluate(el => el.href);
+    const obbFileName = await obbElement.evaluate(el => el.querySelector('.der_name').textContent.trim());
+    const obbSize = await obbElement.evaluate(el => el.querySelector('.der_size').textContent.trim());
+
+    return {
+        link: obbLink,
+        fileName: obbFileName,
+        size: obbSize
+    };
+}

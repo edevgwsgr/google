@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 16990,
+      "exp": 17925,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -70483,7 +70483,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 135
+      "exp": 152
     },
     "212705776824@s.whatsapp.net": {
       "afk": -1,
@@ -70846,7 +70846,7 @@
       "regTime": -1,
       "registered": false,
       "role": "*NOVATO(A)* 🪤",
-      "exp": 138
+      "exp": 389
     },
     "33757057291@s.whatsapp.net": {
       "afk": -1,
@@ -72274,10 +72274,10 @@
       "lastSuccess": 1707644642573
     },
     "ai-apk.js": {
-      "total": 49,
-      "success": 31,
-      "last": 1713790957120,
-      "lastSuccess": 1713790957120
+      "total": 50,
+      "success": 32,
+      "last": 1713832651970,
+      "lastSuccess": 1713832651970
     },
     "_config-banchat.js": {
       "total": 3,
@@ -72454,10 +72454,10 @@
       "lastSuccess": 1713566298645
     },
     "_config-sf-fils.js": {
-      "total": 46,
-      "success": 42,
-      "last": 1713828732827,
-      "lastSuccess": 1713828732827
+      "total": 56,
+      "success": 52,
+      "last": 1713831956512,
+      "lastSuccess": 1713831956512
     },
     "obb2.js": {
       "total": 5,
@@ -72484,10 +72484,10 @@
       "lastSuccess": 1712596641311
     },
     "owner-exec.js": {
-      "total": 15,
-      "success": 15,
-      "last": 1713828811852,
-      "lastSuccess": 1713828811852
+      "total": 24,
+      "success": 24,
+      "last": 1713831757744,
+      "lastSuccess": 1713831757744
     },
     "Adhan.js": {
       "total": 3,
@@ -72628,22 +72628,58 @@
       "lastSuccess": 1713699181827
     },
     "apksearch.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1713826779399,
-      "lastSuccess": 1713826779399
+      "total": 6,
+      "success": 4,
+      "last": 1713831684744,
+      "lastSuccess": 1713831684744
     },
     "appdl.js": {
-      "total": 4,
+      "total": 6,
       "success": 0,
-      "last": 1713827422583,
+      "last": 1713829124272,
       "lastSuccess": 0
     },
     "manga.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1713829090306,
+      "lastSuccess": 1713829090306
+    },
+    "abdo.js": {
+      "total": 14,
+      "success": 7,
+      "last": 1713831674080,
+      "lastSuccess": 1713831674080
+    },
+    "test7.js": {
+      "total": 5,
+      "success": 0,
+      "last": 1713831554589,
+      "lastSuccess": 0
+    },
+    "abdojs.js": {
       "total": 3,
-      "success": 3,
-      "last": 1713828901171,
-      "lastSuccess": 1713828901171
+      "success": 0,
+      "last": 1713830610812,
+      "lastSuccess": 0
+    },
+    "test1.js": {
+      "total": 4,
+      "success": 0,
+      "last": 1713831028205,
+      "lastSuccess": 0
+    },
+    "apkgl.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1713831362961,
+      "lastSuccess": 1713831362961
+    },
+    "apkff.js": {
+      "total": 9,
+      "success": 5,
+      "last": 1713833208814,
+      "lastSuccess": 1713832893113
     }
   },
   "msgs": {},
