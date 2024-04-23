@@ -94,7 +94,7 @@
       "emas": 0,
       "emerald": 0,
       "esteh": 0,
-      "exp": 17925,
+      "exp": 17954,
       "expg": 0,
       "exphero": 0,
       "expired": 0,
@@ -72676,10 +72676,10 @@
       "lastSuccess": 1713831362961
     },
     "apkff.js": {
-      "total": 9,
-      "success": 5,
-      "last": 1713833208814,
-      "lastSuccess": 1713832893113
+      "total": 10,
+      "success": 6,
+      "last": 1713854257713,
+      "lastSuccess": 1713854257713
     }
   },
   "msgs": {},
